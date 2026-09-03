@@ -1,9 +1,10 @@
 /**
  * STUDY WITH ANKIT - SINGLE PAGE APPLICATION (SPA) CONTROLLER
- * Domain: studywithankit.com.np
+ * Domain: csnotes.ankitlamichhane.com.np
  * 
  * Handles SPA client-side routing, view switching, dynamic chapter rendering,
  * notes reading engine, TOC auto-generation, search modal, and dark mode.
+ * Supports Class 6, Class 7, Class 8, Class 9, and Class 10.
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -119,6 +120,12 @@ function handleRoute() {
   } else if (route === '#class-8') {
     showView('view-class-8');
     renderClassChapters('class8', 'class-8-container');
+  } else if (route === '#class-9') {
+    showView('view-class-9');
+    renderClassChapters('class9', 'class-9-container');
+  } else if (route === '#class-10') {
+    showView('view-class-10');
+    renderClassChapters('class10', 'class-10-container');
   } else if (route === '#about') {
     showView('view-about');
   } else if (route === '#notes') {
@@ -211,11 +218,13 @@ function renderNotesReader(noteId) {
   document.title = `Chapter ${chapter.chapterNumber} - ${chapter.title} | ${className} | Study with Ankit`;
 
   // Build Breadcrumb
+  const classHash = classKey === 'class6' ? 'class-6' : classKey === 'class7' ? 'class-7' : classKey === 'class8' ? 'class-8' : classKey === 'class9' ? 'class-9' : 'class-10';
+
   const breadcrumbHtml = `
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="#home">Home</a>
       <span class="breadcrumb-sep">/</span>
-      <a href="#${classKey === 'class6' ? 'class-6' : classKey === 'class7' ? 'class-7' : 'class-8'}">${className}</a>
+      <a href="#${classHash}">${className}</a>
       <span class="breadcrumb-sep">/</span>
       <span>Computer Science</span>
       <span class="breadcrumb-sep">/</span>
@@ -234,7 +243,7 @@ function renderNotesReader(noteId) {
       ${chapter.author ? `<p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.3rem;">${chapter.author}</p>` : ''}
       
       <div style="display: flex; gap: 0.75rem; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--border); flex-wrap: wrap;">
-        <a href="#${classKey === 'class6' ? 'class-6' : classKey === 'class7' ? 'class-7' : 'class-8'}" style="background: var(--background); border: 1px solid var(--border); padding: 0.45rem 0.9rem; border-radius: 6px; font-weight: 700; font-size: 0.88rem; color: var(--text);">
+        <a href="#${classHash}" style="background: var(--background); border: 1px solid var(--border); padding: 0.45rem 0.9rem; border-radius: 6px; font-weight: 700; font-size: 0.88rem; color: var(--text);">
           &larr; Back to ${className}
         </a>
         <button onclick="window.print()" style="background: var(--primary); color: #ffffff; border: none; padding: 0.45rem 0.9rem; border-radius: 6px; font-weight: 700; font-size: 0.88rem; cursor: pointer; display: inline-flex; align-items: center; gap: 0.4rem;">
@@ -321,7 +330,7 @@ function findChapterById(id) {
       return {
         chapter: chapters[index],
         classKey,
-        className: classKey === 'class6' ? 'Class 6' : classKey === 'class7' ? 'Class 7' : 'Class 8',
+        className: classKey === 'class6' ? 'Class 6' : classKey === 'class7' ? 'Class 7' : classKey === 'class8' ? 'Class 8' : classKey === 'class9' ? 'Class 9' : 'Class 10',
         allChapters: chapters,
         chapterIndex: index
       };
@@ -405,7 +414,7 @@ function performSearch(query) {
   const results = [];
 
   for (const classKey in notesData) {
-    const className = classKey === 'class6' ? 'Class 6' : classKey === 'class7' ? 'Class 7' : 'Class 8';
+    const className = classKey === 'class6' ? 'Class 6' : classKey === 'class7' ? 'Class 7' : classKey === 'class8' ? 'Class 8' : classKey === 'class9' ? 'Class 9' : 'Class 10';
     const chapters = notesData[classKey].computerScience || [];
 
     chapters.forEach(ch => {

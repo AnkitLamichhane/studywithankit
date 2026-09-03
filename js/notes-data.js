@@ -1,8 +1,8 @@
 /**
  * STUDY WITH ANKIT - EDUCATIONAL NOTES DATA STORE (Computer Science Focus)
- * Domain: studywithankit.com.np
+ * Domain: csnotes.ankitlamichhane.com.np
  * 
- * Chapter-wise structured notes for Class 6, Class 7, and Class 8 Computer Science.
+ * Chapter-wise structured notes for Class 6, Class 7, Class 8, Class 9, and Class 10 Computer Science.
  */
 
 const notesData = {
@@ -1131,6 +1131,148 @@ const notesData = {
         summary: "Python syntax, variables, data types, input/output, simple programs.",
         topics: [
           { title: "1. Introduction", content: `<p>Notes for Class 8 Chapter 17 will be added soon. [Add your notes here]</p>` }
+        ]
+      }
+    ]
+  },
+
+  class9: {
+    computerScience: [
+      {
+        id: "class9-cs-ch1",
+        chapterNumber: 1,
+        title: "System Unit & Hardware Architecture",
+        subject: "Computer Science",
+        className: "Class 9",
+        updated: "2026-09-03",
+        summary: "Detailed overview of computer hardware components, buses, and motherboard.",
+        topics: [
+          { title: "1. Introduction to Computer Architecture", content: `<p>Notes for Class 9 Chapter 1 will be added soon. [Add your notes here]</p>` }
+        ]
+      },
+      {
+        id: "class9-cs-ch2",
+        chapterNumber: 2,
+        title: "Operating System Concepts",
+        subject: "Computer Science",
+        className: "Class 9",
+        updated: "2026-09-03",
+        summary: "Functions of operating systems, GUI vs CLI, process management.",
+        topics: [
+          { title: "1. Introduction to Operating System", content: `<p>Notes for Class 9 Chapter 2 will be added soon. [Add your notes here]</p>` }
+        ]
+      },
+      {
+        id: "class9-cs-ch3",
+        chapterNumber: 3,
+        title: "Computer Networks & Internet",
+        subject: "Computer Science",
+        className: "Class 9",
+        updated: "2026-09-03",
+        summary: "Network models, IP addressing, web browsers, domain names.",
+        topics: [
+          { title: "1. Introduction to Computer Networks", content: `<p>Notes for Class 9 Chapter 3 will be added soon. [Add your notes here]</p>` }
+        ]
+      },
+      {
+        id: "class9-cs-ch4",
+        chapterNumber: 4,
+        title: "Database Management System (DBMS)",
+        subject: "Computer Science",
+        className: "Class 9",
+        updated: "2026-09-03",
+        summary: "Tables, primary key, queries, MS-Access database basics.",
+        topics: [
+          { title: "1. Introduction to DBMS", content: `<p>Notes for Class 9 Chapter 4 will be added soon. [Add your notes here]</p>` }
+        ]
+      },
+      {
+        id: "class9-cs-ch5",
+        chapterNumber: 5,
+        title: "QBASIC Programming Fundamentals",
+        subject: "Computer Science",
+        className: "Class 9",
+        updated: "2026-09-03",
+        summary: "Statements, variables, operators, control structures in QBASIC.",
+        topics: [
+          { title: "1. QBASIC Introduction & Basics", content: `<p>Notes for Class 9 Chapter 5 will be added soon. [Add your notes here]</p>` }
+        ]
+      }
+    ]
+  },
+
+  class10: {
+    computerScience: [
+      {
+        id: "class10-cs-ch1",
+        chapterNumber: 1,
+        title: "Networking & Cyber Law",
+        subject: "Computer Science",
+        className: "Class 10",
+        updated: "2026-09-03",
+        summary: "Data communication, network architecture, cyber ethics, and Nepal Cyber Law.",
+        topics: [
+          { title: "1. Data Communication & Computer Networks", content: `<p>Notes for Class 10 Chapter 1 will be added soon. [Add your notes here]</p>` }
+        ]
+      },
+      {
+        id: "class10-cs-ch2",
+        chapterNumber: 2,
+        title: "Computer Virus & Cyber Security",
+        subject: "Computer Science",
+        className: "Class 10",
+        updated: "2026-09-03",
+        summary: "Computer viruses, malware detection, firewall, digital signatures.",
+        topics: [
+          { title: "1. Cyber Security & Threats", content: `<p>Notes for Class 10 Chapter 2 will be added soon. [Add your notes here]</p>` }
+        ]
+      },
+      {
+        id: "class10-cs-ch3",
+        chapterNumber: 3,
+        title: "Database Management System (MS-Access)",
+        subject: "Computer Science",
+        className: "Class 10",
+        updated: "2026-09-03",
+        summary: "Relational database concepts, queries, forms, and reports in MS-Access.",
+        topics: [
+          { title: "1. Relational Database & MS-Access", content: `<p>Notes for Class 10 Chapter 3 will be added soon. [Add your notes here]</p>` }
+        ]
+      },
+      {
+        id: "class10-cs-ch4",
+        chapterNumber: 4,
+        title: "Modular Programming in QBASIC",
+        subject: "Computer Science",
+        className: "Class 10",
+        updated: "2026-09-03",
+        summary: "SUB procedures, FUNCTION procedures, passing parameters in QBASIC.",
+        topics: [
+          { title: "1. Modular Programming Concepts", content: `<p>Notes for Class 10 Chapter 4 will be added soon. [Add your notes here]</p>` }
+        ]
+      },
+      {
+        id: "class10-cs-ch5",
+        chapterNumber: 5,
+        title: "File Handling in QBASIC",
+        subject: "Computer Science",
+        className: "Class 10",
+        updated: "2026-09-03",
+        summary: "Sequential data files, OPEN, WRITE, INPUT, CLOSE statements in QBASIC.",
+        topics: [
+          { title: "1. Sequential File Operations", content: `<p>Notes for Class 10 Chapter 5 will be added soon. [Add your notes here]</p>` }
+        ]
+      },
+      {
+        id: "class10-cs-ch6",
+        chapterNumber: 6,
+        title: "C Programming Language Fundamentals",
+        subject: "Computer Science",
+        className: "Class 10",
+        updated: "2026-09-03",
+        summary: "Introduction to C programming syntax, data types, loops, and conditional logic.",
+        topics: [
+          { title: "1. Introduction to C Programming", content: `<p>Notes for Class 10 Chapter 6 will be added soon. [Add your notes here]</p>` }
         ]
       }
     ]
