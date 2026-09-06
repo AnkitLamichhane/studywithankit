@@ -3,7 +3,8 @@
  * Domain: csnotes.ankitlamichhane.com.np
  * 
  * Handles SPA client-side routing, view switching, dynamic chapter rendering,
- * notes reading engine, TOC auto-generation, search modal, and dark mode.
+ * notes reading engine, TOC auto-generation, search modal, dark mode, 
+ * 1-click code copying, and interactive reading time calculator.
  * Supports Class 6, Class 7, Class 8, Class 9, and Class 10.
  */
 
@@ -155,22 +156,25 @@ function renderClassChapters(classKey, containerId) {
 
   if (chapters.length === 0) {
     html = `
-      <div style="background: var(--surface); border: 1px dashed var(--border); border-radius: var(--radius); padding: 3rem 1.5rem; text-align: center; color: var(--text-muted);">
-        <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">📚</div>
-        <p style="font-size: 1.1rem; font-weight: 700; color: var(--text);">Notes for this class will be added soon.</p>
-        <p style="font-size: 0.9rem; margin-top: 0.4rem;">Check back later or explore other available classes.</p>
+      <div style="background: var(--surface); border: 1px dashed var(--border); border-radius: var(--radius-lg); padding: 3.5rem 1.5rem; text-align: center; color: var(--text-muted); box-shadow: var(--card-shadow);">
+        <div style="font-size: 2.75rem; margin-bottom: 0.5rem;">📚</div>
+        <p style="font-size: 1.15rem; font-weight: 800; color: var(--text);">Notes for this class will be added soon.</p>
+        <p style="font-size: 0.92rem; margin-top: 0.4rem;">Check back later or explore Class 8 for full 17 chapters with solved exercises.</p>
+        <a href="#class-8" class="hero-btn primary-hero-btn" style="margin-top: 1.25rem; display: inline-flex;">Explore Class 8 Notes &rarr;</a>
       </div>
     `;
   } else {
     html = `<div class="chapters-grid">`;
     chapters.forEach(chapter => {
       const dateFormatted = formatDate(chapter.updated);
+      const estReadTime = calculateReadTime(chapter);
+      
       html += `
         <a href="#notes?id=${chapter.id}" class="chapter-card">
           <div>
-            <div style="display: flex; align-items: center; justify-content: space-between;">
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.5rem;">
               <span class="chapter-num">Chapter ${chapter.chapterNumber}</span>
-              <span style="font-size: 0.78rem; font-weight: 700; color: var(--primary); background: var(--primary-light); padding: 2px 6px; border-radius: 4px;">Comp. Sci.</span>
+              <span class="reading-time-tag">⏱️ ${estReadTime} min read</span>
             </div>
             <h3 class="chapter-title">${chapter.title}</h3>
             <p class="class-card-desc">${chapter.summary || 'Click to read comprehensive chapter notes.'}</p>
@@ -203,10 +207,10 @@ function renderNotesReader(noteId) {
   const found = findChapterById(noteId);
   if (!found) {
     readerArea.innerHTML = `
-      <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 2.5rem; text-align: center;">
+      <div style="background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 2.75rem; text-align: center;">
         <h2>Note Not Found</h2>
         <p style="margin: 1rem 0; color: var(--text-muted);">The requested chapter notes (ID: "${noteId}") could not be located.</p>
-        <a href="#home" class="btn-secondary" style="display: inline-flex;">&larr; Return to Home</a>
+        <a href="#home" class="hero-btn primary-hero-btn" style="display: inline-flex;">&larr; Return to Home</a>
       </div>
     `;
     return;
@@ -219,6 +223,7 @@ function renderNotesReader(noteId) {
 
   // Build Breadcrumb
   const classHash = classKey === 'class6' ? 'class-6' : classKey === 'class7' ? 'class-7' : classKey === 'class8' ? 'class-8' : classKey === 'class9' ? 'class-9' : 'class-10';
+  const readTime = calculateReadTime(chapter);
 
   const breadcrumbHtml = `
     <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -237,18 +242,23 @@ function renderNotesReader(noteId) {
     <header class="notes-header-box">
       <div class="notes-tag-bar">
         <span class="notes-class-subject">Computer Science &bull; ${className}</span>
-        <span style="font-size: 0.85rem; color: var(--text-muted);">Last Updated: ${formatDate(chapter.updated)}</span>
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <span class="reading-time-tag">⏱️ ${readTime} min read</span>
+          <span style="font-size: 0.82rem; color: var(--text-muted);">Updated: ${formatDate(chapter.updated)}</span>
+        </div>
       </div>
       <h1 class="notes-main-title">Chapter ${chapter.chapterNumber}: ${chapter.title}</h1>
-      ${chapter.author ? `<p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.3rem;">${chapter.author}</p>` : ''}
+      ${chapter.author ? `<p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 0.35rem; font-weight: 600;">${chapter.author}</p>` : ''}
       
-      <div style="display: flex; gap: 0.75rem; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--border); flex-wrap: wrap;">
-        <a href="#${classHash}" style="background: var(--background); border: 1px solid var(--border); padding: 0.45rem 0.9rem; border-radius: 6px; font-weight: 700; font-size: 0.88rem; color: var(--text);">
+      <div style="display: flex; gap: 0.75rem; margin-top: 1.35rem; padding-top: 1.1rem; border-top: 1px solid var(--border); flex-wrap: wrap;">
+        <a href="#${classHash}" style="background: var(--background); border: 1px solid var(--border); padding: 0.45rem 0.95rem; border-radius: var(--radius-sm); font-weight: 700; font-size: 0.88rem; color: var(--text);">
           &larr; Back to ${className}
         </a>
-        <button onclick="window.print()" style="background: var(--primary); color: #ffffff; border: none; padding: 0.45rem 0.9rem; border-radius: 6px; font-weight: 700; font-size: 0.88rem; cursor: pointer; display: inline-flex; align-items: center; gap: 0.4rem;">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
-          Print Notes
+        <button onclick="copyCurrentNoteLink()" style="background: var(--primary-light); color: var(--primary); border: 1px solid var(--primary-border); padding: 0.45rem 0.95rem; border-radius: var(--radius-sm); font-weight: 700; font-size: 0.88rem; cursor: pointer; display: inline-flex; align-items: center; gap: 0.4rem;">
+          🔗 Share Note Link
+        </button>
+        <button onclick="window.print()" style="background: var(--primary); color: #ffffff; border: none; padding: 0.45rem 0.95rem; border-radius: var(--radius-sm); font-weight: 700; font-size: 0.88rem; cursor: pointer; display: inline-flex; align-items: center; gap: 0.4rem; box-shadow: 0 3px 8px rgba(30,58,138,0.2);">
+          🖨️ Print Notes
         </button>
       </div>
     </header>
@@ -291,24 +301,86 @@ function renderNotesReader(noteId) {
   const nextCh = chapterIndex < allChapters.length - 1 ? allChapters[chapterIndex + 1] : null;
 
   const navFooterHtml = `
-    <div style="display: flex; justify-content: space-between; margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border); gap: 1rem; flex-wrap: wrap;">
+    <div style="display: flex; justify-content: space-between; margin-top: 3.5rem; padding-top: 1.75rem; border-top: 1px solid var(--border); gap: 1rem; flex-wrap: wrap;">
       ${prevCh ? `
-        <a href="#notes?id=${prevCh.id}" style="padding: 0.75rem 1.25rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); text-decoration: none; color: var(--text);">
-          <div style="font-size: 0.78rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase;">&larr; Previous Chapter</div>
-          <div style="font-weight: 800; color: var(--primary); font-size: 0.95rem;">Ch. ${prevCh.chapterNumber}: ${prevCh.title}</div>
+        <a href="#notes?id=${prevCh.id}" style="padding: 0.85rem 1.35rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); text-decoration: none; color: var(--text); box-shadow: var(--card-shadow); transition: all 0.2s ease;">
+          <div style="font-size: 0.78rem; color: var(--text-muted); font-weight: 800; text-transform: uppercase;">&larr; Previous Chapter</div>
+          <div style="font-weight: 800; color: var(--primary); font-size: 0.98rem;">Ch. ${prevCh.chapterNumber}: ${prevCh.title}</div>
         </a>
       ` : `<div></div>`}
 
       ${nextCh ? `
-        <a href="#notes?id=${nextCh.id}" style="padding: 0.75rem 1.25rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); text-decoration: none; color: var(--text); text-align: right;">
-          <div style="font-size: 0.78rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase;">Next Chapter &rarr;</div>
-          <div style="font-weight: 800; color: var(--primary); font-size: 0.95rem;">Ch. ${nextCh.chapterNumber}: ${nextCh.title}</div>
+        <a href="#notes?id=${nextCh.id}" style="padding: 0.85rem 1.35rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); text-decoration: none; color: var(--text); text-align: right; box-shadow: var(--card-shadow); transition: all 0.2s ease;">
+          <div style="font-size: 0.78rem; color: var(--text-muted); font-weight: 800; text-transform: uppercase;">Next Chapter &rarr;</div>
+          <div style="font-weight: 800; color: var(--primary); font-size: 0.98rem;">Ch. ${nextCh.chapterNumber}: ${nextCh.title}</div>
         </a>
       ` : `<div></div>`}
     </div>
   `;
 
   readerArea.innerHTML = breadcrumbHtml + headerHtml + tocHtml + `<article class="notes-body">${topicsHtml}</article>` + navFooterHtml;
+
+  // Enhancements: Add copy button to code blocks inside notes body
+  enhanceCodeBlocks(readerArea);
+}
+
+/* Enhances Code Blocks with a 1-click Copy Button Header */
+function enhanceCodeBlocks(container) {
+  const preElements = container.querySelectorAll('pre');
+  preElements.forEach((pre, index) => {
+    // Wrap in wrapper if not already
+    if (pre.parentNode.classList.contains('code-block-wrapper')) return;
+
+    const wrapper = document.createElement('div');
+    wrapper.className = 'code-block-wrapper';
+
+    const header = document.createElement('div');
+    header.className = 'code-block-header';
+    header.innerHTML = `
+      <span>Snippet ${index + 1}</span>
+      <button class="copy-code-btn" onclick="copyCodeFromPre(this)">Copy Code 📋</button>
+    `;
+
+    pre.parentNode.insertBefore(wrapper, pre);
+    wrapper.appendChild(header);
+    wrapper.appendChild(pre);
+  });
+}
+
+function copyCodeFromPre(btn) {
+  const pre = btn.closest('.code-block-wrapper').querySelector('pre');
+  if (!pre) return;
+
+  const codeText = pre.textContent || pre.innerText;
+  navigator.clipboard.writeText(codeText).then(() => {
+    const originalText = btn.innerText;
+    btn.innerText = 'Copied! ✓';
+    btn.style.backgroundColor = '#16a34a';
+    setTimeout(() => {
+      btn.innerText = originalText;
+      btn.style.backgroundColor = '';
+    }, 2000);
+  }).catch(() => {
+    alert('Failed to copy code.');
+  });
+}
+
+function copyCurrentNoteLink() {
+  navigator.clipboard.writeText(window.location.href).then(() => {
+    alert('Note link copied to clipboard! Share it with your friends.');
+  });
+}
+
+function calculateReadTime(chapter) {
+  let text = chapter.title + ' ' + (chapter.summary || '');
+  if (chapter.topics) {
+    chapter.topics.forEach(t => {
+      text += ' ' + t.title + ' ' + stripHtml(t.content);
+    });
+  }
+  const words = text.split(/\s+/).length;
+  const minutes = Math.ceil(words / 200);
+  return Math.max(3, minutes);
 }
 
 /* Scroll To Topic Smooth Handler */
@@ -340,7 +412,7 @@ function findChapterById(id) {
 }
 
 function formatDate(dateStr) {
-  if (!dateStr) return 'September 3, 2026';
+  if (!dateStr) return 'September 6, 2026';
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
   return new Date(dateStr).toLocaleDateString('en-US', options);
 }
@@ -361,7 +433,6 @@ function initSearch() {
   const searchModal = document.getElementById('search-modal');
   const searchInput = document.getElementById('search-input');
   const searchResults = document.getElementById('search-results');
-  const searchCloseBtn = document.getElementById('search-close-btn');
   const searchTriggers = document.querySelectorAll('.search-trigger-btn');
 
   if (!searchModal || !searchInput) return;
@@ -370,7 +441,7 @@ function initSearch() {
     searchModal.classList.add('open');
     searchInput.focus();
     searchInput.value = '';
-    searchResults.innerHTML = `<div style="padding: 2rem; text-align: center; color: var(--text-muted);">Type a keyword, topic, or chapter name...</div>`;
+    searchResults.innerHTML = `<div style="padding: 2rem; text-align: center; color: var(--text-muted);">Type a keyword, topic, tag, or formula...</div>`;
   }
 
   function closeSearch() {
@@ -381,8 +452,6 @@ function initSearch() {
     e.preventDefault();
     openSearch();
   }));
-
-  if (searchCloseBtn) searchCloseBtn.addEventListener('click', closeSearch);
 
   searchModal.addEventListener('click', (e) => {
     if (e.target === searchModal) closeSearch();
@@ -406,7 +475,7 @@ function initSearch() {
     }
 
     const matches = performSearch(query);
-    renderSearchResults(matches, query, searchResults, closeSearch);
+    renderSearchResults(matches, query, searchResults);
   });
 }
 
@@ -455,7 +524,7 @@ function performSearch(query) {
   return results;
 }
 
-function renderSearchResults(results, query, container, closeSearchFn) {
+function renderSearchResults(results, query, container) {
   if (results.length === 0) {
     container.innerHTML = `<div style="padding: 2rem; text-align: center; color: var(--text-muted);">No matching notes found for "<strong>${escapeHtml(query)}</strong>".</div>`;
     return;
