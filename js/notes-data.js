@@ -11,65 +11,68 @@ const notesData = {
       {
         "id": "class6-cs-ch1",
         "chapterNumber": 1,
-        "title": "Computer Fundamental",
+        "title": "Introduction to Computers",
         "subject": "Computer Science",
         "className": "Class 6",
-        "updated": "2026-09-15",
-        "author": "Innovative Computer Science &mdash; Book 6, Chapter 1",
-        "summary": "Fundamental concepts of computers, definition, IPO cycle, speed units, characteristics, application areas, and complete textbook exercise solutions.",
+        "updated": "2026-09-03",
+        "summary": "Fundamental concepts of computers, definition, characteristics, and basic components.",
         "topics": [
           {
-            "title": "1.0 Introduction to Computers",
-            "content": "\n              <p>A <strong>computer</strong> is an electronic machine that can be programmed to perform a variety of tasks at very high speed and accurately.</p>\n              <ul>\n                <li>It accepts data and instructions from a user, processes the data according to the given instructions, and produces meaningful information as output.</li>\n                <li>Besides processing data, a computer is widely used for creating documents, spreadsheets, databases, presentations, and graphics.</li>\n                <li><strong>Internet Services:</strong> Using a computer, you can access World Wide Web (WWW), file transferring, emails, online chatting, and video conferencing.</li>\n              </ul>\n            "
+            "title": "1. What is a Computer?",
+            "content": "\n              <p>An <strong>electronic computer</strong> is an electronic device that accepts raw data as input, processes it according to stored instructions, produces meaningful information as output, and stores the results for future use.</p>\n              <p>The word <em>computer</em> comes from the Latin word <em>computare</em>, which means \"to calculate\". However, modern computers do far more than simple calculations.</p>\n              <div class=\"callout callout-doyouknow\">\n                <div class=\"callout-title\">💡 Did You Know?</div>\n                <p>Charles Babbage is known as the <strong>Father of Computer</strong> because he designed the Analytical Engine, which laid the foundation for modern electronic computers.</p>\n              </div>\n            "
           },
           {
-            "title": "Textbook Exercise Solutions &mdash; Chapter 1 (Computer Fundamental)",
-            "content": "\n              <h2>Innovative Computer Science &mdash; Book 6, Chapter 1 Complete Exercise Solutions</h2>\n              <h3>1. Answer the Following Questions</h3>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">a. Define a computer? What are the uses of computers?</div><div class=\"qa-card-a\"><strong>Answer:</strong> A computer is a programmable electronic machine that accepts raw data and instructions, processes them into meaningful information, and stores them.</div></div>\n            "
+            "title": "2. Basic Characteristics of Computers",
+            "content": "\n              <p>Computers have several distinct characteristics that make them essential in daily life:</p>\n              <ul>\n                <li><strong>Speed:</strong> A computer performs millions of instructions per second (MIPS).</li>\n                <li><strong>Accuracy:</strong> Computers produce 100% accurate results provided the input and instructions are correct (GIGO: Garbage In, Garbage Out).</li>\n                <li><strong>Diligence:</strong> Unlike humans, a computer never gets tired or suffers from lack of concentration.</li>\n                <li><strong>Versatility:</strong> A computer can perform completely different tasks simultaneously (e.g. playing music while typing a document).</li>\n                <li><strong>Storage Capacity:</strong> Computers can store massive amounts of data in secondary storage devices.</li>\n              </ul>\n            "
+          },
+          {
+            "title": "3. Fundamental Components (IPO Cycle)",
+            "content": "\n              <p>Every computer operates on the <strong>Input &rarr; Process &rarr; Output (IPO)</strong> cycle.</p>\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr>\n                      <th>Stage</th>\n                      <th>Function</th>\n                      <th>Example Devices</th>\n                    </tr>\n                  </thead>\n                  <tbody>\n                    <tr>\n                      <td><strong>Input</strong></td>\n                      <td>Accepts data and commands from user</td>\n                      <td>Keyboard, Mouse, Scanner, Microphone</td>\n                    </tr>\n                    <tr>\n                      <td><strong>Processing</strong></td>\n                      <td>Processes input data according to instructions</td>\n                      <td>Central Processing Unit (CPU)</td>\n                    </tr>\n                    <tr>\n                      <td><strong>Output</strong></td>\n                      <td>Displays processed information to user</td>\n                      <td>Monitor, Printer, Speaker</td>\n                    </tr>\n                    <tr>\n                      <td><strong>Storage</strong></td>\n                      <td>Stores data permanently or temporarily</td>\n                      <td>Hard Disk, SSD, RAM, Pen Drive</td>\n                    </tr>\n                  </tbody>\n                </table>\n              </div>\n            "
           }
         ]
       },
       {
         "id": "class6-cs-ch2",
         "chapterNumber": 2,
-        "title": "Computer Hardware",
+        "title": "Computer History",
         "subject": "Computer Science",
         "className": "Class 6",
-        "updated": "2026-09-15",
-        "summary": "Tangible physical parts of a computer system.",
+        "updated": "2026-09-03",
+        "summary": "Early calculating devices from Abacus to Mark-I.",
         "topics": [
           {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
+            "title": "1. Early Calculating Devices",
+            "content": "\n              <p>Before modern electronic computers were invented, humans developed manual calculating tools to assist with counting and math.</p>\n              <ul>\n                <li><strong>Abacus:</strong> First mechanical counting device invented in China over 4000 years ago.</li>\n                <li><strong>Napier's Bones:</strong> Invented by John Napier in 1617 for multiplication and division.</li>\n                <li><strong>Pascaline:</strong> First mechanical adding machine invented by Blaise Pascal in 1642.</li>\n                <li><strong>Analytical Engine:</strong> Designed by Charles Babbage in 1837; included input, memory, processor, and output units.</li>\n              </ul>\n            "
           }
         ]
       },
       {
         "id": "class6-cs-ch3",
         "chapterNumber": 3,
-        "title": "Input and output devices",
+        "title": "Generations of Computers",
         "subject": "Computer Science",
         "className": "Class 6",
-        "updated": "2026-09-15",
-        "summary": "Keyboards, mice, monitors, printers.",
+        "updated": "2026-09-03",
+        "summary": "First to fifth generation computer technology evolution.",
         "topics": [
           {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
+            "title": "1. Five Generations of Computers",
+            "content": "<p>Notes for Chapter 3 will be updated soon. [Add your notes here]</p>"
           }
         ]
       },
       {
         "id": "class6-cs-ch4",
         "chapterNumber": 4,
-        "title": "Storage devices",
+        "title": "Types of Computers",
         "subject": "Computer Science",
         "className": "Class 6",
-        "updated": "2026-09-15",
-        "summary": "RAM, ROM, Hard Disk, SSD, Pen Drive.",
+        "updated": "2026-09-03",
+        "summary": "Supercomputers, mainframes, minicomputers, and microcomputers.",
         "topics": [
           {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
+            "title": "1. Classification of Computers",
+            "content": "<p>Notes for Chapter 4 will be updated soon. [Add your notes here]</p>"
           }
         ]
       },
@@ -79,574 +82,19 @@ const notesData = {
         "title": "Computer Software",
         "subject": "Computer Science",
         "className": "Class 6",
-        "updated": "2026-09-15",
+        "updated": "2026-09-03",
         "summary": "System software vs application software.",
         "topics": [
           {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class6-cs-ch6",
-        "chapterNumber": 6,
-        "title": "Working with Windows 11",
-        "subject": "Computer Science",
-        "className": "Class 6",
-        "updated": "2026-09-15",
-        "summary": "Windows 11 operating system basics.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class6-cs-ch7",
-        "chapterNumber": 7,
-        "title": "Programming Language and Programming Tools",
-        "subject": "Computer Science",
-        "className": "Class 6",
-        "updated": "2026-09-15",
-        "summary": "Concept of computer programming languages.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class6-cs-ch8",
-        "chapterNumber": 8,
-        "title": "Block Programming - Scratch",
-        "subject": "Computer Science",
-        "className": "Class 6",
-        "updated": "2026-09-15",
-        "summary": "Visual block coding in Scratch.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class6-cs-ch9",
-        "chapterNumber": 9,
-        "title": "Programming Language - Python",
-        "subject": "Computer Science",
-        "className": "Class 6",
-        "updated": "2026-09-15",
-        "summary": "Basic syntax in Python.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class6-cs-ch10",
-        "chapterNumber": 10,
-        "title": "Word Processing",
-        "subject": "Computer Science",
-        "className": "Class 6",
-        "updated": "2026-09-15",
-        "summary": "Formatting and saving documents.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class6-cs-ch11",
-        "chapterNumber": 11,
-        "title": "Spread sheet",
-        "subject": "Computer Science",
-        "className": "Class 6",
-        "updated": "2026-09-15",
-        "summary": "Worksheet basics and calculations.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class6-cs-ch12",
-        "chapterNumber": 12,
-        "title": "Presentation package",
-        "subject": "Computer Science",
-        "className": "Class 6",
-        "updated": "2026-09-15",
-        "summary": "Creating slides and slide shows.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class6-cs-ch13",
-        "chapterNumber": 13,
-        "title": "ICT, Cyber Ethics, And Cyber Law",
-        "subject": "Computer Science",
-        "className": "Class 6",
-        "updated": "2026-09-15",
-        "summary": "Information communication technology.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class6-cs-ch14",
-        "chapterNumber": 14,
-        "title": "Computer Graphics",
-        "subject": "Computer Science",
-        "className": "Class 6",
-        "updated": "2026-09-15",
-        "summary": "Digital drawing and design tools.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class6-cs-ch15",
-        "chapterNumber": 15,
-        "title": "Multimedia",
-        "subject": "Computer Science",
-        "className": "Class 6",
-        "updated": "2026-09-15",
-        "summary": "Audio, video, animation concepts.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class6-cs-ch16",
-        "chapterNumber": 16,
-        "title": "Termwise Syllabus",
-        "subject": "Computer Science",
-        "className": "Class 6",
-        "updated": "2026-09-15",
-        "summary": "Term-wise curriculum breakdown.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class6-cs-ch17",
-        "chapterNumber": 17,
-        "title": "Model Question",
-        "subject": "Computer Science",
-        "className": "Class 6",
-        "updated": "2026-09-15",
-        "summary": "Sample examination paper.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class6-cs-ch18",
-        "chapterNumber": 18,
-        "title": "Terminology",
-        "subject": "Computer Science",
-        "className": "Class 6",
-        "updated": "2026-09-15",
-        "summary": "Glossary of computer terms.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes added soon.</p>"
+            "title": "1. Software Fundamentals",
+            "content": "<p>Notes for Chapter 5 will be updated soon. [Add your notes here]</p>"
           }
         ]
       }
     ]
   },
   "class7": {
-    "computerScience": [
-      {
-        "id": "class7-cs-ch1",
-        "chapterNumber": 1,
-        "title": "Computer Fundamental & History of computer",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Introduction to computers, history, and development.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 1 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch2",
-        "chapterNumber": 2,
-        "title": "Generation of Computer",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "1st to 5th generations of computers.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 2 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch3",
-        "chapterNumber": 3,
-        "title": "Types of computer",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Analog, digital, hybrid, super, mainframe, mini & microcomputers.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 3 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch4",
-        "chapterNumber": 4,
-        "title": "Computer Software",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "System software vs application software.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 4 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch5",
-        "chapterNumber": 5,
-        "title": "Operating System",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Functions and types of operating systems.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 5 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch6",
-        "chapterNumber": 6,
-        "title": "Word Processor",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Word processing concepts, formatting, and tables.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 6 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch7",
-        "chapterNumber": 7,
-        "title": "Spreadsheet",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Spreadsheet basics, cell formatting, and formulas.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 7 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch8",
-        "chapterNumber": 8,
-        "title": "Presentation software",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Slide design, animations, and presentation delivery.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 8 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch9",
-        "chapterNumber": 9,
-        "title": "ICT tools and Cyber Ethics",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "author": "Innovative Computer Science &mdash; Book 7, Chapter 9",
-        "summary": "Detailed guide to Information and Communication Technology (ICT), ICT tools, digital cameras, scanners, projectors, eBooks, social media, cybercrime, cyber law in Nepal, computer ethics, AI, cloud computing, robotics, IoT & complete exercise solutions.",
-        "topics": [
-          {
-            "title": "9.0 Introduction to Information and Communication Technology (ICT)",
-            "content": "\n              <p>Nowadays, you can immediately and easily know what is happening in any corner of the world. You can comfortably communicate with friends, relatives, or people living anywhere globally. You can purchase goods at your door without going outside from home, buy bus, airplane, and train tickets, and book hotel rooms online.</p>\n              <p>All this is possible due to <strong>Information and Communication Technology (ICT)</strong>.</p>\n              \n              <div class=\"callout callout-remember\">\n                <div class=\"callout-title\">📌 ICT DEFINITION</div>\n                <p>ICT is the integrated technology that stores, manages, and processes data and provides access to information for people through computers, the Internet, broadcasting, or telecommunication systems.</p>\n              </div>\n\n              <ul>\n                <li>ICT consists of all technical means used to handle data and information in digital form, including computers, peripheral devices, network hardware, communication software, and necessary software.</li>\n                <li>ICT uses electronic equipment, especially computers, for storing, retrieving, manipulating, or exchanging information.</li>\n              </ul>\n\n              <h3>Why ICT is Important in Our Lives:</h3>\n              <div class=\"step-card-grid\">\n                <div class=\"step-card\"><span class=\"step-badge\">1</span><span>Makes life easier, faster, and more fun.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">2</span><span>Helps us to learn and share new things quickly.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">3</span><span>Enables us to talk to friends and family members far away.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">4</span><span>Enables us to send messages, photos, videos, and files instantly.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">5</span><span>Enables access to the latest global news and educational information.</span></div>\n              </div>\n            "
-          },
-          {
-            "title": "9.1 ICT Tools & Categories",
-            "content": "\n              <p>All communication devices, systems, and application software that help in processing, managing, and communicating information efficiently in digital form are <strong>ICT tools</strong>.</p>\n\n              <h3>Categories of ICT Tools:</h3>\n              <ul>\n                <li><strong>Main ICT Tool:</strong> The <em>computer</em> is the primary ICT tool that can store, manage, process, and transfer large volumes of data and information quickly worldwide.</li>\n                <li><strong>Tools for Capturing &amp; Manipulating Images:</strong> Scanner, Digital Camera, graphics software (Photoshop, Paint), photocopy machine.</li>\n                <li><strong>Tools for Exchanging Information:</strong> World Wide Web (WWW), Blog (Web log), E-mail (Electronic Mail), IRC (Internet Relay Chat), web browsers, radio, television, mobile phones, ATM, Wi-Fi devices, TV setup boxes.</li>\n                <li><strong>Tools for Presenting Information:</strong> Multimedia projectors, word processors, e-books, tutorial videos.</li>\n              </ul>\n            "
-          },
-          {
-            "title": "9.2 Usages of Key ICT Tools",
-            "content": "\n              <h3>1. Digital Camera (Digicam)</h3>\n              <p>Captures pictures or videos and transfers them into a computer as digital image or video files stored in a memory chip. Digital photos/videos are used in websites, e-books, magazines, and tutorial videos.</p>\n\n              <h3>2. Scanner</h3>\n              <p>Converts handwritten or printed text and pictures into digital images and transfers them to a computer. Image editing software like Adobe Photoshop, CorelDraw, Paint, and Photo Editor can be used to modify scanned images.</p>\n              <div class=\"step-list\">\n                <div class=\"step-item\"><span class=\"step-badge\">a</span><div>Connect scanner to computer and install driver software.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">b</span><div>Switch on scanner, open scanner lid, and place document face down.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">c</span><div>Press <strong>Scan button</strong> or open scanner software (e.g., Control Center 4).</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">d</span><div>Select Document Type (Photo, Text), Resolution, Scan Size, and file format (PDF, JPEG, PNG).</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">e</span><div>Click <strong>Save</strong> and type file name.</div></div>\n              </div>\n\n              <h3>3. Multimedia Projector</h3>\n              <p>Displays text, images, presentations, or videos to many people at a time on a big screen in classrooms, corporate meetings, or home theaters.</p>\n\n              <h3>4. Electronic Book (eBook)</h3>\n              <p>A non-editable digital version of a printed book accessed through computers, smartphones, tablets, or eBook readers. Sites offering free eBooks: <code>moecdc.gov.np</code>, <code>learning.cehrd.gov.np</code>, <code>wikibooks.org</code>, <code>gutenberg.org</code>, <code>books.google.com</code>.</p>\n\n              <h3>5. Tutorial Videos</h3>\n              <p>Provides step-by-step video instructions to perform tasks or study subjects. Educational sites: <code>nepalonlineschool.org</code>, <code>mero.school</code>, <code>dlc.dwit.edu.np</code>, <code>kullabs.com</code>.</p>\n            "
-          },
-          {
-            "title": "9.3 Social Media Platforms & Safety Rules",
-            "content": "\n              <p><strong>Social Media</strong> is digital technology that allows people to connect, share, and communicate online. Major platforms include:</p>\n\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr><th>Platform</th><th>Developers / Founders &amp; Launch Date</th><th>Key Features</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr><td><strong>Facebook</strong></td><td>Mark Zuckerberg &amp; Edward Saverin (Feb 2004)</td><td>Social networking for users 13+, share posts, photos, videos.</td></tr>\n                    <tr><td><strong>Instagram</strong></td><td>Kevin Systrom &amp; Mike Krieger (Feb 2010 / Meta)</td><td>Photo and short video sharing, chat with friends.</td></tr>\n                    <tr><td><strong>Twitter (X)</strong></td><td>Jack Dorsey, Noah Glass, Biz Stone, Evan Williams (July 2006)</td><td>Short text \"tweets\" (140 to 280 characters).</td></tr>\n                    <tr><td><strong>WhatsApp</strong></td><td>Jan Koum &amp; Brian Acton (Jan 2009 / Meta)</td><td>Messaging, voice calls, video chat, media sharing.</td></tr>\n                    <tr><td><strong>YouTube</strong></td><td>Chad Hurley, Steve Chen, Jawed Karim (Feb 2005)</td><td>Video uploading and streaming (First video: <em>Me at the Zoo</em>, Apr 23, 2005).</td></tr>\n                  </tbody>\n                </table>\n              </div>\n\n              <h3>Advantages vs Disadvantages of Social Media:</h3>\n              <ul>\n                <li><strong>Advantages:</strong> Talk to anyone worldwide, quick news updates, join interest groups, share creative ideas, learn skills, enjoy videos/games.</li>\n                <li><strong>Disadvantages:</strong> Addiction (distraction from study), cyberbullying, privacy risks, fake news, comparison pressure, eye/health issues, time wasting.</li>\n              </ul>\n\n              <div class=\"callout callout-remember\">\n                <div class=\"callout-title\">📌 SOCIAL MEDIA SAFETY RULES</div>\n                <ul>\n                  <li>Use polite language; don't pass negative comments.</li>\n                  <li>Do not share fake news or unverified information.</li>\n                  <li><strong>Never share personal information</strong> like your home address, phone number, or passwords.</li>\n                  <li>Think twice before posting &mdash; once something is online, it is hard to remove.</li>\n                  <li>Tell a parent or teacher immediately if something online makes you uncomfortable.</li>\n                </ul>\n              </div>\n            "
-          },
-          {
-            "title": "9.4 Cyber Crime & Cyber Law of Nepal",
-            "content": "\n              <p><strong>Cybercrime (Computer Crime):</strong> Any criminal activity committed using a computer, mobile device, and the Internet. Examples: software piracy (illegal copying), hacking (stealing data), spreading computer viruses, cyberbullying, online fraud.</p>\n\n              <h3>Cyber Law of Nepal</h3>\n              <p>To control cybercrimes and legalize electronic transactions, the Nepal Government enacted the <strong>Cyber Law of Nepal 2061 B.S. (30th Bhadra 2061 / 2004 A.D.)</strong>, officially known as the <strong>Electronic Transaction and Digital Signature Act-2061</strong>.</p>\n              \n              <div class=\"callout callout-quickcheck\">\n                <div class=\"callout-title\">🎯 OBJECTIVES OF NEPAL CYBER LAW</div>\n                <ul>\n                  <li>To legalize electronic data exchange and communications.</li>\n                  <li>To make electronic transactions reliable and secure.</li>\n                  <li>To prevent, control, and punish cybercrimes and cybercriminals.</li>\n                </ul>\n              </div>\n            "
-          },
-          {
-            "title": "9.5 Computer Ethics (10 Commandments)",
-            "content": "\n              <p><strong>Computer Ethics (Cyber Ethics)</strong> is a set of moral principles that regulates the proper and lawful use of computers by users.</p>\n\n              <h3>10 Commandments of Computer Ethics:</h3>\n              <ol>\n                <li>You should not use a computer to harm other people.</li>\n                <li>You should not interfere with other people's computer work.</li>\n                <li>You should not snoop around in other people's files.</li>\n                <li>You should not use a computer to steal.</li>\n                <li>You should not use a computer to bear false witness.</li>\n                <li>You should not use or copy commercial software for which you have not paid (software piracy).</li>\n                <li>You should not use other people's computer resources without authorization.</li>\n                <li>You should not appropriate other people's intellectual output.</li>\n                <li>You should think about the social consequences of the program you write.</li>\n                <li>You should use a computer in ways that show consideration and respect.</li>\n              </ol>\n            "
-          },
-          {
-            "title": "9.6 Contemporary Technologies (AI, Cloud, Robotics, IoT)",
-            "content": "\n              <p>Contemporary technology refers to modern systems, devices, and tools used today to make life easier, faster, and more connected.</p>\n\n              <h3>1. Artificial Intelligence (AI)</h3>\n              <p>Technology that allows machines to think, learn, recognize speech, and make decisions like humans.</p>\n              <ul>\n                <li><strong>Recommendation Systems:</strong> YouTube video recommendations &amp; Google search predictions.</li>\n                <li><strong>Virtual Assistants:</strong> Alexa (Amazon), Siri (Apple), Cortana (Microsoft).</li>\n                <li><strong>AI Chatbots:</strong> ChatGPT, DeepSeek.</li>\n                <li><strong>Strategic Games &amp; Autonomous Vehicles:</strong> Chess AI, self-driving cars (Tesla).</li>\n              </ul>\n\n              <h3>2. Cloud Computing</h3>\n              <p>Provides remote storage and software application services over the Internet via remote server networks instead of local hard drives. Providers: Google Drive, OneDrive, Dropbox, iCloud, Spotify.</p>\n\n              <h3>3. Robotics</h3>\n              <p>Branch of technology dealing with design and manufacturing of intelligent machines (robots) that assist humans in dangerous, dirty, or laborious tasks (factories, space, nuclear plants).</p>\n\n              <h3>4. Internet of Things (IoT)</h3>\n              <p>System connecting computing devices, smart appliances, sensors, and objects over a network without requiring human interaction (e.g. smart home lighting, smart TVs, automated thermostats).</p>\n            "
-          },
-          {
-            "title": "Textbook Exercise Solutions &mdash; Chapter 9 (ICT &amp; Cyber Ethics)",
-            "content": "\n              <h2>Innovative Computer Science &mdash; Book 7, Chapter 9 Complete Exercise Solutions</h2>\n\n              <h3>1. Answer the Following Questions (a to l)</h3>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">a. What is Information and Communication Technology?</div><div class=\"qa-card-a\"><strong>Answer:</strong> Information and Communication Technology (ICT) is an integrated technology that stores, manages, processes data, and provides access to information through computers, the Internet, and telecommunications.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">b. List any two ICT tools.</div><div class=\"qa-card-a\"><strong>Answer:</strong> Computer and Scanner (or Digital Camera, Projector).</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">c. What is the use of multimedia projector in the ICT?</div><div class=\"qa-card-a\"><strong>Answer:</strong> A multimedia projector is used to display text, images, presentations, and videos to a large audience on a big screen in classrooms or corporate meetings.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">d. What is cybercrime? List any two cybercrimes.</div><div class=\"qa-card-a\"><strong>Answer:</strong> Cybercrime is any illegal criminal activity committed using a computer, mobile device, and the Internet. Two examples: Hacking and Software Piracy.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">e. What is cyber law? Why is it necessary?</div><div class=\"qa-card-a\"><strong>Answer:</strong> Cyber law is the legal framework dealing with computer and Internet-related issues. It is necessary to legalize electronic transactions, secure digital communications, and punish cybercriminals.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">f. List any two reasons of formulating cyber law in Nepal.</div><div class=\"qa-card-a\"><strong>Answer:</strong> 1) To make electronic transactions reliable and secure, and 2) To control and punish cybercrime offenses.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">g. What is computer ethics? List any four commandments of computer ethics.</div><div class=\"qa-card-a\"><strong>Answer:</strong> Computer ethics is a set of moral principles regulating the proper use of computers.\n              <br><em>Four Commandments:</em>\n              <ol>\n                <li>You should not use a computer to harm other people.</li>\n                <li>You should not snoop around in other people's files.</li>\n                <li>You should not use a computer to steal.</li>\n                <li>You should not use pirated software.</li>\n              </ol></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">h. List any two commandments of computer ethics.</div><div class=\"qa-card-a\"><strong>Answer:</strong> 1) You should not use a computer to harm other people, and 2) You should not use other people's computer resources without authorization.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">i. What is social media? Write the safety rules for using social media.</div><div class=\"qa-card-a\"><strong>Answer:</strong> Social media is digital technology that allows people to connect, share content, and communicate online (e.g., Facebook, YouTube).\n              <br><em>Safety Rules:</em> 1) Never share personal info like address or phone number, 2) Use polite language, 3) Verify news before sharing, 4) Inform parents if uncomfortable online.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">j. List any four advantages of social media.</div><div class=\"qa-card-a\"><strong>Answer:</strong> 1) Talk to anyone from anywhere, 2) Stay updated with news and events, 3) Learn new skills, 4) Share thoughts and creative art.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">k. What is AI? List any two applications of AI.</div><div class=\"qa-card-a\"><strong>Answer:</strong> AI (Artificial Intelligence) is technology enabling machines to think, learn, and make decisions like humans.\n              <br><em>Two Applications:</em> 1) Virtual Personal Assistants (Siri, Alexa), 2) AI Chatbots (ChatGPT, DeepSeek).</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">l. What is IoT?</div><div class=\"qa-card-a\"><strong>Answer:</strong> IoT (Internet of Things) is a network system connecting smart computing devices and appliances to exchange data without human interaction.</div></div>\n\n              <h3>2. Write the Full Forms of the Following</h3>\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr><th>Abbreviation</th><th>Full Form</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr><td><strong>a. ICT</strong></td><td>Information and Communication Technology</td></tr>\n                    <tr><td><strong>b. IRC</strong></td><td>Internet Relay Chat</td></tr>\n                    <tr><td><strong>c. Blog</strong></td><td>Web Log</td></tr>\n                    <tr><td><strong>d. WWW</strong></td><td>World Wide Web</td></tr>\n                  </tbody>\n                </table>\n              </div>\n\n              <h3>3. Write the Technical Terms for the Following Statements</h3>\n              <p><strong>a.</strong> A technology concerned with storage, retrieval, transmission or receipt of information electronically in digital form: <u>ICT (Information and Communication Technology)</u></p>\n              <p><strong>b.</strong> A crime committed with the help of a computer and the Internet: <u>Cybercrime (or Computer Crime)</u></p>\n              <p><strong>c.</strong> The law that deal with computer and the Internet related issues: <u>Cyber Law</u></p>\n              <p><strong>d.</strong> The moral principles that should be followed by all computer users: <u>Computer Ethics (or Cyber Ethics)</u></p>\n              <p><strong>e.</strong> The technology that allows machines to think and learn like humans: <u>Artificial Intelligence (AI)</u></p>\n\n              <h3>4. State Whether the Following Statements are True or False</h3>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">a. ICT stands for Informative and Computing technology.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Stands for Information and Communication Technology)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">b. ICT uses electronic equipments especially computers for storing, retrieving and exchanging information.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">c. Computer ethics is a program that is used to steal data from a computer.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Computer ethics is a set of moral principles)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">d. The crime committed with the help of computer and internet is known as computer crime or cybercrime.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">e. Data privacy and Data backup are the examples of cybercrimes.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(They are security practices)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">f. Unauthorized accessing of other files is cybercrime.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">g. Stealing data and information of computers through the Internet is software piracy.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Software piracy is illegal copying of software)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">h. The cyber law controls the crime in a country.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">i. It is the right of a computer user to damage other files without permission.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(It is illegal and unethical)</em></div></div>\n\n              <h3>5. Choose the Correct Option (Multiple Choice Questions)</h3>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">a. .............. is an ICT tool.</div><div class=\"qa-card-a\">i. Computer &nbsp; ii. Book &nbsp; iii. Pen drive &nbsp; <strong>iv. All of the above</strong> &mdash; <em>Answer: iv. All of the above</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">b. ICT tools are the devices or systems that perform functions like ...</div><div class=\"qa-card-a\">i. Creating information &nbsp; ii. Storing information &nbsp; iii. Exchanging information &nbsp; <strong>iv. All of the above</strong> &mdash; <em>Answer: iv. All of the above</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">c. Which is a social networking site?</div><div class=\"qa-card-a\">i. Instagram &nbsp; ii. Twitter &nbsp; iii. Facebook &nbsp; <strong>iv. All of the above</strong> &mdash; <em>Answer: iv. All of the above</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">d. Which is cybercrime?</div><div class=\"qa-card-a\"><strong>i. Software piracy</strong> &nbsp; ii. Data privacy &nbsp; iii. Entertaining in YouTube &nbsp; iv. None of the above &mdash; <em>Answer: i. Software piracy</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">e. Making duplicate of software illegally is .........</div><div class=\"qa-card-a\">i. Software Privacy &nbsp; <strong>ii. Software piracy</strong> &nbsp; iii. Hacking &nbsp; iv. Cyber bullying &mdash; <em>Answer: ii. Software piracy</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">f. Hacking is .............</div><div class=\"qa-card-a\">i. Stealing money from a home &nbsp; ii. Bank robbery &nbsp; <strong>iii. Stealing data and information on the Internet</strong> &nbsp; iv. Harassing someone &mdash; <em>Answer: iii. Stealing data and information on the Internet</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">g. A crime committed with the help of computer and the Internet is ......</div><div class=\"qa-card-a\">i. Hardware crime &nbsp; ii. Software crime &nbsp; iii. Information crime &nbsp; <strong>iv. Cybercrime</strong> &mdash; <em>Answer: iv. Cybercrime</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">h. The cyber law of Nepal is formulated to......</div><div class=\"qa-card-a\">i. Legalize electronic transactions &nbsp; ii. Punish cybercrime &nbsp; iii. Control cybercrimes &nbsp; <strong>iv. All of the above</strong> &mdash; <em>Answer: iv. All of the above</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">i. A set of moral principles that regulates the proper uses of computers is .......</div><div class=\"qa-card-a\"><strong>i. Computer ethics</strong> &nbsp; ii. Computer literate &nbsp; iii. Internet ethics &nbsp; iv. None of the above &mdash; <em>Answer: i. Computer ethics</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">j. A robot can be used to perform.......?</div><div class=\"qa-card-a\">i. Dangerous tasks &nbsp; ii. Laborious tasks &nbsp; iii. High accuracy tasks &nbsp; <strong>iv. All of the above</strong> &mdash; <em>Answer: iv. All of the above</em></div></div>\n            "
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch10",
-        "chapterNumber": 10,
-        "title": "Computer Virus and its Remedy",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Malware, virus types, computer infection symptoms, and antivirus remedies.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 10 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch11",
-        "chapterNumber": 11,
-        "title": "Computer Network and Internet",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Network architecture, LAN, WAN, routers, and web browsers.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 11 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch12",
-        "chapterNumber": 12,
-        "title": "Number System",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Binary, Decimal, Octal, and Hexadecimal number conversions.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 12 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch13",
-        "chapterNumber": 13,
-        "title": "Computer Graphics",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Digital drawing, graphics editing software, raster vs vector.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 13 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch14",
-        "chapterNumber": 14,
-        "title": "Page Layout",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Document layout, margins, page orientation, and printing preparation.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 14 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch15",
-        "chapterNumber": 15,
-        "title": "Multimedia",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Audio, video, text, images, and interactive media components.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 15 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch16",
-        "chapterNumber": 16,
-        "title": "Programming Tools: Algorithm and Flowchart",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Algorithm steps, flowchart symbols, and problem-solving logic.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 16 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch17",
-        "chapterNumber": 17,
-        "title": "Block Programming - Scratch",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Visual block coding, sprites, scripts, and interactive games in Scratch.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 17 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch18",
-        "chapterNumber": 18,
-        "title": "Programming with Python",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Python programming syntax, variables, data types, and simple programs.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 18 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch19",
-        "chapterNumber": 19,
-        "title": "Web Page Designing Using HTML",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "HTML tags, structure, headings, links, and basic web page design.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 19 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch20",
-        "chapterNumber": 20,
-        "title": "Model Question",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Sample examination model questions and solution guides for Class 7.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 20 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch21",
-        "chapterNumber": 21,
-        "title": "Practical Question",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Practical examination questions and lab exercises for Class 7.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 21 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class7-cs-ch22",
-        "chapterNumber": 22,
-        "title": "Terminology",
-        "subject": "Computer Science",
-        "className": "Class 7",
-        "updated": "2026-09-16",
-        "summary": "Comprehensive glossary of computer science terms for Class 7.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 7 Chapter 22 will be added soon.</p>"
-          }
-        ]
-      }
-    ]
+    "computerScience": []
   },
   "class8": {
     "computerScience": [
@@ -657,11 +105,71 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 8",
         "updated": "2026-09-03",
-        "summary": "History of computing.",
+        "summary": "Detailed history of computing machines and pioneers.",
         "topics": [
           {
-            "title": "1. Intro",
-            "content": "<p>Notes added.</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 8 Chapter 1 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class8-cs-ch2",
+        "chapterNumber": 2,
+        "title": "Generation of Computer",
+        "subject": "Computer Science",
+        "className": "Class 8",
+        "updated": "2026-09-03",
+        "summary": "Detailed classification of 1st to 5th computer generations.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 8 Chapter 2 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class8-cs-ch3",
+        "chapterNumber": 3,
+        "title": "Types of Computers",
+        "subject": "Computer Science",
+        "className": "Class 8",
+        "updated": "2026-09-03",
+        "summary": "Analog, digital, hybrid, super, mainframe, mini & microcomputers.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 8 Chapter 3 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class8-cs-ch4",
+        "chapterNumber": 4,
+        "title": "Computer Software",
+        "subject": "Computer Science",
+        "className": "Class 8",
+        "updated": "2026-09-03",
+        "summary": "System software, OS, application software, utilities.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 8 Chapter 4 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class8-cs-ch5",
+        "chapterNumber": 5,
+        "title": "Word Processing - Microsoft Word 2016",
+        "subject": "Computer Science",
+        "className": "Class 8",
+        "updated": "2026-09-03",
+        "summary": "Creating, editing, formatting documents in MS-Word 2016.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 8 Chapter 5 will be added soon. [Add your notes here]</p>"
           }
         ]
       },
@@ -672,11 +180,76 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 8",
         "updated": "2026-09-06",
-        "summary": "Full Excel guide & exercise solutions.",
+        "author": "Prepared by Er. Ankit Lamichhane",
+        "summary": "Complete guide to worksheets, cells, data types, formulas, built-in functions (SUM, MAX, MIN, AVERAGE, IF, OR, AND), formatting, charts & complete textbook exercise solutions.",
         "topics": [
           {
-            "title": "1. Intro",
-            "content": "<p>Full notes added.</p>"
+            "title": "Learning Objectives",
+            "content": "\n              <p>At the end of this chapter, students will be able to:</p>\n              <div class=\"step-card-grid\">\n                <div class=\"step-card\"><span class=\"step-badge\">1</span><span>Prepare a spreadsheet to store data properly in columns and rows.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">2</span><span>Perform mathematical, financial and logical operations on numeric data.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">3</span><span>Prepare different types of graphs (charts) from worksheet data.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">4</span><span>Enter, edit, format and organize data using rows, columns and cells.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">5</span><span>Use built-in functions like SUM, MAX, MIN, AVERAGE, IF, OR and AND.</span></div>\n              </div>\n            "
+          },
+          {
+            "title": "6.0 Introduction: What is a Spreadsheet?",
+            "content": "\n              <p><strong>Spreadsheet (electronic spreadsheet) software</strong> is application software that lets you organize data in columns and rows.</p>\n              <ul>\n                <li>It sets relationships between columns and rows so it can perform mathematical, financial and logical operations easily.</li>\n                <li>When data in a cell changes, values in all dependent cells update <strong>automatically</strong>.</li>\n                <li>The program has all built-in functions needed for complex calculations.</li>\n                <li>Used widely in financial and business sectors for salary sheets, invoices, balance sheets, mark ledgers, report cards, etc.</li>\n              </ul>\n\n              <div class=\"callout callout-remember\">\n                <div class=\"callout-title\">📌 REMEMBER</div>\n                <p>A worksheet is also known as a spreadsheet &mdash; the working grid of rows and columns.</p>\n              </div>\n\n              <div class=\"callout callout-doyouknow\">\n                <div class=\"callout-title\">💡 EXAMPLES OF SPREADSHEET SOFTWARE</div>\n                <p>Common spreadsheet software: Microsoft Excel, Lotus 1-2-3, OpenOffice Calc, Quattro Pro, AppleWorks.</p>\n              </div>\n\n              <div class=\"callout callout-quickcheck\">\n                <div class=\"callout-title\">🎯 EXAM FOCUS</div>\n                <p>Spreadsheet software organizes data in columns &amp; rows and auto-recalculates dependent values whenever data changes.</p>\n              </div>\n\n              <h3>Worksheets and Cells</h3>\n              <p>The spreadsheet program consists of worksheets, like a paper ledger sheet, where you store data in a grid of rows and columns.</p>\n              <p>The intersections of rows and columns form <strong>cells</strong> &mdash; the actual area where data is stored.</p>\n\n              <div class=\"ui-figure\">\n                <div class=\"ui-figure-header\">📊 Figure 6.1: Cell Grid (Intersection of Column &amp; Row)</div>\n                <div class=\"ui-window-box\">\n                  <div class=\"table-responsive\">\n                    <table class=\"notes-table\" style=\"text-align: center;\">\n                      <thead>\n                        <tr><th></th><th>A</th><th>B</th><th style=\"background: var(--primary); color:#fff;\">C</th><th>D</th><th>E</th></tr>\n                      </thead>\n                      <tbody>\n                        <tr><td><strong>1</strong></td><td></td><td></td><td></td><td></td><td></td></tr>\n                        <tr><td><strong>2</strong></td><td></td><td></td><td></td><td></td><td></td></tr>\n                        <tr><td><strong>3</strong></td><td></td><td></td><td style=\"background: #0284c7; color: #fff; font-weight: 800;\">Cell C3</td><td></td><td></td></tr>\n                        <tr><td><strong>4</strong></td><td></td><td></td><td></td><td></td><td></td></tr>\n                      </tbody>\n                    </table>\n                  </div>\n                </div>\n                <div class=\"ui-figure-caption\">Cell C3 = intersection of Column C &amp; Row 3</div>\n              </div>\n            "
+          },
+          {
+            "title": "6.1 Basics of Spreadsheet: Column, Row & Cell",
+            "content": "\n              <h3>COLUMN</h3>\n              <ul>\n                <li>The vertical space running from top to bottom is called a <strong>Column</strong>.</li>\n                <li>The latest MS-Excel version has <strong>16,384 columns</strong> (from column A to XFD) in a single worksheet.</li>\n                <li>Each column is labeled A to Z, AA to AZ, BA to BZ, and so on. The column label is known as the <strong>column header</strong>.</li>\n              </ul>\n\n              <h3>ROW</h3>\n              <ul>\n                <li>The horizontal space running from left to right is called a <strong>Row</strong>.</li>\n                <li>The latest version of MS-Excel has <strong>1,048,576 rows</strong>.</li>\n                <li>Rows are labeled with numbers 1, 2, 3... The row label is known as the <strong>row header</strong>.</li>\n              </ul>\n\n              <h3>CELL</h3>\n              <ul>\n                <li>A cell is a rectangular space formed by the intersection of a row and a column, surrounded by gridlines.</li>\n                <li>Each cell is identified by its <strong>cell address</strong> = column heading + row number (e.g. <code>A1</code>, <code>B4</code>, <code>C3</code>).</li>\n              </ul>\n            "
+          },
+          {
+            "title": "6.2 Microsoft Excel & Starting MS-Excel 2016",
+            "content": "\n              <p>MS-Excel is the most commonly used spreadsheet software, developed by Microsoft Corporation, USA. It lets you store, organize, perform calculations, and present data as graphs.</p>\n              \n              <h3>To Start MS-Excel 2016:</h3>\n              <div class=\"step-list\">\n                <div class=\"step-item\"><span class=\"step-badge\">1</span><div>Click the <strong>Start button</strong> &rarr; select <strong>Excel 2016</strong> in Pinned/Recommended section.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">2</span><div><em>OR:</em> Click <strong>Start &rarr; All Apps &rarr; scroll down &rarr; select Excel 2016</strong>.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">3</span><div><em>OR:</em> Click Search box on Taskbar &rarr; type <code>Excel</code> &rarr; press Enter &rarr; click Excel 2016.</div></div>\n              </div>\n\n              <div class=\"ui-figure\">\n                <div class=\"ui-figure-header\">🖥️ Figure 6.2: Simplified MS-Excel 2016 Window</div>\n                <div class=\"ui-window-box\">\n                  <div class=\"ui-ribbon-bar\">\n                    <span class=\"ui-tab active\">File</span><span class=\"ui-tab\">Home</span><span class=\"ui-tab\">Insert</span><span class=\"ui-tab\">Page Layout</span><span class=\"ui-tab\">Formulas</span><span class=\"ui-tab\">Data</span><span class=\"ui-tab\">Review</span><span class=\"ui-tab\">View</span>\n                  </div>\n                  <div style=\"padding: 0.5rem; background: var(--surface); border: 1px solid var(--border); margin-top: 0.5rem;\">\n                    <div style=\"font-size: 0.85rem; font-weight: 700; color: var(--text-muted);\">Book1 - Excel</div>\n                  </div>\n                </div>\n                <div class=\"ui-figure-caption\">MS-Excel 2016 application window</div>\n              </div>\n            "
+          },
+          {
+            "title": "6.3 Basic Terms Used in MS-Excel",
+            "content": "\n              <ul>\n                <li><strong>Active Cell:</strong> Each cell is surrounded by light gray gridlines. Data can be entered only in an active cell. There is only one active cell at a time &mdash; it is currently selected and surrounded by a dark border. Select a new active cell using arrow keys or clicking with mouse.</li>\n                <li><strong>Worksheet:</strong> A wide sheet made up of rows and columns where we enter data and perform calculations. Also known as a spreadsheet.</li>\n                <li><strong>Chart Sheet:</strong> A sheet that contains only a chart. Charts are identified by default unique names like Chart1, Chart2, etc.</li>\n                <li><strong>Workbook:</strong> A file containing one or more worksheets and chart sheets, used to organize related information. Excel workbook files use the <strong>.xlsx</strong> extension (.xls in earlier versions).</li>\n                <li><strong>Range of Cells:</strong> A group of adjacent cells forming a rectangle &mdash; also known as a block of cells, e.g., <code>A1:D1</code> or <code>A1..D1</code>.</li>\n              </ul>\n\n              <h3>Name Box and Formula Bar</h3>\n              <ul>\n                <li><strong>Name Box:</strong> Displays the address of the active cell or selected range &mdash; also known as the address bar.</li>\n                <li><strong>Formula Bar:</strong> Displays the contents of the active cell: text, numbers, formulas, or functions. The content of a cell can be edited directly in the formula bar.</li>\n              </ul>\n\n              <div class=\"ui-figure\">\n                <div class=\"ui-figure-header\">📍 Figure 6.3: Name Box &amp; Formula Bar</div>\n                <div class=\"ui-window-box\">\n                  <div style=\"display: flex; gap: 0.5rem; align-items: center;\">\n                    <div style=\"border: 1px solid var(--border); padding: 0.4rem 0.8rem; font-weight: 800; background: var(--surface); color: var(--primary);\">A1</div>\n                    <div style=\"border: 1px solid var(--border); padding: 0.4rem 0.8rem; flex: 1; font-family: monospace; background: var(--surface);\">fx =SUM(C5:G5)</div>\n                  </div>\n                  <div style=\"display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--text-muted); margin-top: 0.3rem;\">\n                    <span>Name Box (Address)</span>\n                    <span>Formula Bar (Contents / Formula)</span>\n                  </div>\n                </div>\n              </div>\n            "
+          },
+          {
+            "title": "6.4 Types of Data Used in MS-Excel",
+            "content": "\n              <h3>1. Text (Label)</h3>\n              <ul>\n                <li>Text is any string data made up of letters, numbers or spaces. Also known as a <strong>Label</strong>. It is not used in mathematical calculations.</li>\n                <li>All text entries are aligned to the <strong>LEFT</strong> in a cell by default.</li>\n                <li>If text does not fit, it extends over empty neighboring cells or gets cut off. Examples: <code>24ADP105</code>, <code>SojanThapa</code>, <code>15-Kha</code>.</li>\n              </ul>\n\n              <h3>2. Number (Value)</h3>\n              <ul>\n                <li>A number is numeric data, also known as a <strong>Value</strong> &mdash; digits 0-9 plus special characters (positive/negative sign, currency, commas, %, decimal, parentheses).</li>\n                <li>Numeric entries can be used in calculations. By default, numbers are aligned to the <strong>RIGHT</strong> in a cell.</li>\n              </ul>\n\n              <div class=\"callout callout-remember\">\n                <div class=\"callout-title\">📌 NOTE ON NUMBERS AS TEXT</div>\n                <p>To store a number as text in Excel, type an apostrophe (<code>'</code>) before it, e.g., <code>'2081</code>.</p>\n              </div>\n\n              <h3>3. Formula</h3>\n              <ul>\n                <li>A <strong>Formula</strong> is an entry in a worksheet that defines the mathematical or logical relationship between two or more cells.</li>\n                <li>A formula can contain values, operators, functions, and cell addresses.</li>\n                <li>Excel performs operations according to standard order of precedence &mdash; operations inside parentheses <code>()</code> are performed first.</li>\n                <li><strong>CRITICAL: Every formula in MS-Excel MUST begin with an equal sign (=).</strong></li>\n              </ul>\n\n              <div class=\"callout callout-quickcheck\">\n                <div class=\"callout-title\">🎯 EXAM FOCUS</div>\n                <p>Remember: every formula MUST start with <code>=</code>, e.g., <code>=A1*B1</code> multiplies the contents of cell A1 and cell B1.</p>\n              </div>\n            "
+          },
+          {
+            "title": "6.5 Working in MS-Excel",
+            "content": "\n              <h3>6.5.1 Creating a New Workbook</h3>\n              <div class=\"step-list\">\n                <div class=\"step-item\"><span class=\"step-badge\">1</span><div>Click the <strong>File tab</strong> &mdash; it displays the list of options.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">2</span><div>Click on <strong>New</strong>.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">3</span><div>Click on <strong>Blank Workbook</strong> (Shortcut: <code>Ctrl + N</code>).</div></div>\n              </div>\n\n              <h3>6.5.2 &ndash; 6.5.3 Entering Text &amp; Numbers</h3>\n              <ul>\n                <li><strong>Entering Text:</strong> Select cell &rarr; type required text (appears in cell &amp; formula bar) &rarr; press Enter, Tab, or arrow key to accept (Esc to cancel).</li>\n                <li><strong>Entering Numbers:</strong> Select cell &rarr; type number with/without decimal (use minus sign or parentheses for negative) &rarr; press Enter.</li>\n              </ul>\n\n              <div class=\"callout callout-remember\">\n                <div class=\"callout-title\">📌 KEYBOARD NAVIGATION</div>\n                <p>Pressing <strong>Enter</strong> moves selection DOWN one cell; pressing <strong>Tab</strong> moves selection RIGHT one cell.</p>\n              </div>\n\n              <h3>6.5.4 Entering Dates and Times</h3>\n              <ul>\n                <li><strong>Dates:</strong> Entered as <code>mm/dd/yyyy</code> (08/05/2010), <code>yyyy-mm-dd</code> (2012-07-29), or <code>dd-mmm-yyyy</code> (21-Sep-2012).</li>\n                <li><strong>Times:</strong> Entered in 24-hour (<code>14:30:00</code>) or 12-hour (<code>2:30 p</code>) format.</li>\n                <li>Excel treats dates/times as formatted numbers and aligns them to the RIGHT.</li>\n                <li><strong>Shortcuts:</strong> Press <code>Ctrl + ;</code> to insert today's date. Press <code>Ctrl + Shift + ;</code> (Ctrl + :) to insert current time.</li>\n              </ul>\n\n              <div class=\"callout callout-remember\">\n                <div class=\"callout-title\">⚠️ FIXING ##### DISPLAY</div>\n                <p>A cell displays <code>#####</code> when data or number format is wider than column width &mdash; simply widen the column to fix it.</p>\n              </div>\n\n              <h3>6.5.5 Saving and Exiting MS-Excel</h3>\n              <p>File tab &rarr; Save As &rarr; Browse &rarr; choose location &rarr; type file name &rarr; click <strong>Save</strong> (Shortcut: <code>Ctrl + S</code>). Click Close (X) to exit application.</p>\n            "
+          },
+          {
+            "title": "Practical Activities 1 & 2",
+            "content": "\n              <h3>Practical 1 &mdash; Marks Ledger</h3>\n              <p>Open a worksheet, enter the data below, and save workbook as <code>ExcelPractical1.xlsx</code>:</p>\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr><th>Roll No.</th><th>Student Name</th><th>Math</th><th>Science</th><th>Computer</th><th>English</th><th>Nepali</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr><td>1</td><td>Anjila Gurung</td><td>87</td><td>78</td><td>98</td><td>99</td><td>87</td></tr>\n                    <tr><td>2</td><td>Amit Thapa</td><td>96</td><td>68</td><td>78</td><td>78</td><td>84</td></tr>\n                    <tr><td>3</td><td>Sohan Prajapati</td><td>45</td><td>77</td><td>85</td><td>87</td><td>76</td></tr>\n                    <tr><td>4</td><td>Roshan Karna</td><td>67</td><td>75</td><td>98</td><td>90</td><td>68</td></tr>\n                  </tbody>\n                </table>\n              </div>\n\n              <h3>Practical 2 &mdash; Kirana Pasal Bill</h3>\n              <p>Open a worksheet, enter the data below, and save workbook as <code>ExcelPractical2.xlsx</code>:</p>\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr><th>S.No.</th><th>Particular</th><th>Unit Price</th><th>Quantity</th><th>Unit</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr><td>1</td><td>Basmati Rice</td><td>145</td><td>25</td><td>kg</td></tr>\n                    <tr><td>2</td><td>Rahar Dal</td><td>215</td><td>5</td><td>kg</td></tr>\n                    <tr><td>3</td><td>Mustard Oil</td><td>225</td><td>5</td><td>lt</td></tr>\n                    <tr><td>4</td><td>Washing Soap</td><td>75</td><td>4</td><td>pcs</td></tr>\n                  </tbody>\n                </table>\n              </div>\n            "
+          },
+          {
+            "title": "6.6 &ndash; 6.7 Opening Workbook &amp; Selecting Basics",
+            "content": "\n              <h3>6.6 Opening a Workbook</h3>\n              <p>File tab &rarr; Open &rarr; Browse &rarr; select Excel file &rarr; click Open.</p>\n\n              <h3>6.7 Selecting Cells, Rows, Columns &amp; Worksheet</h3>\n              <ul>\n                <li><strong>Single Cell:</strong> Click left mouse button on cell or use arrow keys.</li>\n                <li><strong>Range of Adjacent Cells:</strong> Click first cell &rarr; drag mouse diagonally to last cell (OR click first cell &rarr; hold <strong>SHIFT</strong> &rarr; click last cell). Example: <code>C6:D8</code>.</li>\n                <li><strong>Non-Adjacent Cells:</strong> Click first cell &rarr; press and hold <strong>CTRL key</strong> &rarr; click and drag over other non-adjacent cells. Example: selecting <code>B5:B9</code> and <code>F5:F9</code> together.</li>\n                <li><strong>Single Row / Column:</strong> Click row number (row header) or column letter (column header).</li>\n                <li><strong>Multiple Rows / Columns:</strong> Click first header and drag over adjacent headers.</li>\n                <li><strong>Entire Worksheet:</strong> Press <code>Ctrl + A</code> OR click the select-all corner box above row 1 and left of column A.</li>\n              </ul>\n            "
+          },
+          {
+            "title": "6.8 Editing Worksheet Contents",
+            "content": "\n              <h3>a. Editing Cell Contents</h3>\n              <ul>\n                <li>Select cell and press <strong>F2 key</strong>, OR double-click cell to position text cursor.</li>\n                <li>OR click cell and edit contents directly in the <strong>Formula Bar</strong>.</li>\n              </ul>\n\n              <h3>b. Deleting &amp; Clearing Cell Contents</h3>\n              <ul>\n                <li><strong>Delete key:</strong> Select cell/range &rarr; press <code>Delete</code> (clears data contents, keeps formatting).</li>\n                <li><strong>Clear command:</strong> Home tab &rarr; Editing group &rarr; Clear &rarr; choose <em>Clear All</em> (removes both contents &amp; formatting), <em>Clear Formats</em>, or <em>Clear Contents</em>.</li>\n              </ul>\n\n              <h3>c. Copying &amp; Moving Cell Contents</h3>\n              <ul>\n                <li><strong>Copy:</strong> Select cell(s) &rarr; <code>Ctrl + C</code> &rarr; select destination &rarr; <code>Ctrl + V</code>.</li>\n                <li><strong>Move (Cut):</strong> Select cell(s) &rarr; <code>Ctrl + X</code> &rarr; select destination &rarr; <code>Ctrl + V</code>.</li>\n              </ul>\n            "
+          },
+          {
+            "title": "6.9 AutoFill Feature",
+            "content": "\n              <p><strong>AutoFill</strong> lets you copy/fill the same data, series of numbers, dates, weekdays, months or formulas across rows or columns automatically.</p>\n              <p>The <strong>Fill Handle</strong> is the small black square at the lower-right corner of a selected cell. The pointer turns into a black plus (<code>+</code>) sign over it.</p>\n\n              <h3>Steps to AutoFill:</h3>\n              <div class=\"step-list\">\n                <div class=\"step-item\"><span class=\"step-badge\">1</span><div>Select the cell containing data/formula to copy.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">2</span><div>Point to Fill Handle until cursor becomes a plus (<code>+</code>) sign.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">3</span><div>Click and drag down or right across adjacent cells.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">4</span><div>Release mouse button.</div></div>\n              </div>\n\n              <h3>Filling Serial Numbers:</h3>\n              <ul>\n                <li><strong>Increment of 1:</strong> Type <code>1</code> in cell &rarr; press and hold <strong>Ctrl key</strong> &rarr; drag Fill Handle down.</li>\n                <li><strong>Custom Increment (e.g. 1, 3, 5...):</strong> Type <code>1</code> in A1, type <code>3</code> in A2 &rarr; select both cells (A1:A2) &rarr; drag Fill Handle down. Excel continues the pattern automatically.</li>\n              </ul>\n            "
+          },
+          {
+            "title": "6.10 &ndash; 6.12 Insert/Delete Cells, Rows, Columns &amp; Worksheets",
+            "content": "\n              <h3>Inserting &amp; Deleting Rows &amp; Columns</h3>\n              <ul>\n                <li><strong>Insert Row:</strong> Select row/cell above where to insert &rarr; Home tab &rarr; Cells group &rarr; Insert &rarr; <strong>Insert Sheet Rows</strong>.</li>\n                <li><strong>Insert Column:</strong> Select column/cell to the right &rarr; Home tab &rarr; Cells group &rarr; Insert &rarr; <strong>Insert Sheet Columns</strong>.</li>\n                <li><strong>Delete Row/Column:</strong> Home tab &rarr; Cells group &rarr; Delete &rarr; Delete Sheet Rows / Delete Sheet Columns.</li>\n              </ul>\n\n              <h3>Worksheet Management</h3>\n              <ul>\n                <li><strong>Insert Worksheet:</strong> Click New Sheet (<code>+</code>) button on tab bar OR Home tab &rarr; Insert &rarr; Insert Sheet.</li>\n                <li><strong>Delete Worksheet:</strong> Home tab &rarr; Delete &rarr; Delete Sheet (OR right-click sheet tab &rarr; Delete).</li>\n                <li><strong>Rename Worksheet:</strong> Double-click sheet tab (OR right-click sheet tab &rarr; Rename &rarr; type new name).</li>\n              </ul>\n            "
+          },
+          {
+            "title": "6.13 &ndash; 6.14 Formatting Data &amp; Cell Borders",
+            "content": "\n              <h3>6.13 Formatting Text &amp; Numbers</h3>\n              <ul>\n                <li><strong>Text Formatting:</strong> Select cell(s) &rarr; Home tab &rarr; Font group (choose Font, Size, Bold, Italic, Color, Fill Color).</li>\n                <li><strong>Number Formats:</strong> Home tab &rarr; Number group &rarr; choose <em>General, Number (2 decimals), Currency ($), Date/Time, Percentage (%)</em>.</li>\n                <li><strong>Alignment:</strong> Home tab &rarr; Alignment group &rarr; Left, Center, Right, Top, Middle, Bottom, <strong>Wrap Text</strong> (fits long text in cell), <strong>Merge &amp; Center</strong> (combines cells into one).</li>\n              </ul>\n\n              <h3>6.14 Adding Borders to Cells (Making Data Print-Ready)</h3>\n              <p>Gridlines do NOT appear when printing a spreadsheet, so borders must be added for clarity when printing:</p>\n              <div class=\"step-list\">\n                <div class=\"step-item\"><span class=\"step-badge\">1</span><div>Select range of cells where borders are needed.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">2</span><div>Home tab &rarr; Font group &rarr; click <strong>Borders dropdown</strong> &rarr; select <strong>All Borders</strong> (or Format Cells &rarr; Border tab).</div></div>\n              </div>\n            "
+          },
+          {
+            "title": "6.15 Working with Formulas",
+            "content": "\n              <p>A formula is an equation that performs calculations on worksheet values. <strong>All formulas begin with equal sign (=).</strong></p>\n\n              <h3>Task: Writing Your First Formula</h3>\n              <div class=\"step-list\">\n                <div class=\"step-item\"><span class=\"step-badge\">1</span><div>Select cell where result should appear (e.g. C1).</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">2</span><div>Type <code>=</code>.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">3</span><div>Enter formula equation, e.g., <code>=A1*B1</code> to multiply cell A1 and B1.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">4</span><div>Press <strong>Enter</strong>.</div></div>\n              </div>\n\n              <h3>Practicals 3 &amp; 4:</h3>\n              <ul>\n                <li><strong>Practical 3 (Electric Charge Total):</strong> Select F4 &rarr; type <code>=B4+C4+D4+E4</code> &rarr; press Enter &rarr; drag Fill Handle down.</li>\n                <li><strong>Practical 4 (Marks Ledger Total):</strong> Open <code>ExcelPractical1.xlsx</code> &rarr; select H5 &rarr; type <code>=C5+D5+E5+F5+G5</code> &rarr; press Enter &rarr; drag Fill Handle to H8.</li>\n              </ul>\n            "
+          },
+          {
+            "title": "6.16 Working with Built-in Functions",
+            "content": "\n              <p>A <strong>Function</strong> is a predefined built-in formula that performs calculations on specific values (arguments).</p>\n\n              <h3>i. SUM Function</h3>\n              <p>Calculates the sum of all numbers in a range of cells.</p>\n              <div class=\"callout callout-doyouknow\">\n                <div class=\"callout-title\">📐 SYNTAX &amp; EXAMPLES</div>\n                <p><code>=SUM(number1, number2, ...)</code><br>\n                <code>=SUM(A1:E1)</code> adds all numbers from cell A1 to E1.<br>\n                <code>=SUM(C5:G5)</code> adds subject marks for student.</p>\n              </div>\n\n              <h3>ii&ndash;iv. MAX, MIN &amp; AVERAGE Functions</h3>\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr><th>Function</th><th>Description</th><th>Example &amp; Result</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr><td><strong>MAX</strong></td><td>Returns highest (maximum) value in range</td><td><code>=MAX(C5:C8)</code> &rarr; result: 89</td></tr>\n                    <tr><td><strong>MIN</strong></td><td>Returns lowest (minimum) value in range</td><td><code>=MIN(C5:C8)</code> &rarr; result: 45</td></tr>\n                    <tr><td><strong>AVERAGE</strong></td><td>Calculates arithmetic mean of range</td><td><code>=AVERAGE(C5:C8)</code> &rarr; result: 69.25</td></tr>\n                  </tbody>\n                </table>\n              </div>\n\n              <h3>v. IF Function (Logical Test)</h3>\n              <p>Tests a logical condition and returns one value if TRUE, and another if FALSE.</p>\n              <p><code>=IF(logical_test, value_if_true, value_if_false)</code></p>\n              <div class=\"callout callout-tryit\">\n                <div class=\"callout-title\">✏️ PRACTICAL 7: TAX CALCULATION</div>\n                <p>Calculate Tax as 15% of Salary if Salary &gt; 50,000, otherwise 12% of Salary:<br>\n                Cell E3 formula: <code>=IF(D3>50000, D3*15%, D3*12%)</code> &rarr; copy down to E6.</p>\n              </div>\n\n              <h3>vi&ndash;vii. OR &amp; AND Functions</h3>\n              <ul>\n                <li><strong>OR Function:</strong> Returns TRUE if <em>any</em> condition is TRUE. Syntax: <code>=OR(cond1, cond2, ...)</code></li>\n                <li><strong>AND Function:</strong> Returns TRUE only if <em>ALL</em> conditions are TRUE. Syntax: <code>=AND(cond1, cond2, ...)</code></li>\n              </ul>\n\n              <div class=\"callout callout-remember\">\n                <div class=\"callout-title\">📌 PRACTICAL 8: GRADE SHEET (OR + IF)</div>\n                <p>Display Result as <code>***</code> if any subject mark is below 35:<br>\n                Cell C13: <code>=IF(OR(D5<35, D6<35, D7<35, D8<35, D9<35, D10<35, D11<35), \"***\", \"Pass\")</code></p>\n              </div>\n            "
+          },
+          {
+            "title": "6.17 Charts in Excel",
+            "content": "\n              <p>A <strong>Chart</strong> is a graphical representation of numeric data, making it easier to compare and understand trends.</p>\n\n              <h3>Components (Anatomy) of an Excel Chart:</h3>\n              <ul>\n                <li><strong>Chart Title:</strong> Title heading of chart.</li>\n                <li><strong>Data Point:</strong> Single value displayed as bar, slice or point.</li>\n                <li><strong>Data Series:</strong> Group of related data points plotted together.</li>\n                <li><strong>Legend:</strong> Identifies each data series using color/pattern box.</li>\n                <li><strong>Plot Area:</strong> Area where data series are drawn.</li>\n                <li><strong>X-axis &amp; Y-axis:</strong> Category horizontal axis (X) and Value vertical axis (Y).</li>\n              </ul>\n\n              <h3>Main Types of Charts:</h3>\n              <div class=\"step-card-grid\">\n                <div class=\"step-card\"><span class=\"step-badge\">1</span><span><strong>Column Chart:</strong> Vertical bars comparing values across categories.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">2</span><span><strong>Line Chart:</strong> Line connecting data points to show trends over time.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">3</span><span><strong>Pie Chart:</strong> Circular slices showing each item as percentage of whole.</span></div>\n              </div>\n\n              <h3>Creating a Column Chart (Step-by-Step):</h3>\n              <div class=\"step-list\">\n                <div class=\"step-item\"><span class=\"step-badge\">a</span><div>Select data range (e.g., A10:C14).</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">b</span><div>Insert tab &rarr; Charts group &rarr; click <strong>Column</strong> &rarr; choose chart style.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">c</span><div>Chart appears on worksheet. Design tab &rarr; Add Chart Element to adjust titles &amp; legend.</div></div>\n              </div>\n            "
+          },
+          {
+            "title": "Textbook Exercise Solutions &mdash; Spreadsheet MS-Excel 2016",
+            "content": "\n              <h2>Innovative Computer Science &mdash; Book 8, Unit 6 Complete Exercise Solutions</h2>\n\n              <h3>1. Very Short Answer Questions</h3>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">a. What is spreadsheet software?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> Spreadsheet software is application software designed to organize, calculate, and analyze data in a grid of rows and columns.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">b. List any two spreadsheet software.</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> Microsoft Excel and OpenOffice Calc.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">c. What is a spreadsheet?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> A spreadsheet (or worksheet) is a working sheet made up of rows and columns used to enter data and perform calculations.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">d. What is the cell address of a cell which is formed by column D followed by row number 7?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> The cell address is <strong>D7</strong>.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">e. How is the range of cells written for cells starting from B1 to E2?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> It is written as <strong>B1:E2</strong>.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">f. What is a formula?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> A formula is an equation that defines the relationship between two or more cells to perform calculations, always starting with an equal sign (<code>=</code>).</div>\n              </div>\n\n              <h3>2. Short Answer Questions</h3>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">a. What is a cell? How is it referred to?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> A cell is a rectangular box formed by the intersection of a row and a column. It is referred to by its cell address combining column letter and row number (e.g. <code>A1</code>, <code>C3</code>).</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">b. Define workbook and worksheet.</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> A <em>Workbook</em> is an Excel file containing one or more worksheets (extension <code>.xlsx</code>). A <em>Worksheet</em> is a single page grid of rows and columns inside a workbook.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">c. List the differences between a worksheet and a chartsheet.</div>\n                <div class=\"qa-card-a\">\n                  <strong>Answer:</strong>\n                  <ul>\n                    <li><em>Worksheet:</em> Grid containing rows, columns, and data cells for calculations.</li>\n                    <li><em>Chart Sheet:</em> A dedicated sheet containing only a single chart graph without cells or rows.</li>\n                  </ul>\n                </div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">d. What is a block of cells? How do you refer to a block of cells?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> A block of cells (range) is a rectangular group of adjacent cells. It is referred to by writing the top-left cell address separated by a colon to the bottom-right cell address (e.g. <code>A1:D5</code>).</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">e. List the types of data that can be used in Excel.</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> 1) Text (Label), 2) Number (Value), and 3) Formula.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">f. What is Auto fill? What is a fill handle?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> <em>AutoFill</em> is a feature to fill repetitive data, series of numbers/dates, or formulas automatically. The <em>Fill Handle</em> is the small black square at the bottom-right corner of an active cell (<code>+</code>).</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">g. What is a formula? Write the steps to enter a formula.</div>\n                <div class=\"qa-card-a\">\n                  <strong>Answer:</strong> A formula is an expression that calculates values in a worksheet.\n                  <br><strong>Steps:</strong> 1) Select cell, 2) Type equal sign (<code>=</code>), 3) Type equation using values, cell references and operators (e.g. <code>=A1+B1</code>), 4) Press Enter.\n                </div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">h. What is a function? List any four functions that you can use in Excel.</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> A function is a predefined built-in formula in Excel that performs calculations on arguments. Four functions: <code>SUM()</code>, <code>MIN()</code>, <code>MAX()</code>, and <code>AVERAGE()</code>.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">i. What is a chart or graph? List any four charts that you can prepare in any spreadsheet software.</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> A chart is a graphical representation of numeric data. Four charts: Column Chart, Bar Chart, Line Chart, and Pie Chart.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">j. What do you mean by data point and data series?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> A <em>Data Point</em> is a single numeric value plotted in a chart (bar, dot, or slice). A <em>Data Series</em> is a collection of related data points plotted together in a chart.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">m. What is a chart legend?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> A chart legend is an informational box key that identifies each data series using a unique color, pattern, or symbol.</div>\n              </div>\n\n              <h3>3. Uses of the Following Functions</h3>\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr><th>Function</th><th>Use / Purpose</th><th>Example</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr><td><code>SUM()</code></td><td>Calculates the total sum of numbers in a range</td><td><code>=SUM(A1:A10)</code></td></tr>\n                    <tr><td><code>MIN()</code></td><td>Returns the smallest (minimum) value in a range</td><td><code>=MIN(B2:B8)</code></td></tr>\n                    <tr><td><code>MAX()</code></td><td>Returns the largest (maximum) value in a range</td><td><code>=MAX(C1:C20)</code></td></tr>\n                    <tr><td><code>AVERAGE()</code></td><td>Calculates the arithmetic mean (average) of a range</td><td><code>=AVERAGE(D1:D5)</code></td></tr>\n                    <tr><td><code>IF()</code></td><td>Tests a condition and returns one value if TRUE, another if FALSE</td><td><code>=IF(A1>=40, \"Pass\", \"Fail\")</code></td></tr>\n                  </tbody>\n                </table>\n              </div>\n\n              <h3>4. State Whether True or False</h3>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">a. A spreadsheet program can be used to prepare letters, classnotes, etc.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Word processors like MS-Word are used for letters and classnotes.)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">b. In a spreadsheet program, when values in cells are changed, the values in all dependent cells also changed automatically.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">c. MS-Excel organizes only numeric data in columns or rows.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Excel organizes text/labels and formulas along with numeric data.)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">d. A cell address is formed by the row number followed by the column heading.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Formed by column letter followed by row number, e.g. D7.)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">e. An active cell is surrounded by dark gridlines.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">f. Data can be entered only in the active cell of the worksheet.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">g. A range of cells starting from A1 to A5 is referred to as A1:A5.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">h. The Delete key only deletes the contents of a cell or cells but does not delete the formats applied on the cell or cells.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">i. The Auto fill feature allows you to fill only serial numbers in cells.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(AutoFill also fills dates, weekdays, months, and formulas.)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">j. All functions in MS-Excel must begin with an equal sign.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">k. A chart can be placed only on a chart sheet.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(A chart can also be embedded directly inside a worksheet alongside data.)</em></div></div>\n\n              <h3>5. Fill in the Blanks</h3>\n              <p><strong>a.</strong> A workbook is the collection of <u>worksheets</u> and <u>chartsheets</u> in MS-Excel.</p>\n              <p><strong>b.</strong> A spreadsheet is also called <u>worksheet</u>.</p>\n              <p><strong>c.</strong> A spreadsheet file created in MS-Excel has <u>.xlsx</u> extension.</p>\n              <p><strong>d.</strong> When a data is entered in a cell, it is also appeared in the <u>Formula Bar</u>.</p>\n              <p><strong>e.</strong> The group of adjacent cells that forms a rectangle area is known as <u>range of cells (or block of cells)</u>.</p>\n              <p><strong>f.</strong> The entry in the worksheet that defines the relationship of two or more cells is known as <u>formula</u>.</p>\n              <p><strong>g.</strong> To edit the cell contents you have to press <u>F2</u> Key.</p>\n              <p><strong>h.</strong> The <u>MAX</u> function returns the highest value in a range of cells.</p>\n              <p><strong>i.</strong> The X-axis of a chart contains <u>Categories (Category axis)</u> of the chart.</p>\n              <p><strong>j.</strong> A <u>Legend</u> represents each data series with a unique color or pattern.</p>\n            "
           }
         ]
       },
@@ -687,11 +260,95 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 8",
         "updated": "2026-09-03",
-        "summary": "Full PowerPoint guide.",
+        "author": "Prepared by ER Ankit Lamichhane",
+        "summary": "Complete guide to creating, designing, delivering slide shows, animations, transitions, printing & packaging in Microsoft PowerPoint 2016.",
         "topics": [
           {
-            "title": "1. Intro",
-            "content": "<p>Full notes added.</p>"
+            "title": "Learning Objectives",
+            "content": "\n              <p>At the end of this chapter, students will be able to:</p>\n              <div class=\"step-card-grid\">\n                <div class=\"step-card\"><span class=\"step-badge\">1</span><span>Prepare a presentation using pictures, audio and videos.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">2</span><span>Implement the transition feature between slides.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">3</span><span>Implement animation effects on slide objects.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">4</span><span>Prepare a package presentation for another computer.</span></div>\n              </div>\n            "
+          },
+          {
+            "title": "7.0 Introduction: What is a Presentation?",
+            "content": "\n              <p>Information can be presented using traditional methods (pamphlets, posters, handouts) or digitally with a computer &amp; projector.</p>\n              <ul>\n                <li>A <strong>presentation program</strong> lets you create, modify, manage and display information in the form of slides.</li>\n                <li>A <strong>Slide</strong> is like one page of a presentation &mdash; a brief topic shown using text, pictures, audio, video and animation.</li>\n                <li>A <strong>Presentation</strong> = a collection of slides arranged in sequential order.</li>\n                <li>Used widely to teach students, present business information, or share news in public places.</li>\n                <li><strong>Popular presentation programs:</strong> Microsoft PowerPoint, Apple Keynote, OpenOffice Impress, Slidebean, Adobe Premiere.</li>\n              </ul>\n            "
+          },
+          {
+            "title": "7.1 Getting to Know MS-PowerPoint",
+            "content": "\n              <p>MS-PowerPoint is a powerful multimedia presentation program developed by Microsoft. It lets you create, edit, organize and present presentations effectively.</p>\n              <p>A presentation in MS-PowerPoint is made up of a number of slides arranged in sequential order. Think of it as a <em>digital storyboard</em> &mdash; every slide is one page of your story.</p>\n              \n              <h3>Task: Loading PowerPoint</h3>\n              <div class=\"step-list\">\n                <div class=\"step-item\"><span class=\"step-badge\">1</span><div><strong>Open Run Dialog:</strong> Press the <code>Windows key + R</code> keys together.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">2</span><div><strong>Type Command:</strong> Type <code>POWERPNT</code> in the Run command box.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">3</span><div><strong>Execute:</strong> Press Enter or click on the <strong>OK</strong> button.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">4</span><div><strong>Alternative:</strong> Click <em>Start &rarr; All Apps &rarr; scroll down &rarr; select PowerPoint 2016</em>.</div></div>\n              </div>\n\n              <!-- UI Figure Screenshot: Run Dialog Box -->\n              <div class=\"ui-figure\">\n                <div class=\"ui-figure-header\">💻 Figure 7.1: Windows Run Dialog Box</div>\n                <div class=\"ui-window-box\">\n                  <div class=\"ui-window-titlebar\">Run</div>\n                  <div class=\"ui-window-content\">\n                    <p style=\"font-size: 0.88rem; margin-bottom: 0.5rem;\">Type the name of a program, folder, document, or Internet resource, and Windows will open it for you.</p>\n                    <div style=\"display: flex; align-items: center; gap: 0.5rem;\">\n                      <label style=\"font-weight: 600; font-size: 0.9rem;\">Open:</label>\n                      <input type=\"text\" value=\"POWERPNT\" readonly style=\"flex: 1; padding: 0.35rem 0.5rem; border: 1px solid var(--border-focus); border-radius: 4px; font-weight: 700; background: var(--surface); color: var(--primary);\">\n                    </div>\n                    <div style=\"display: flex; justify-content: flex-end; gap: 0.5rem; margin-top: 1rem;\">\n                      <button style=\"padding: 0.3rem 0.8rem; font-size: 0.85rem; font-weight: 700; background: var(--primary); color: #fff; border: none; border-radius: 4px;\">OK</button>\n                      <button style=\"padding: 0.3rem 0.8rem; font-size: 0.85rem; border: 1px solid var(--border); background: var(--background); border-radius: 4px;\">Cancel</button>\n                    </div>\n                  </div>\n                </div>\n                <div class=\"ui-figure-caption\">The Run dialog box &mdash; type POWERPNT to launch PowerPoint</div>\n              </div>\n            "
+          }
+        ]
+      },
+      {
+        "id": "class8-cs-ch8",
+        "chapterNumber": 8,
+        "title": "Computer Graphics",
+        "subject": "Computer Science",
+        "className": "Class 8",
+        "updated": "2026-09-03",
+        "summary": "Introduction to digital graphics, vector vs raster, image editing basics.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 8 Chapter 8 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class8-cs-ch9",
+        "chapterNumber": 9,
+        "title": "ICT & Contemporary Technology",
+        "subject": "Computer Science",
+        "className": "Class 8",
+        "updated": "2026-09-03",
+        "summary": "Information & Communication Technology, AI, Cloud, IoT basics.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 8 Chapter 9 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class8-cs-ch10",
+        "chapterNumber": 10,
+        "title": "Number System",
+        "subject": "Computer Science",
+        "className": "Class 8",
+        "updated": "2026-09-03",
+        "summary": "Binary, Decimal, Octal, Hexadecimal conversion rules.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 8 Chapter 10 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class8-cs-ch11",
+        "chapterNumber": 11,
+        "title": "Computer Virus",
+        "subject": "Computer Science",
+        "className": "Class 8",
+        "updated": "2026-09-03",
+        "summary": "Malware types, symptoms, prevention & antivirus software.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 8 Chapter 11 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class8-cs-ch12",
+        "chapterNumber": 12,
+        "title": "Data Communication and Computer Network",
+        "subject": "Computer Science",
+        "className": "Class 8",
+        "updated": "2026-09-03",
+        "summary": "LAN, MAN, WAN, network topologies, transmission media.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 8 Chapter 12 will be added soon. [Add your notes here]</p>"
           }
         ]
       },
@@ -702,11 +359,104 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 8",
         "updated": "2026-09-06",
-        "summary": "Full HTML guide & exercise solutions.",
+        "author": "Innovative Computer Science &mdash; Book 8, Unit 13",
+        "summary": "Comprehensive guide to HTML tags, basic elements, text formatting, images, marquee, hyperlinks, tables, framesets & complete textbook exercise solutions.",
         "topics": [
           {
-            "title": "1. Intro",
-            "content": "<p>Full notes added.</p>"
+            "title": "Unit Roadmap & What We'll Cover",
+            "content": "\n              <div class=\"step-card-grid\">\n                <div class=\"step-card\"><span class=\"step-badge\">1.1</span><span>Introduction to HTML &amp; Why learn HTML?</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">1.2</span><span>HTML Elements, Markup Tags &amp; Attributes</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">1.3</span><span>Basic Elements (HTML, HEAD, BODY)</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">1.4</span><span>Structure of an HTML Document</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">1.5</span><span>Creating &amp; Saving an HTML Document</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">1.6</span><span>Viewing a Document &amp; Viewing Source Code</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">1.7</span><span>Formatting &amp; Heading Tags (&lt;H1&gt;..&lt;H6&gt;, &lt;P&gt;, &lt;BR&gt;, &lt;HR&gt;)</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">1.8</span><span>Text Formatting (&lt;B&gt;, &lt;I&gt;, &lt;U&gt;, &lt;SUP&gt;, &lt;SUB&gt;, &lt;FONT&gt;)</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">1.9</span><span>Images in HTML (&lt;IMG&gt; tag &amp; attributes)</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">1.10</span><span>Marquee Text (&lt;MARQUEE&gt; tag)</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">1.11</span><span>Hyperlinks (&lt;A&gt; anchor tag)</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">1.12</span><span>Tables (&lt;TABLE&gt;, &lt;TR&gt;, &lt;TH&gt;, &lt;TD&gt;, &lt;CAPTION&gt;) &amp; Frames (&lt;FRAMESET&gt;, &lt;FRAME&gt;)</span></div>\n              </div>\n            "
+          },
+          {
+            "title": "1.1 Introduction to HTML",
+            "content": "\n              <p><strong>HTML</strong> stands for <strong>Hyper Text Markup Language</strong>.</p>\n              <ul>\n                <li>It is a web-based, client-side markup language used to develop web pages and websites.</li>\n                <li>Created by <strong>Tim Berners-Lee in 1991 A.D.</strong></li>\n                <li>HTML documents are plain text files containing markup tags that instruct web browsers how to format and display text, images, and media.</li>\n              </ul>\n\n              <div class=\"ui-figure\">\n                <div class=\"ui-figure-header\">📄 Simple HTML Document Example</div>\n                <div class=\"ui-window-box\" style=\"font-family: monospace; background: #0f172a; color: #38bdf8; padding: 1rem; border-radius: 6px;\">\n                  &lt;html&gt;<br>\n                  &nbsp;&nbsp;&lt;p&gt;Hello, Web!&lt;/p&gt;<br>\n                  &lt;/html&gt;\n                </div>\n              </div>\n            "
+          },
+          {
+            "title": "1.2 Why Learn HTML? & Elements, Tags & Attributes",
+            "content": "\n              <h3>Why Learn HTML?</h3>\n              <div class=\"step-card-grid\">\n                <div class=\"step-card\"><span class=\"step-badge\">1</span><span><strong>Create a Website:</strong> Used to design websites and web templates from scratch.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">2</span><span><strong>Web Designer Skill:</strong> Simple to learn &mdash; starter skill for every web designer.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">3</span><span><strong>Understand the Web:</strong> Helps optimize websites for speed and performance.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">4</span><span><strong>Base of Other Languages:</strong> Makes it easy to learn JavaScript, PHP, CSS, and Python.</span></div>\n              </div>\n\n              <h3>HTML Elements &amp; Markup Tags</h3>\n              <ul>\n                <li>An HTML document is composed of HTML elements.</li>\n                <li>Each element consists of a <strong>start tag</strong>, <strong>content</strong>, and an <strong>end tag</strong>.</li>\n                <li>HTML tags are enclosed in angle brackets (e.g. <code>&lt;html&gt;</code>) and are <strong>not case-sensitive</strong> (<code>&lt;HTML&gt;</code> is same as <code>&lt;html&gt;</code>).</li>\n              </ul>\n\n              <h3>Two Kinds of Tags:</h3>\n              <ul>\n                <li><strong>a. Container Tag (Paired Tag):</strong> Has both a starting tag and a closing tag with a forward slash (<code>/</code>). Starting tag activates effect, closing tag ends it. Examples: <code>&lt;HTML&gt;</code>, <code>&lt;HEAD&gt;</code>, <code>&lt;TITLE&gt;</code>, <code>&lt;BODY&gt;</code>, <code>&lt;B&gt;</code>, <code>&lt;I&gt;</code>, <code>&lt;U&gt;</code>.</li>\n                <li><strong>b. Empty Tag (Singular / Stand-alone Tag):</strong> Has no closing tag. Examples: <code>&lt;BR&gt;</code> (line break), <code>&lt;HR&gt;</code> (horizontal rule), <code>&lt;IMG&gt;</code> (inline image).</li>\n              </ul>\n\n              <h3>Attributes:</h3>\n              <p>Attributes describe additional features or properties of an element. Specified <strong>only inside the starting tag</strong>. Syntax: <code>&lt;Tag_name Attribute1=\"value\"&gt;</code>. Example: <code>&lt;P Align=\"right\"&gt;</code> right aligns paragraph text.</p>\n            "
+          },
+          {
+            "title": "1.3 Basic Elements & Structure of an HTML Document",
+            "content": "\n              <p>All web pages contain three basic structural elements:</p>\n              <ol>\n                <li><strong>&lt;HTML&gt; element:</strong> Encloses the entire HTML document. Tells browser the file is HTML.</li>\n                <li><strong>&lt;HEAD&gt; element:</strong> Appears inside HTML; contains title and metadata (e.g. <code>&lt;TITLE&gt;</code>, <code>&lt;LINK&gt;</code>, <code>&lt;STYLE&gt;</code>, <code>&lt;SCRIPT&gt;</code>).</li>\n                <li><strong>&lt;BODY&gt; element:</strong> Contains all visible contents of document. Supports attributes:\n                  <ul>\n                    <li><code>BGCOLOR=\"color\"</code>: sets background color (e.g. <code>BGCOLOR=\"Yellow\"</code> or <code>#RRGGBB</code>).</li>\n                    <li><code>TEXT=\"color\"</code>: sets default text color.</li>\n                    <li><code>BACKGROUND=\"image_file\"</code>: sets a background image.</li>\n                  </ul>\n                </li>\n              </ol>\n\n              <div class=\"ui-figure\">\n                <div class=\"ui-figure-header\">🏗️ Standard Structure of an HTML Document</div>\n                <div class=\"ui-window-box\" style=\"font-family: monospace; background: #0f172a; color: #f8fafc; padding: 1.25rem; border-radius: 6px; line-height: 1.6;\">\n                  &lt;HTML&gt;<br>\n                  &nbsp;&nbsp;&lt;HEAD&gt;<br>\n                  &nbsp;&nbsp;&nbsp;&nbsp;&lt;TITLE&gt; The title of the page goes here &lt;/TITLE&gt;<br>\n                  &nbsp;&nbsp;&lt;/HEAD&gt;<br>\n                  &nbsp;&nbsp;&lt;BODY&gt;<br>\n                  &nbsp;&nbsp;&nbsp;&nbsp;Contents of the web page are kept here.<br>\n                  &nbsp;&nbsp;&lt;/BODY&gt;<br>\n                  &lt;/HTML&gt;\n                </div>\n              </div>\n            "
+          },
+          {
+            "title": "1.5 Creating, Saving & Viewing HTML Documents",
+            "content": "\n              <h3>Creating &amp; Saving:</h3>\n              <ul>\n                <li>HTML documents are written in plain text editors like <strong>Notepad</strong> or Textpad.</li>\n                <li>Must be saved with <strong>.HTM</strong> or <strong>.HTML</strong> file extension (e.g., <code>Prac1.htm</code>).</li>\n              </ul>\n\n              <div class=\"ui-figure\">\n                <div class=\"ui-figure-header\">📝 Example 1: Dashain Festival HTML Document</div>\n                <div class=\"ui-window-box\" style=\"font-family: monospace; background: #0f172a; color: #fbbf24; padding: 1rem; border-radius: 6px;\">\n                  &lt;HTML&gt;<br>\n                  &lt;HEAD&gt;<br>\n                  &nbsp;&nbsp;&lt;TITLE&gt;Dashain Festival&lt;/TITLE&gt;<br>\n                  &lt;/HEAD&gt;<br>\n                  &lt;BODY&gt;<br>\n                  &nbsp;&nbsp;Dashain is the longest and the most important festival of Nepal.<br>\n                  &nbsp;&nbsp;According to legend, Goddess Durga conquered evils on Dashain day.<br>\n                  &lt;/BODY&gt;<br>\n                  &lt;/HTML&gt;\n                </div>\n              </div>\n\n              <h3>Viewing Document &amp; Source Code:</h3>\n              <ul>\n                <li><strong>Viewing Page:</strong> Open web browser &rarr; File &rarr; Open &rarr; Browse &rarr; select <code>Prac1.htm</code> &rarr; click OK.</li>\n                <li><strong>Viewing Source Code:</strong>\n                  <ul>\n                    <li><em>Method 1:</em> Browser View menu &rarr; select <strong>Source</strong>.</li>\n                    <li><em>Method 2:</em> Right-click anywhere on page &rarr; select <strong>View Source</strong> (opens code in Notepad).</li>\n                  </ul>\n                </li>\n              </ul>\n            "
+          },
+          {
+            "title": "1.7 Formatting Tags: Headings, Paragraph, Line Break & Horizontal Rule",
+            "content": "\n              <h3>Headings (&lt;H1&gt; to &lt;H6&gt;)</h3>\n              <p>Creates 6 levels of headings: <code>&lt;H1&gt;</code> is largest heading, <code>&lt;H6&gt;</code> is smallest. Syntax: <code>&lt;Hn align=\"Left|Right|Center\"&gt;Text&lt;/Hn&gt;</code></p>\n\n              <h3>Paragraph (&lt;P&gt;), Line Break (&lt;BR&gt;) &amp; Horizontal Rule (&lt;HR&gt;)</h3>\n              <ul>\n                <li><code>&lt;P ALIGN=\"left|right|center|justify\"&gt;</code>: Container tag that creates a paragraph.</li>\n                <li><code>&lt;BR&gt;</code>: Empty tag that forces a line break in text.</li>\n                <li><code>&lt;HR ALIGN=\"...\" COLOR=\"...\" SIZE=\"px\" WIDTH=\"px|%\"&gt;</code>: Empty tag that inserts a horizontal line.</li>\n              </ul>\n\n              <div class=\"ui-figure\">\n                <div class=\"ui-figure-header\">💻 Example Code: Operating System Software</div>\n                <div class=\"ui-window-box\" style=\"font-family: monospace; background: #0f172a; color: #38bdf8; padding: 1rem; border-radius: 6px;\">\n                  &lt;BODY bgcolor=\"purple\" text=\"black\"&gt;<br>\n                  &lt;H1 align=\"CENTER\"&gt;Operating System Software&lt;/H1&gt;&lt;HR&gt;<br>\n                  &lt;P align=\"Justify\"&gt;Operating system software coordinates and controls all hardware and software.&lt;/P&gt;<br>\n                  &lt;H2 align=\"right\"&gt;Some basic functions are:&lt;/H2&gt;<br>\n                  &lt;BR&gt;It manages input/output devices.<br>\n                  &lt;BR&gt;It manages computer memory (RAM, storage).<br>\n                  &lt;BR&gt;It provides environment to run software.<br>\n                  &lt;/BODY&gt;\n                </div>\n              </div>\n            "
+          },
+          {
+            "title": "1.8 Text Formatting & The Font Tag",
+            "content": "\n              <h3>Text Styling Tags:</h3>\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr><th>Tag</th><th>Description</th><th>Example Code</th><th>Output</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr><td><code>&lt;B&gt;</code></td><td>Bolds text</td><td><code>&lt;B&gt;Bold Text&lt;/B&gt;</code></td><td><strong>Bold Text</strong></td></tr>\n                    <tr><td><code>&lt;I&gt;</code></td><td>Italicizes text</td><td><code>&lt;I&gt;Italic Text&lt;/I&gt;</code></td><td><em>Italic Text</em></td></tr>\n                    <tr><td><code>&lt;U&gt;</code></td><td>Underlines text</td><td><code>&lt;U&gt;Underlined Text&lt;/U&gt;</code></td><td><u>Underlined Text</u></td></tr>\n                    <tr><td><code>&lt;SUP&gt;</code></td><td>Superscript (raises text)</td><td><code>(a+b)&lt;sup&gt;2&lt;/sup&gt;</code></td><td>(a+b)<sup>2</sup></td></tr>\n                    <tr><td><code>&lt;SUB&gt;</code></td><td>Subscript (lowers text)</td><td><code>H&lt;sub&gt;2&lt;/sub&gt;O</code></td><td>H<sub>2</sub>O</td></tr>\n                  </tbody>\n                </table>\n              </div>\n\n              <h3>The Font Tag (&lt;FONT&gt;)</h3>\n              <p>Sets text color, size (1 to 7; default 3), and font typeface name. Syntax:</p>\n              <div class=\"ui-figure\">\n                <div class=\"ui-window-box\" style=\"font-family: monospace; background: #0f172a; color: #4ade80; padding: 1rem; border-radius: 6px;\">\n                  &lt;FONT COLOR=\"Red\" SIZE=\"6\" FACE=\"Arial\"&gt;Styled Text&lt;/FONT&gt;\n                </div>\n              </div>\n            "
+          },
+          {
+            "title": "2.0 Images, Marquee Text, Hyperlinks, Tables & Frames",
+            "content": "\n              <h3>Images (&lt;IMG&gt;)</h3>\n              <p>Inline image tag (empty tag). Syntax: <code>&lt;IMG SRC=\"image.jpg\" WIDTH=\"100\" HEIGHT=\"100\" ALIGN=\"Left\" ALT=\"Image text\"&gt;</code></p>\n\n              <h3>Marquee Text (&lt;MARQUEE&gt;)</h3>\n              <p>Creates scrolling text. Syntax: <code>&lt;MARQUEE BEHAVIOR=\"Alternate|Scroll|Slide\" DIRECTION=\"Left|Right|Up|Down\" BGCOLOR=\"yellow\"&gt;Scrolling Text&lt;/MARQUEE&gt;</code></p>\n\n              <h3>Hyperlinks (&lt;A&gt; Anchor Tag)</h3>\n              <p>Links web pages together. Syntax: <code>&lt;A HREF=\"URL\"&gt;Clickable Text&lt;/A&gt;</code>. Examples:</p>\n              <ul>\n                <li>Link to page: <code>&lt;A HREF=\"Prac2.htm\"&gt;Practical Session 2&lt;/A&gt;</code></li>\n                <li>Link to website: <code>&lt;A HREF=\"https://ankitlamichhane.com.np\"&gt;Ankit Website&lt;/A&gt;</code></li>\n                <li>Image as link: <code>&lt;A HREF=\"Pokhara.HTM\"&gt;&lt;IMG SRC=\"pokhara.gif\" WIDTH=\"100\"&gt;&lt;/A&gt;</code></li>\n              </ul>\n\n              <h3>Tables (&lt;TABLE&gt;)</h3>\n              <p>Organizes data in rows (<code>&lt;TR&gt;</code>) and cells (<code>&lt;TH&gt;</code> for heading, <code>&lt;TD&gt;</code> for data). Uses <code>&lt;CAPTION&gt;</code> for table title. Attributes: <code>BORDER</code>, <code>BGCOLOR</code>, <code>CELLPADDING</code>, <code>CELLSPACING</code>.</p>\n\n              <h3>Frames (&lt;FRAMESET&gt; &amp; &lt;FRAME&gt;)</h3>\n              <p>Splits browser window into sub-windows (frames). Note: When <code>&lt;FRAMESET&gt;</code> is used, <code>&lt;BODY&gt;</code> tag is NOT allowed! Example: <code>&lt;FRAMESET COLS=\"25%,75%\"&gt; &lt;FRAME SRC=\"menu.htm\"&gt; &lt;FRAME SRC=\"main.htm\"&gt; &lt;/FRAMESET&gt;</code></p>\n            "
+          },
+          {
+            "title": "Textbook Exercise Solutions — Complete Q1 to Q16",
+            "content": "\n              <h2>Innovative Computer Science &mdash; Book 8, Unit 13 Complete Exercise Solutions</h2>\n\n              <h3>1. Very Short Answer Questions</h3>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">a. What is HTML?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> HTML (Hyper Text Markup Language) is a client-side markup language used to design and develop web pages and websites.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">b. What is the HTML tag?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> An HTML tag is a command enclosed in angle brackets (e.g. <code>&lt;html&gt;</code>) that instructs web browsers how to format and display web page content.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">c. Define container tag.</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> A container tag (paired tag) is an HTML tag that has both a starting tag (e.g. <code>&lt;B&gt;</code>) and an ending tag (e.g. <code>&lt;/B&gt;</code>) to enclose content.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">d. What is the attribute of an element?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> An attribute is a special parameter specified inside an opening tag that describes additional features or formatting properties of an HTML element.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">e. How many different colors does HTML support?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> HTML supports 16 standard color names by default and over 16 million colors using hexadecimal codes (<code>#RRGGBB</code>).</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">f. What is the extension of an HTML document file?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> An HTML document file has the file extension <strong>.HTM</strong> or <strong>.HTML</strong>.</div>\n              </div>\n\n              <h3>2. Short Answer Questions</h3>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">a. List the difference between container and empty tags.</div>\n                <div class=\"qa-card-a\">\n                  <strong>Answer:</strong>\n                  <ul>\n                    <li><em>Container Tag:</em> Requires both starting tag and closing tag (e.g. <code>&lt;H1&gt;...&lt;/H1&gt;</code>, <code>&lt;B&gt;...&lt;/B&gt;</code>).</li>\n                    <li><em>Empty Tag:</em> Has only a starting tag and no closing tag (e.g. <code>&lt;BR&gt;</code>, <code>&lt;HR&gt;</code>, <code>&lt;IMG&gt;</code>).</li>\n                  </ul>\n                </div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">b. What is the heading tag? List the largest and smallest heading tags.</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> The heading tag <code>&lt;Hn&gt;</code> defines heading levels in an HTML document. The largest heading tag is <strong>&lt;H1&gt;</strong> and the smallest heading tag is <strong>&lt;H6&gt;</strong>.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">c. What is the formatting tag? List any four formatting tags.</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> A formatting tag is used to change the visual appearance, size, or style of text. Four formatting tags: <code>&lt;B&gt;</code> (Bold), <code>&lt;I&gt;</code> (Italic), <code>&lt;U&gt;</code> (Underline), and <code>&lt;FONT&gt;</code>.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">d. What is the font tag? List the smallest and largest font size values.</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> The <code>&lt;FONT&gt;</code> tag sets font color, size, and typeface face of text. The smallest font size value is <strong>1</strong> and the largest font size value is <strong>7</strong> (default size is 3).</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">e. What is hyperlink? How do you know a text is hypertext?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> A hyperlink (created using <code>&lt;A&gt;</code> tag) is an element that links one web page to another. We know text is hypertext because it is typically underlined, displayed in a different color, and the mouse cursor changes into a <strong>pointing hand icon</strong> when hovered over it.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">f. Mention the difference between &lt;TH&gt; and &lt;TD&gt; tags.</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> <code>&lt;TH&gt;</code> (Table Header) defines a header cell with bold, centered text. <code>&lt;TD&gt;</code> (Table Data) defines a standard data cell with normal, left-aligned text.</div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">g. What is the use of the &lt;FRAMESET&gt; tag?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> The <code>&lt;FRAMESET&gt;</code> tag is used to divide a browser window into multiple independent sub-windows (frames) using <code>ROWS</code> or <code>COLS</code> attributes.</div>\n              </div>\n\n              <h3>3. Long Answer Questions</h3>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">a. Describe the main basic elements of a web page.</div>\n                <div class=\"qa-card-a\">\n                  <strong>Answer:</strong> Every HTML document consists of three basic core elements:\n                  <ol>\n                    <li><code>&lt;HTML&gt;</code>: The root element that encloses all other HTML tags and tells the web browser that the file is an HTML document.</li>\n                    <li><code>&lt;HEAD&gt;</code>: The header element that contains metadata, document title (<code>&lt;TITLE&gt;</code>), scripts, and stylesheet links.</li>\n                    <li><code>&lt;BODY&gt;</code>: The body element that contains all visible content displayed on the web page (text, images, tables, links, audio, video).</li>\n                  </ol>\n                </div>\n              </div>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">b. What is a hyperlink? Describe the methods to insert hyperlinks.</div>\n                <div class=\"qa-card-a\">\n                  <strong>Answer:</strong> A hyperlink is a link that connects a web page to another document or section. It is created using the anchor tag <code>&lt;A HREF=\"URL\"&gt;</code>.\n                  <br><br><strong>Methods to insert hyperlinks:</strong>\n                  <ul>\n                    <li><strong>Text Hyperlink:</strong> <code>&lt;A HREF=\"page2.html\"&gt;Go to Page 2&lt;/A&gt;</code></li>\n                    <li><strong>Image Hyperlink:</strong> <code>&lt;A HREF=\"photo.html\"&gt;&lt;IMG SRC=\"image.jpg\"&gt;&lt;/A&gt;</code></li>\n                    <li><strong>External Website Link:</strong> <code>&lt;A HREF=\"https://ankitlamichhane.com.np\"&gt;Visit Site&lt;/A&gt;</code></li>\n                    <li><strong>Email Link:</strong> <code>&lt;A HREF=\"mailto:ankit@example.com\"&gt;Send Email&lt;/A&gt;</code></li>\n                    <li><strong>Internal Section Bookmark:</strong> <code>&lt;A HREF=\"#top\"&gt;Go to Top&lt;/A&gt;</code></li>\n                  </ul>\n                </div>\n              </div>\n\n              <h3>4. True or False Questions (a to j)</h3>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">a. HTML is a markup language that is used to develop web pages.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">b. Tim Berners Lee is known as the father of Web.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">c. The HTML tags are the commands in HTML.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">d. An empty tag has both starting and end tags.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(An empty tag has only a starting tag.)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">e. In a web page, the &lt;BODY&gt; tag can be used more than once.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(The &lt;BODY&gt; tag can be used only once per HTML document.)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">f. An HTML document file has .HTM extension.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">g. The six different levels of headings can be created by using Heading Tag.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">h. The &lt;BR&gt; tag is stand-alone tag so it does not require the closing tag &lt;/BR&gt;.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">i. The &lt;IMAGE&gt; tag inserts a picture in a web page.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(The correct tag name for inserting an image is &lt;IMG&gt;, not &lt;IMAGE&gt;.)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">j. The COLS attribute of the &lt;FRAMESET&gt; tag splits the window into horizontal sections.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(The COLS attribute splits into vertical columns; ROWS splits into horizontal sections.)</em></div></div>\n\n              <h3>5. Fill in the Blanks (a to g)</h3>\n              <p><strong>a.</strong> Every HTML document should begin with a <u>&lt;HTML&gt;</u> tag.</p>\n              <p><strong>b.</strong> An HTML document is composed of <u>HTML elements</u>.</p>\n              <p><strong>c.</strong> A container tag has <u>starting</u> and <u>closing</u> tags.</p>\n              <p><strong>d.</strong> The <u>attribute</u> of an element describes additional features of the element.</p>\n              <p><strong>e.</strong> The &lt;TITLE&gt; tag is nested inside the <u>&lt;HEAD&gt;</u> tag.</p>\n              <p><strong>f.</strong> The paragraph can be aligned by using the <u>ALIGN</u> attribute.</p>\n              <p><strong>g.</strong> There are <u>six (6)</u> different levels of headings.</p>\n\n              <h3>6. Uses and Syntaxes of HTML Tags</h3>\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr><th>Tag</th><th>Use / Function</th><th>Syntax Example</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr><td><code>&lt;BODY&gt;</code></td><td>Encloses all visible content of web page</td><td><code>&lt;BODY BGCOLOR=\"Yellow\" TEXT=\"Black\"&gt;...&lt;/BODY&gt;</code></td></tr>\n                    <tr><td><code>&lt;Hn&gt;</code></td><td>Creates heading levels 1 to 6</td><td><code>&lt;H1 ALIGN=\"Center\"&gt;Heading Text&lt;/H1&gt;</code></td></tr>\n                    <tr><td><code>&lt;P&gt;</code></td><td>Creates a formatted paragraph</td><td><code>&lt;P ALIGN=\"Justify\"&gt;Paragraph text...&lt;/P&gt;</code></td></tr>\n                    <tr><td><code>&lt;FONT&gt;</code></td><td>Sets font color, size and face</td><td><code>&lt;FONT COLOR=\"Red\" SIZE=\"5\" FACE=\"Arial\"&gt;Text&lt;/FONT&gt;</code></td></tr>\n                    <tr><td><code>&lt;IMG&gt;</code></td><td>Inserts an inline image</td><td><code>&lt;IMG SRC=\"image.jpg\" WIDTH=\"100\" ALT=\"Photo\"&gt;</code></td></tr>\n                    <tr><td><code>&lt;A&gt;</code></td><td>Creates a hyperlink to another page/site</td><td><code>&lt;A HREF=\"page.html\"&gt;Click Here&lt;/A&gt;</code></td></tr>\n                  </tbody>\n                </table>\n              </div>\n\n              <h3>7 to 16. HTML Programming Solutions (Textbook Problems)</h3>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">7. Write HTML code to prepare a web page to describe about your school.</div>\n                <div class=\"qa-card-a\">\n                  <pre style=\"background:#0f172a; color:#f8fafc; padding:1rem; border-radius:6px; overflow-x:auto;\">&lt;HTML&gt;\n&lt;HEAD&gt;&lt;TITLE&gt;About My School&lt;/TITLE&gt;&lt;/HEAD&gt;\n&lt;BODY BGCOLOR=\"LightYellow\" TEXT=\"DarkSlateGray\"&gt;\n  &lt;H1 ALIGN=\"CENTER\"&gt;Sun Shine Secondary School&lt;/H1&gt;&lt;HR&gt;\n  &lt;P ALIGN=\"JUSTIFY\"&gt;\n    Sun Shine Secondary School is one of the premier educational institutions located in Udayapur, Nepal.\n    It provides quality education with modern computer labs, science facilities, and experienced teachers.\n  &lt;/P&gt;\n  &lt;H3&gt;Key Features:&lt;/H3&gt;\n  &lt;UL&gt;\n    &lt;LI&gt;Modern Multimedia Computer Lab&lt;/LI&gt;\n    &lt;LI&gt;Well-equipped Science Laboratory&lt;/LI&gt;\n    &lt;LI&gt;Spacious Sports Ground and Library&lt;/LI&gt;\n  &lt;/UL&gt;\n&lt;/BODY&gt;\n&lt;/HTML&gt;</pre>\n                </div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">8. Write HTML code to prepare a web page to describe about Dashain festival.</div>\n                <div class=\"qa-card-a\">\n                  <pre style=\"background:#0f172a; color:#f8fafc; padding:1rem; border-radius:6px; overflow-x:auto;\">&lt;HTML&gt;\n&lt;HEAD&gt;&lt;TITLE&gt;Dashain Festival&lt;/TITLE&gt;&lt;/HEAD&gt;\n&lt;BODY BGCOLOR=\"Linen\" TEXT=\"Maroon\"&gt;\n  &lt;H1 ALIGN=\"CENTER\"&gt;Dashain Festival of Nepal&lt;/H1&gt;&lt;HR&gt;\n  &lt;P ALIGN=\"JUSTIFY\"&gt;\n    Dashain is the longest and most important festival of Nepal. According to Hindu mythology,\n    Goddess Durga conquered evil forces on Dashain day.\n  &lt;/P&gt;\n  &lt;P&gt;\n    The final 10th day is celebrated as &lt;B&gt;Tika&lt;/B&gt;, where elders put Tika and Jamara on younger relatives and offer blessings.\n  &lt;/P&gt;\n&lt;/BODY&gt;\n&lt;/HTML&gt;</pre>\n                </div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">9. Write HTML code to prepare a web page to describe about Tihar and Chhat festivals.</div>\n                <div class=\"qa-card-a\">\n                  <pre style=\"background:#0f172a; color:#f8fafc; padding:1rem; border-radius:6px; overflow-x:auto;\">&lt;HTML&gt;\n&lt;HEAD&gt;&lt;TITLE&gt;Tihar &amp; Chhath Festivals&lt;/TITLE&gt;&lt;/HEAD&gt;\n&lt;BODY BGCOLOR=\"LightCyan\" TEXT=\"DarkBlue\"&gt;\n  &lt;H1 ALIGN=\"CENTER\"&gt;Tihar and Chhath Festivals&lt;/H1&gt;&lt;HR&gt;\n  &lt;H2&gt;1. Tihar (Festival of Lights)&lt;/H2&gt;\n  &lt;P&gt;Tihar is the festival of lights where people worship Crow, Dog, Cow, Ox, and Goddess Laxmi.&lt;/P&gt;\n  &lt;H2&gt;2. Chhath Festival&lt;/H2&gt;\n  &lt;P&gt;Chhath is celebrated by worshipping the Sun God (Surya Dev) at river banks and ponds.&lt;/P&gt;\n&lt;/BODY&gt;\n&lt;/HTML&gt;</pre>\n                </div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">10. Write HTML code to prepare a web page to describe the beautiful places of Nepal.</div>\n                <div class=\"qa-card-a\">\n                  <pre style=\"background:#0f172a; color:#f8fafc; padding:1rem; border-radius:6px; overflow-x:auto;\">&lt;HTML&gt;\n&lt;HEAD&gt;&lt;TITLE&gt;Beautiful Places of Nepal&lt;/TITLE&gt;&lt;/HEAD&gt;\n&lt;BODY BGCOLOR=\"Ivory\" TEXT=\"DarkGreen\"&gt;\n  &lt;H1 ALIGN=\"CENTER\"&gt;Beautiful Places of Nepal&lt;/H1&gt;&lt;HR&gt;\n  &lt;H2&gt;1. Pokhara Valley&lt;/H2&gt;\n  &lt;P&gt;Famous for Fewa Lake and breathtaking views of Annapurna mountain range.&lt;/P&gt;\n  &lt;H2&gt;2. Chitwan National Park&lt;/H2&gt;\n  &lt;P&gt;Famous for one-horned rhinoceros, Bengal tigers, and jungle safari.&lt;/P&gt;\n  &lt;H2&gt;3. Mount Everest (Sagarmatha)&lt;/H2&gt;\n  &lt;P&gt;The highest peak in the world (8,848.86 meters).&lt;/P&gt;\n&lt;/BODY&gt;\n&lt;/HTML&gt;</pre>\n                </div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">11. Write HTML code to prepare a web page having hyperlinks and images.</div>\n                <div class=\"qa-card-a\">\n                  <pre style=\"background:#0f172a; color:#f8fafc; padding:1rem; border-radius:6px; overflow-x:auto;\">&lt;HTML&gt;\n&lt;HEAD&gt;&lt;TITLE&gt;Hyperlinks and Images Demo&lt;/TITLE&gt;&lt;/HEAD&gt;\n&lt;BODY&gt;\n  &lt;H1&gt;Web Page with Images and Links&lt;/H1&gt;\n  &lt;IMG SRC=\"pokhara.jpg\" WIDTH=\"300\" HEIGHT=\"200\" ALT=\"Pokhara Lake\"&gt;&lt;BR&gt;&lt;BR&gt;\n  &lt;A HREF=\"http://csnotes.ankitlamichhane.com.np\"&gt;Visit CS Notes Portal&lt;/A&gt;&lt;BR&gt;\n  &lt;A HREF=\"about.html\"&gt;Read About Teacher&lt;/A&gt;\n&lt;/BODY&gt;\n&lt;/HTML&gt;</pre>\n                </div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">12. Write HTML code to prepare a web page that provides information about 'POKHARA VALLEY' with marquee text, hyperlinks and images.</div>\n                <div class=\"qa-card-a\">\n                  <pre style=\"background:#0f172a; color:#f8fafc; padding:1rem; border-radius:6px; overflow-x:auto;\">&lt;HTML&gt;\n&lt;HEAD&gt;&lt;TITLE&gt;Pokhara Valley Tourism&lt;/TITLE&gt;&lt;/HEAD&gt;\n&lt;BODY BGCOLOR=\"AliceBlue\"&gt;\n  &lt;MARQUEE BEHAVIOR=\"SCROLL\" DIRECTION=\"LEFT\" BGCOLOR=\"Navy\" COLOR=\"White\"&gt;\n    &lt;FONT COLOR=\"Yellow\" SIZE=\"5\"&gt;Welcome to Pokhara Valley &mdash; The Tourism Capital of Nepal!&lt;/FONT&gt;\n  &lt;/MARQUEE&gt;\n  &lt;H1 ALIGN=\"CENTER\"&gt;POKHARA VALLEY&lt;/H1&gt;&lt;HR&gt;\n  &lt;P ALIGN=\"JUSTIFY\"&gt;\n    Pokhara is a beautiful city in central Nepal, renowned for its serene lakes, caves, and mountain panoramas.\n  &lt;/P&gt;\n  &lt;IMG SRC=\"fewa_lake.jpg\" WIDTH=\"350\" HEIGHT=\"220\" ALT=\"Fewa Lake Pokhara\"&gt;&lt;BR&gt;&lt;BR&gt;\n  &lt;A HREF=\"https://ankitlamichhane.com.np\"&gt;Learn More Tourism Information&lt;/A&gt;\n&lt;/BODY&gt;\n&lt;/HTML&gt;</pre>\n                </div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">13. Write HTML code to prepare a web page having a table.</div>\n                <div class=\"qa-card-a\">\n                  <pre style=\"background:#0f172a; color:#f8fafc; padding:1rem; border-radius:6px; overflow-x:auto;\">&lt;HTML&gt;\n&lt;HEAD&gt;&lt;TITLE&gt;Student Marks Table&lt;/TITLE&gt;&lt;/HEAD&gt;\n&lt;BODY&gt;\n  &lt;H2 ALIGN=\"CENTER\"&gt;Class 8 Marksheet&lt;/H2&gt;\n  &lt;TABLE BORDER=\"1\" ALIGN=\"CENTER\" CELLPADDING=\"8\" CELLSPACING=\"0\" BGCOLOR=\"LightYellow\"&gt;\n    &lt;CAPTION&gt;&lt;B&gt;Final Exam Results&lt;/B&gt;&lt;/CAPTION&gt;\n    &lt;TR BGCOLOR=\"LightSteelBlue\"&gt;\n      &lt;TH&gt;Roll No.&lt;/TH&gt;&lt;TH&gt;Student Name&lt;/TH&gt;&lt;TH&gt;Computer Science&lt;/TH&gt;&lt;TH&gt;Status&lt;/TH&gt;\n    &lt;/TR&gt;\n    &lt;TR&gt;&lt;TD&gt;1&lt;/TD&gt;&lt;TD&gt;Anjila Gurung&lt;/TD&gt;&lt;TD&gt;98&lt;/TD&gt;&lt;TD&gt;Pass&lt;/TD&gt;&lt;/TR&gt;\n    &lt;TR&gt;&lt;TD&gt;2&lt;/TD&gt;&lt;TD&gt;Amit Thapa&lt;/TD&gt;&lt;TD&gt;78&lt;/TD&gt;&lt;TD&gt;Pass&lt;/TD&gt;&lt;/TR&gt;\n  &lt;/TABLE&gt;\n&lt;/BODY&gt;\n&lt;/HTML&gt;</pre>\n                </div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">14. Write HTML code to prepare a web page having images, links to describe about the Baishakh 12, 2072 B. S. Earthquake.</div>\n                <div class=\"qa-card-a\">\n                  <pre style=\"background:#0f172a; color:#f8fafc; padding:1rem; border-radius:6px; overflow-x:auto;\">&lt;HTML&gt;\n&lt;HEAD&gt;&lt;TITLE&gt;Nepal Earthquake 2072&lt;/TITLE&gt;&lt;/HEAD&gt;\n&lt;BODY BGCOLOR=\"MistyRose\"&gt;\n  &lt;H1 ALIGN=\"CENTER\"&gt;Baishakh 12, 2072 B.S. Nepal Earthquake&lt;/H1&gt;&lt;HR&gt;\n  &lt;P ALIGN=\"JUSTIFY\"&gt;\n    On April 25, 2015 (Baishakh 12, 2072 B.S.), a massive 7.8 magnitude earthquake struck Nepal with epicenter in Gorkha district.\n  &lt;/P&gt;\n  &lt;IMG SRC=\"earthquake_memorial.jpg\" WIDTH=\"300\" ALT=\"Earthquake Memorial\"&gt;&lt;BR&gt;&lt;BR&gt;\n  &lt;A HREF=\"http://csnotes.ankitlamichhane.com.np\"&gt;Read More Safety Notes&lt;/A&gt;\n&lt;/BODY&gt;\n&lt;/HTML&gt;</pre>\n                </div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">15. Write HTML code to prepare a web page having two horizontal frames. The upper horizontal frame contains the hyperlinks and the bottom frame displays the linked pages.</div>\n                <div class=\"qa-card-a\">\n                  <pre style=\"background:#0f172a; color:#f8fafc; padding:1rem; border-radius:6px; overflow-x:auto;\">&lt;!------------ Main Index Frameset File (index.html) ------------&gt;\n&lt;HTML&gt;\n&lt;HEAD&gt;&lt;TITLE&gt;Two Horizontal Frames Web Page&lt;/TITLE&gt;&lt;/HEAD&gt;\n&lt;FRAMESET ROWS=\"30%,70%\"&gt;\n  &lt;FRAME NAME=\"TOP_FRAME\" SRC=\"top_links.html\"&gt;\n  &lt;FRAME NAME=\"BOTTOM_FRAME\" SRC=\"welcome.html\"&gt;\n&lt;/FRAMESET&gt;\n&lt;/HTML&gt;\n\n&lt;!------------ Top Links File (top_links.html) ------------&gt;\n&lt;HTML&gt;\n&lt;BODY BGCOLOR=\"LightGrey\"&gt;\n  &lt;H3&gt;Navigation Menu:&lt;/H3&gt;\n  &lt;A HREF=\"school.html\" TARGET=\"BOTTOM_FRAME\"&gt;Our School&lt;/A&gt; | \n  &lt;A HREF=\"dashain.html\" TARGET=\"BOTTOM_FRAME\"&gt;Dashain Festival&lt;/A&gt;\n&lt;/BODY&gt;\n&lt;/HTML&gt;</pre>\n                </div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">16. Write HTML code to prepare a web page having two vertical frames. The left side frame should contain the hyperlinks and the right side frame displays the linked pages.</div>\n                <div class=\"qa-card-a\">\n                  <pre style=\"background:#0f172a; color:#f8fafc; padding:1rem; border-radius:6px; overflow-x:auto;\">&lt;!------------ Main Index Frameset File (vertical_index.html) ------------&gt;\n&lt;HTML&gt;\n&lt;HEAD&gt;&lt;TITLE&gt;Two Vertical Frames Web Page&lt;/TITLE&gt;&lt;/HEAD&gt;\n&lt;FRAMESET COLS=\"25%,75%\"&gt;\n  &lt;FRAME NAME=\"LEFT_FRAME\" SRC=\"left_menu.html\"&gt;\n  &lt;FRAME NAME=\"RIGHT_FRAME\" SRC=\"home_content.html\"&gt;\n&lt;/FRAMESET&gt;\n&lt;/HTML&gt;\n\n&lt;!------------ Left Menu File (left_menu.html) ------------&gt;\n&lt;HTML&gt;\n&lt;BODY BGCOLOR=\"LightYellow\"&gt;\n  &lt;H3&gt;Menu Links&lt;/H3&gt;\n  &lt;A HREF=\"practical1.html\" TARGET=\"RIGHT_FRAME\"&gt;Practical 1&lt;/A&gt;&lt;BR&gt;&lt;BR&gt;\n  &lt;A HREF=\"practical2.html\" TARGET=\"RIGHT_FRAME\"&gt;Practical 2&lt;/A&gt;\n&lt;/BODY&gt;\n&lt;/HTML&gt;</pre>\n                </div>\n              </div>\n            "
+          }
+        ]
+      },
+      {
+        "id": "class8-cs-ch14",
+        "chapterNumber": 14,
+        "title": "Computer Programming Language",
+        "subject": "Computer Science",
+        "className": "Class 8",
+        "updated": "2026-09-03",
+        "summary": "Low-level vs High-level languages, compilers, interpreters.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 8 Chapter 14 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class8-cs-ch15",
+        "chapterNumber": 15,
+        "title": "Program Design Tools",
+        "subject": "Computer Science",
+        "className": "Class 8",
+        "updated": "2026-09-03",
+        "summary": "Algorithms, flowcharts, pseudocode symbols & construction.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 8 Chapter 15 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class8-cs-ch16",
+        "chapterNumber": 16,
+        "title": "Block Programming-Scratch",
+        "subject": "Computer Science",
+        "className": "Class 8",
+        "updated": "2026-09-03",
+        "summary": "Visual block coding, sprites, scripts, loops, events in Scratch.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 8 Chapter 16 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class8-cs-ch17",
+        "chapterNumber": 17,
+        "title": "Programming Language-Python",
+        "subject": "Computer Science",
+        "className": "Class 8",
+        "updated": "2026-09-03",
+        "summary": "Python syntax, variables, data types, input/output, simple programs.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 8 Chapter 17 will be added soon. [Add your notes here]</p>"
           }
         ]
       }
@@ -721,11 +471,71 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 9",
         "updated": "2026-09-03",
-        "summary": "Hardware architecture overview.",
+        "summary": "Detailed overview of computer hardware components, buses, and motherboard.",
         "topics": [
           {
-            "title": "1. Intro",
-            "content": "<p>Notes added.</p>"
+            "title": "1. Introduction to Computer Architecture",
+            "content": "<p>Notes for Class 9 Chapter 1 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class9-cs-ch2",
+        "chapterNumber": 2,
+        "title": "Operating System Concepts",
+        "subject": "Computer Science",
+        "className": "Class 9",
+        "updated": "2026-09-03",
+        "summary": "Functions of operating systems, GUI vs CLI, process management.",
+        "topics": [
+          {
+            "title": "1. Introduction to Operating System",
+            "content": "<p>Notes for Class 9 Chapter 2 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class9-cs-ch3",
+        "chapterNumber": 3,
+        "title": "Computer Networks & Internet",
+        "subject": "Computer Science",
+        "className": "Class 9",
+        "updated": "2026-09-03",
+        "summary": "Network models, IP addressing, web browsers, domain names.",
+        "topics": [
+          {
+            "title": "1. Introduction to Computer Networks",
+            "content": "<p>Notes for Class 9 Chapter 3 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class9-cs-ch4",
+        "chapterNumber": 4,
+        "title": "Database Management System (DBMS)",
+        "subject": "Computer Science",
+        "className": "Class 9",
+        "updated": "2026-09-03",
+        "summary": "Tables, primary key, queries, MS-Access database basics.",
+        "topics": [
+          {
+            "title": "1. Introduction to DBMS",
+            "content": "<p>Notes for Class 9 Chapter 4 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class9-cs-ch5",
+        "chapterNumber": 5,
+        "title": "QBASIC Programming Fundamentals",
+        "subject": "Computer Science",
+        "className": "Class 9",
+        "updated": "2026-09-03",
+        "summary": "Statements, variables, operators, control structures in QBASIC.",
+        "topics": [
+          {
+            "title": "1. QBASIC Introduction & Basics",
+            "content": "<p>Notes for Class 9 Chapter 5 will be added soon. [Add your notes here]</p>"
           }
         ]
       }
@@ -740,11 +550,86 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 10",
         "updated": "2026-09-03",
-        "summary": "Cyber Law & Networking.",
+        "summary": "Data communication, network architecture, cyber ethics, and Nepal Cyber Law.",
         "topics": [
           {
-            "title": "1. Intro",
-            "content": "<p>Notes added.</p>"
+            "title": "1. Data Communication & Computer Networks",
+            "content": "<p>Notes for Class 10 Chapter 1 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class10-cs-ch2",
+        "chapterNumber": 2,
+        "title": "Computer Virus & Cyber Security",
+        "subject": "Computer Science",
+        "className": "Class 10",
+        "updated": "2026-09-03",
+        "summary": "Computer viruses, malware detection, firewall, digital signatures.",
+        "topics": [
+          {
+            "title": "1. Cyber Security & Threats",
+            "content": "<p>Notes for Class 10 Chapter 2 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class10-cs-ch3",
+        "chapterNumber": 3,
+        "title": "Database Management System (MS-Access)",
+        "subject": "Computer Science",
+        "className": "Class 10",
+        "updated": "2026-09-03",
+        "summary": "Relational database concepts, queries, forms, and reports in MS-Access.",
+        "topics": [
+          {
+            "title": "1. Relational Database & MS-Access",
+            "content": "<p>Notes for Class 10 Chapter 3 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class10-cs-ch4",
+        "chapterNumber": 4,
+        "title": "Modular Programming in QBASIC",
+        "subject": "Computer Science",
+        "className": "Class 10",
+        "updated": "2026-09-03",
+        "summary": "SUB procedures, FUNCTION procedures, passing parameters in QBASIC.",
+        "topics": [
+          {
+            "title": "1. Modular Programming Concepts",
+            "content": "<p>Notes for Class 10 Chapter 4 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class10-cs-ch5",
+        "chapterNumber": 5,
+        "title": "File Handling in QBASIC",
+        "subject": "Computer Science",
+        "className": "Class 10",
+        "updated": "2026-09-03",
+        "summary": "Sequential data files, OPEN, WRITE, INPUT, CLOSE statements in QBASIC.",
+        "topics": [
+          {
+            "title": "1. Sequential File Operations",
+            "content": "<p>Notes for Class 10 Chapter 5 will be added soon. [Add your notes here]</p>"
+          }
+        ]
+      },
+      {
+        "id": "class10-cs-ch6",
+        "chapterNumber": 6,
+        "title": "C Programming Language Fundamentals",
+        "subject": "Computer Science",
+        "className": "Class 10",
+        "updated": "2026-09-03",
+        "summary": "Introduction to C programming syntax, data types, loops, and conditional logic.",
+        "topics": [
+          {
+            "title": "1. Introduction to C Programming",
+            "content": "<p>Notes for Class 10 Chapter 6 will be added soon. [Add your notes here]</p>"
           }
         ]
       }
