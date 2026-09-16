@@ -20,31 +20,11 @@ const notesData = {
         "topics": [
           {
             "title": "1.0 Introduction to Computers",
-            "content": "\n              <p>A <strong>computer</strong> is an electronic machine that can be programmed to perform a variety of tasks at very high speed and accurately.</p>\n              <ul>\n                <li>It accepts data and instructions from a user, processes the data according to the given instructions, and produces meaningful information as output.</li>\n                <li>Besides processing data, a computer is widely used for creating documents, spreadsheets, databases, presentations, and graphics.</li>\n                <li><strong>Internet Services:</strong> Using a computer, you can access World Wide Web (WWW), file transferring, emails, online chatting, and video conferencing.</li>\n                <li><strong>Special Applications:</strong> Computers are connected to devices for composing music, adding special effects in movies/songs, controlling Automated Teller Machines (ATM), monitoring patients in hospitals, and supporting scientific research.</li>\n              </ul>\n            "
-          },
-          {
-            "title": "1.1 What is a Computer? & IPO Principle",
-            "content": "\n              <p><strong>Definition:</strong> A computer is a programmable electronic machine that takes data and instructions, processes them, produces information, and stores information in its memory.</p>\n\n              <h3>Input-Process-Output (IPO) Principle</h3>\n              <p>A computer works on the principle of <strong>Input-Process-Output (IPO)</strong>:</p>\n              <ul>\n                <li><strong>Input:</strong> Accepts data and instructions from the user.</li>\n                <li><strong>Process:</strong> Processes data according to instructions using the Central Processing Unit (CPU).</li>\n                <li><strong>Output:</strong> Produces meaningful information as output.</li>\n              </ul>\n\n              <div class=\"ui-figure\">\n                <div class=\"ui-figure-header\">🔄 Figure 1.1: Input-Process-Output (IPO) Cycle</div>\n                <div class=\"ui-window-box\" style=\"text-align: center;\">\n                  <div style=\"display: flex; justify-content: space-around; align-items: center; gap: 0.5rem; flex-wrap: wrap;\">\n                    <div style=\"border: 2px solid var(--primary); padding: 0.8rem 1.2rem; border-radius: 8px; background: var(--surface);\">\n                      <strong style=\"color: var(--primary);\">INPUT</strong><br>\n                      <span style=\"font-size: 0.85rem; color: var(--text-muted);\">Data &amp; Instructions<br>(Keyboard &amp; Mouse)</span>\n                    </div>\n                    <div style=\"font-size: 1.5rem; color: var(--primary); font-weight: 900;\">&rarr;</div>\n                    <div style=\"border: 2px solid var(--accent); padding: 0.8rem 1.2rem; border-radius: 8px; background: var(--surface);\">\n                      <strong style=\"color: var(--accent);\">PROCESS</strong><br>\n                      <span style=\"font-size: 0.85rem; color: var(--text-muted);\">Central Processing Unit<br>(CPU)</span>\n                    </div>\n                    <div style=\"font-size: 1.5rem; color: var(--primary); font-weight: 900;\">&rarr;</div>\n                    <div style=\"border: 2px solid #16a34a; padding: 0.8rem 1.2rem; border-radius: 8px; background: var(--surface);\">\n                      <strong style=\"color: #16a34a;\">OUTPUT</strong><br>\n                      <span style=\"font-size: 0.85rem; color: var(--text-muted);\">Meaningful Information<br>(Monitor &amp; Printer)</span>\n                    </div>\n                  </div>\n                </div>\n                <div class=\"ui-figure-caption\">Data is inputted, processed by CPU, and given as output information</div>\n              </div>\n\n              <div class=\"callout callout-remember\">\n                <div class=\"callout-title\">📌 PROGRAM DEFINITION</div>\n                <p>The set of instructions given to a computer to perform a task is known as a <strong>program</strong>.</p>\n              </div>\n            "
-          },
-          {
-            "title": "1.2 Four Main Functions of Computer (IPO & Storage)",
-            "content": "\n              <div class=\"step-card-grid\">\n                <div class=\"step-card\"><span class=\"step-badge\">1</span><span><strong>Input:</strong> Feeding data &amp; instructions into computer using input devices (Keyboard, Mouse, Scanner, Microphone, Camera).</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">2</span><span><strong>Process:</strong> CPU treats data according to instructions to convert it into meaningful information.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">3</span><span><strong>Output:</strong> Displaying outcome or information to user using output devices (Monitor, Printer, Speaker).</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">4</span><span><strong>Storage:</strong> Storing data permanently or temporarily on storage devices (Hard Disk, SSD, Pen Drive, Optical Disk).</span></div>\n              </div>\n            "
-          },
-          {
-            "title": "1.3 Characteristics of Computer",
-            "content": "\n              <p>Computers are useful in almost all fields because of their wonderful characteristics:</p>\n\n              <h3>a. Speed</h3>\n              <p>A computer performs tasks at very high speed (completing in seconds what humans do in days). Speed is determined by the microprocessor, measured in Hertz (Hz), Megahertz (MHz), or Gigahertz (GHz).</p>\n              \n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr><th>Unit of Time</th><th>Part of Second</th><th>Power of 10</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr><td><strong>Millisecond (ms)</strong></td><td>1/1,000 (One Thousandth)</td><td>10<sup>-3</sup></td></tr>\n                    <tr><td><strong>Microsecond (&mu;s)</strong></td><td>1/1,000,000 (One Millionth)</td><td>10<sup>-6</sup></td></tr>\n                    <tr><td><strong>Nanosecond (ns)</strong></td><td>1/1,000,000,000 (One Billionth)</td><td>10<sup>-9</sup></td></tr>\n                    <tr><td><strong>Picosecond (ps)</strong></td><td>1/1,000,000,000,000 (One Trillionth)</td><td>10<sup>-12</sup></td></tr>\n                  </tbody>\n                </table>\n              </div>\n\n              <div class=\"callout callout-doyouknow\">\n                <div class=\"callout-title\">💡 MEASURING COMPUTER SPEEDS</div>\n                <p>Mainframe computer speed is measured in <strong>FLOPS</strong> (Floating Point Operations Per Second), and supercomputer speed is measured in <strong>Teraflops</strong>.</p>\n              </div>\n\n              <h3>b. Accuracy</h3>\n              <p>A computer produces 100% accurate results as long as correct data and instructions are provided.</p>\n              <ul>\n                <li><strong>GIGO (Garbage In Garbage Out):</strong> If wrong data or instructions are fed to a computer, it produces wrong information.</li>\n                <li><strong>Bug:</strong> An error or fault in a software program or device is called a bug.</li>\n              </ul>\n\n              <h3>c. Diligence</h3>\n              <p>A computer can work continuously for long hours without losing speed or accuracy. It does not get tired or bored like humans.</p>\n\n              <h3>d. Versatility</h3>\n              <p>A computer can perform completely different types of tasks (typing documents, playing music, drawing, calculating payrolls, ICU monitoring).</p>\n\n              <h3>e. Storage</h3>\n              <p>A computer can store huge amounts of data on secondary storage devices. Storage capacity is measured in Bytes (1 character occupies 1 byte of memory space).</p>\n\n              <h3>f. Automatic</h3>\n              <p>A computer performs tasks automatically once the instructions are fed into it.</p>\n            "
-          },
-          {
-            "title": "1.4 Application Areas of Computers",
-            "content": "\n              <div class=\"step-card-grid\">\n                <div class=\"step-card\"><span class=\"step-badge\">🏫</span><span><strong>Education Sector:</strong> Used in school computer labs, practical training, classroom multimedia presentations, and online educational research.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">🏥</span><span><strong>Medical Sector:</strong> Used in hospitals to store patient records, conduct clinical tests, monitor heart rate, and assist surgical operations.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">🏦</span><span><strong>Financial &amp; Banking Sector:</strong> Tracks customer accounts, updates balances automatically, calculates interest, and enables online banking.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">🏢</span><span><strong>Offices:</strong> Used to prepare documents, presentations, salary sheets, and provide online government services.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">🎮</span><span><strong>Entertainment Sector:</strong> Used to play games, listen to music, watch movies, edit videos, and animate cartoon shows (e.g. Tom and Jerry).</span></div>\n              </div>\n            "
-          },
-          {
-            "title": "Chapter Summary & Recap",
-            "content": "\n              <div class=\"callout callout-remember\">\n                <div class=\"callout-title\">📚 RECAP SUMMARY</div>\n                <ul>\n                  <li>A computer works on the Input-Process-Output (IPO) principle.</li>\n                  <li>A computer is a programmable electronic machine that takes data, processes it, and stores information.</li>\n                  <li>Set of instructions given to a computer is known as a <strong>program</strong>.</li>\n                  <li>Main characteristics: Speed, Accuracy, Diligence, Versatility, Storage, and Automatic.</li>\n                  <li>GIGO stands for Garbage In Garbage Out; Bug means an error in a program or device.</li>\n                  <li>Computers are used in education, medical, banking, offices, and entertainment sectors.</li>\n                </ul>\n              </div>\n            "
+            "content": "\n              <p>A <strong>computer</strong> is an electronic machine that can be programmed to perform a variety of tasks at very high speed and accurately.</p>\n              <ul>\n                <li>It accepts data and instructions from a user, processes the data according to the given instructions, and produces meaningful information as output.</li>\n                <li>Besides processing data, a computer is widely used for creating documents, spreadsheets, databases, presentations, and graphics.</li>\n                <li><strong>Internet Services:</strong> Using a computer, you can access World Wide Web (WWW), file transferring, emails, online chatting, and video conferencing.</li>\n              </ul>\n            "
           },
           {
             "title": "Textbook Exercise Solutions &mdash; Chapter 1 (Computer Fundamental)",
-            "content": "\n              <h2>Innovative Computer Science &mdash; Book 6, Chapter 1 Complete Exercise Solutions</h2>\n\n              <h3>1. Answer the Following Questions</h3>\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">a. Define a computer? What are the uses of computers?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> A computer is a programmable electronic machine that accepts raw data and instructions, processes them into meaningful information, and stores them.\n                <br><em>Uses:</em> Computers are used for typing documents, making spreadsheets, playing games, browsing the internet, managing bank accounts, and storing patient records in hospitals.</div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">b. What is IPO? Explain it with a diagram.</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> IPO stands for Input-Process-Output. It is the fundamental principle on which a computer operates, where input data is processed by the CPU to produce output information.\n                <br><br><strong>Diagram:</strong>\n                <pre style=\"background: var(--background); color: var(--text); padding: 0.5rem 1rem; border-radius: 6px; font-weight: 700;\">INPUT (Data &amp; Instructions)  &rarr;  PROCESS (CPU)  &rarr;  OUTPUT (Information)</pre>\n                </div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">c. List the different characteristics of a computer.</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> The main characteristics of a computer are:\n                <ol>\n                  <li>Speed</li>\n                  <li>Accuracy</li>\n                  <li>Diligence</li>\n                  <li>Versatility</li>\n                  <li>Storage Capacity</li>\n                  <li>Automatic</li>\n                </ol></div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">d. What are GIGO and Bug?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong>\n                <ul>\n                  <li><strong>GIGO (Garbage In Garbage Out):</strong> It means if wrong data or instructions are fed into a computer, it will produce wrong information.</li>\n                  <li><strong>Bug:</strong> A fault or error in a computer device or software program is called a bug.</li>\n                </ul></div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">e. Why is a computer called a diligent machine?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> A computer is called a diligent machine because it can work continuously for long hours performing millions of calculations without getting tired or losing speed and accuracy.</div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">f. Why is a computer called a versatile machine?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> A computer is called a versatile machine because it can perform different types of tasks such as typing documents, playing music, drawing pictures, and managing examination results.</div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">g. Why do people use computers?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> People use computers because they perform tasks very fast, accurately, automatically, and can store massive amounts of data for future use.</div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">h. How are computers used in the education sector?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> In education, computers are used in computer labs for practical training, in classrooms for multimedia video lessons, and by students for educational web research.</div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">i. Why is a computer used in the medical sector?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> In the medical sector, computers are used to store patient medical records, conduct lab tests, monitor heart rate, and assist doctors in surgical operations.</div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">j. What is the use of computers in the financial sector?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> In the financial and banking sector, computers are used to track customer accounts, calculate payments and interest, and provide online banking services.</div>\n              </div>\n\n              <div class=\"qa-card\">\n                <div class=\"qa-card-q\">k. How are computers used in offices?</div>\n                <div class=\"qa-card-a\"><strong>Answer:</strong> In offices, computers are used to prepare documents, presentations, salary sheets, and provide online public services.</div>\n              </div>\n\n              <h3>2. Write the Full Form of the Following</h3>\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr><th>Abbreviation</th><th>Full Form</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr><td><strong>a. IPO</strong></td><td>Input-Process-Output</td></tr>\n                    <tr><td><strong>b. CPU</strong></td><td>Central Processing Unit</td></tr>\n                    <tr><td><strong>c. FLOP</strong></td><td>Floating Point Operation</td></tr>\n                    <tr><td><strong>d. GIGO</strong></td><td>Garbage In Garbage Out</td></tr>\n                    <tr><td><strong>e. ATM</strong></td><td>Automated Teller Machine</td></tr>\n                    <tr><td><strong>f. ICU</strong></td><td>Intensive Care Unit</td></tr>\n                  </tbody>\n                </table>\n              </div>\n\n              <h3>3. State Whether the Following Statements are True or False</h3>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">a. A computer processes data and produces output as information.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">b. A computer can be used to perform any task.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">c. A mainframe computer is faster than a supercomputer.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Supercomputers are the fastest computers.)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">d. Even if you feed correct data and instructions, the computer will occasionally produce incorrect information.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Computers produce 100% accurate output if input is correct.)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">e. A computer loses its accuracy and speed when it has to perform the same calculation repeatedly.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Computers maintain the exact same speed and accuracy indefinitely.)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">f. You can use a computer to prepare only spreadsheets, documents and presentations.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Computers are also used for games, medical research, banking, etc.)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">g. The storage capacity of a storage device is measured in BIT.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Storage capacity is measured in Bytes, KB, MB, GB, TB.)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">h. Computers can be used to provide online services like buying and selling goods, booking tickets and rooms in hotels, etc.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">i. Cartoon movies like Tom and Jerry, Ninja Hattori, etc. can be developed with the help of computers.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n\n              <h3>4. Fill in the Blanks</h3>\n              <p><strong>a.</strong> A computer performs task on the principle of Input, <u>Process</u> and <u>Output</u>.</p>\n              <p><strong>b.</strong> A set of instructions given to computer to perform tasks is known as <u>program</u>.</p>\n              <p><strong>c.</strong> The speed of mainframe computer is measured in <u>FLOPS</u>.</p>\n              <p><strong>d.</strong> <u>Bug</u> is fault in a device or error in a program.</p>\n              <p><strong>e.</strong> To store three characters a computer occupies <u>3</u> bytes memory space.</p>\n              <p><strong>f.</strong> A computer perform tasks automatically once the <u>instruction (or program)</u> is given.</p>\n\n              <h3>5. Match the Following</h3>\n\n              <h4>Match i:</h4>\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr><th>Group 'A'</th><th>Matched Group 'B'</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr><td>a. Data</td><td>ii. Raw facts or figures</td></tr>\n                    <tr><td>b. Information</td><td>iii. Processed data</td></tr>\n                    <tr><td>c. Program</td><td>i. A set of instructions</td></tr>\n                    <tr><td>d. GIGO</td><td>v. Wrong instructions or data</td></tr>\n                  </tbody>\n                </table>\n              </div>\n\n              <h4>Match ii:</h4>\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr><th>Group 'A'</th><th>Matched Group 'B'</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr><td>a. Diligence</td><td>iii. Capability of performing tasks for long time</td></tr>\n                    <tr><td>b. Versatile</td><td>ii. Capability of performing a variety of tasks</td></tr>\n                    <tr><td>c. Automatic</td><td>iv. Capability of performing tasks once the instructions are given</td></tr>\n                    <tr><td>d. Accuracy</td><td>i. Capability of producing correct information</td></tr>\n                  </tbody>\n                </table>\n              </div>\n            "
+            "content": "\n              <h2>Innovative Computer Science &mdash; Book 6, Chapter 1 Complete Exercise Solutions</h2>\n              <h3>1. Answer the Following Questions</h3>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">a. Define a computer? What are the uses of computers?</div><div class=\"qa-card-a\"><strong>Answer:</strong> A computer is a programmable electronic machine that accepts raw data and instructions, processes them into meaningful information, and stores them.</div></div>\n            "
           }
         ]
       },
@@ -55,41 +35,41 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "Tangible physical parts of a computer system, internal and external hardware.",
+        "summary": "Tangible physical parts of a computer system.",
         "topics": [
           {
-            "title": "1. Introduction to Hardware",
-            "content": "<p>Notes for Class 6 Chapter 2 will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
       {
         "id": "class6-cs-ch3",
         "chapterNumber": 3,
-        "title": "Input and Output Devices",
+        "title": "Input and output devices",
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "Keyboards, mice, scanners, monitors, printers, and speakers.",
+        "summary": "Keyboards, mice, monitors, printers.",
         "topics": [
           {
-            "title": "1. Introduction to Input & Output Devices",
-            "content": "<p>Notes for Class 6 Chapter 3 will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
       {
         "id": "class6-cs-ch4",
         "chapterNumber": 4,
-        "title": "Storage Devices",
+        "title": "Storage devices",
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "Primary memory (RAM, ROM) and secondary storage (Hard Disk, SSD, Pen Drive).",
+        "summary": "RAM, ROM, Hard Disk, SSD, Pen Drive.",
         "topics": [
           {
-            "title": "1. Introduction to Storage Devices",
-            "content": "<p>Notes for Class 6 Chapter 4 will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
@@ -100,11 +80,11 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "System software vs application software and utility programs.",
+        "summary": "System software vs application software.",
         "topics": [
           {
-            "title": "1. Introduction to Software",
-            "content": "<p>Notes for Class 6 Chapter 5 will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
@@ -115,11 +95,11 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "Windows 11 operating system basics, desktop interface, and file management.",
+        "summary": "Windows 11 operating system basics.",
         "topics": [
           {
-            "title": "1. Introduction to Windows 11",
-            "content": "<p>Notes for Class 6 Chapter 6 will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
@@ -130,11 +110,11 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "Concept of computer programming languages, translators, and logic building.",
+        "summary": "Concept of computer programming languages.",
         "topics": [
           {
-            "title": "1. Introduction to Programming",
-            "content": "<p>Notes for Class 6 Chapter 7 will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
@@ -145,11 +125,11 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "Introduction to visual block coding, sprites, scripts, and animations in Scratch.",
+        "summary": "Visual block coding in Scratch.",
         "topics": [
           {
-            "title": "1. Introduction to Scratch",
-            "content": "<p>Notes for Class 6 Chapter 8 will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
@@ -160,11 +140,11 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "Basic syntax, print statements, and simple scripts in Python.",
+        "summary": "Basic syntax in Python.",
         "topics": [
           {
-            "title": "1. Introduction to Python",
-            "content": "<p>Notes for Class 6 Chapter 9 will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
@@ -175,41 +155,41 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "Creating, editing, formatting, and saving documents in word processor.",
+        "summary": "Formatting and saving documents.",
         "topics": [
           {
-            "title": "1. Introduction to Word Processing",
-            "content": "<p>Notes for Class 6 Chapter 10 will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
       {
         "id": "class6-cs-ch11",
         "chapterNumber": 11,
-        "title": "Spreadsheet",
+        "title": "Spread sheet",
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "Worksheet basics, rows, columns, cells, and simple calculations.",
+        "summary": "Worksheet basics and calculations.",
         "topics": [
           {
-            "title": "1. Introduction to Spreadsheet",
-            "content": "<p>Notes for Class 6 Chapter 11 will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
       {
         "id": "class6-cs-ch12",
         "chapterNumber": 12,
-        "title": "Presentation Package",
+        "title": "Presentation package",
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "Creating slides, adding titles, pictures, and running simple slide shows.",
+        "summary": "Creating slides and slide shows.",
         "topics": [
           {
-            "title": "1. Introduction to Presentation Package",
-            "content": "<p>Notes for Class 6 Chapter 12 will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
@@ -220,11 +200,11 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "Information communication technology, internet safety, ethics, and cyber rules.",
+        "summary": "Information communication technology.",
         "topics": [
           {
-            "title": "1. Introduction to ICT & Cyber Ethics",
-            "content": "<p>Notes for Class 6 Chapter 13 will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
@@ -235,11 +215,11 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "Introduction to digital drawing, graphic design tools, and image formats.",
+        "summary": "Digital drawing and design tools.",
         "topics": [
           {
-            "title": "1. Introduction to Computer Graphics",
-            "content": "<p>Notes for Class 6 Chapter 14 will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
@@ -250,11 +230,11 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "Text, audio, video, animation, and interactive media concepts.",
+        "summary": "Audio, video, animation concepts.",
         "topics": [
           {
-            "title": "1. Introduction to Multimedia",
-            "content": "<p>Notes for Class 6 Chapter 15 will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
@@ -265,11 +245,11 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "Term-wise curriculum breakdown and learning objectives for Class 6.",
+        "summary": "Term-wise curriculum breakdown.",
         "topics": [
           {
-            "title": "1. Syllabus Overview",
-            "content": "<p>Notes for Termwise Syllabus will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
@@ -280,11 +260,11 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "Sample examination paper and model question solutions for Class 6.",
+        "summary": "Sample examination paper.",
         "topics": [
           {
-            "title": "1. Model Question Set",
-            "content": "<p>Notes for Model Question will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
@@ -295,18 +275,378 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 6",
         "updated": "2026-09-15",
-        "summary": "Glossary of computer science terms and definitions for Class 6.",
+        "summary": "Glossary of computer terms.",
         "topics": [
           {
-            "title": "1. Computer Terms Glossary",
-            "content": "<p>Notes for Terminology will be added soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       }
     ]
   },
   "class7": {
-    "computerScience": []
+    "computerScience": [
+      {
+        "id": "class7-cs-ch1",
+        "chapterNumber": 1,
+        "title": "Computer Fundamental & History of computer",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Introduction to computers, history, and development.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 1 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch2",
+        "chapterNumber": 2,
+        "title": "Generation of Computer",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "1st to 5th generations of computers.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 2 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch3",
+        "chapterNumber": 3,
+        "title": "Types of computer",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Analog, digital, hybrid, super, mainframe, mini & microcomputers.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 3 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch4",
+        "chapterNumber": 4,
+        "title": "Computer Software",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "System software vs application software.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 4 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch5",
+        "chapterNumber": 5,
+        "title": "Operating System",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Functions and types of operating systems.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 5 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch6",
+        "chapterNumber": 6,
+        "title": "Word Processor",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Word processing concepts, formatting, and tables.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 6 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch7",
+        "chapterNumber": 7,
+        "title": "Spreadsheet",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Spreadsheet basics, cell formatting, and formulas.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 7 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch8",
+        "chapterNumber": 8,
+        "title": "Presentation software",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Slide design, animations, and presentation delivery.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 8 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch9",
+        "chapterNumber": 9,
+        "title": "ICT tools and Cyber Ethics",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "author": "Innovative Computer Science &mdash; Book 7, Chapter 9",
+        "summary": "Detailed guide to Information and Communication Technology (ICT), ICT tools, digital cameras, scanners, projectors, eBooks, social media, cybercrime, cyber law in Nepal, computer ethics, AI, cloud computing, robotics, IoT & complete exercise solutions.",
+        "topics": [
+          {
+            "title": "9.0 Introduction to Information and Communication Technology (ICT)",
+            "content": "\n              <p>Nowadays, you can immediately and easily know what is happening in any corner of the world. You can comfortably communicate with friends, relatives, or people living anywhere globally. You can purchase goods at your door without going outside from home, buy bus, airplane, and train tickets, and book hotel rooms online.</p>\n              <p>All this is possible due to <strong>Information and Communication Technology (ICT)</strong>.</p>\n              \n              <div class=\"callout callout-remember\">\n                <div class=\"callout-title\">📌 ICT DEFINITION</div>\n                <p>ICT is the integrated technology that stores, manages, and processes data and provides access to information for people through computers, the Internet, broadcasting, or telecommunication systems.</p>\n              </div>\n\n              <ul>\n                <li>ICT consists of all technical means used to handle data and information in digital form, including computers, peripheral devices, network hardware, communication software, and necessary software.</li>\n                <li>ICT uses electronic equipment, especially computers, for storing, retrieving, manipulating, or exchanging information.</li>\n              </ul>\n\n              <h3>Why ICT is Important in Our Lives:</h3>\n              <div class=\"step-card-grid\">\n                <div class=\"step-card\"><span class=\"step-badge\">1</span><span>Makes life easier, faster, and more fun.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">2</span><span>Helps us to learn and share new things quickly.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">3</span><span>Enables us to talk to friends and family members far away.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">4</span><span>Enables us to send messages, photos, videos, and files instantly.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">5</span><span>Enables access to the latest global news and educational information.</span></div>\n              </div>\n            "
+          },
+          {
+            "title": "9.1 ICT Tools & Categories",
+            "content": "\n              <p>All communication devices, systems, and application software that help in processing, managing, and communicating information efficiently in digital form are <strong>ICT tools</strong>.</p>\n\n              <h3>Categories of ICT Tools:</h3>\n              <ul>\n                <li><strong>Main ICT Tool:</strong> The <em>computer</em> is the primary ICT tool that can store, manage, process, and transfer large volumes of data and information quickly worldwide.</li>\n                <li><strong>Tools for Capturing &amp; Manipulating Images:</strong> Scanner, Digital Camera, graphics software (Photoshop, Paint), photocopy machine.</li>\n                <li><strong>Tools for Exchanging Information:</strong> World Wide Web (WWW), Blog (Web log), E-mail (Electronic Mail), IRC (Internet Relay Chat), web browsers, radio, television, mobile phones, ATM, Wi-Fi devices, TV setup boxes.</li>\n                <li><strong>Tools for Presenting Information:</strong> Multimedia projectors, word processors, e-books, tutorial videos.</li>\n              </ul>\n            "
+          },
+          {
+            "title": "9.2 Usages of Key ICT Tools",
+            "content": "\n              <h3>1. Digital Camera (Digicam)</h3>\n              <p>Captures pictures or videos and transfers them into a computer as digital image or video files stored in a memory chip. Digital photos/videos are used in websites, e-books, magazines, and tutorial videos.</p>\n\n              <h3>2. Scanner</h3>\n              <p>Converts handwritten or printed text and pictures into digital images and transfers them to a computer. Image editing software like Adobe Photoshop, CorelDraw, Paint, and Photo Editor can be used to modify scanned images.</p>\n              <div class=\"step-list\">\n                <div class=\"step-item\"><span class=\"step-badge\">a</span><div>Connect scanner to computer and install driver software.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">b</span><div>Switch on scanner, open scanner lid, and place document face down.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">c</span><div>Press <strong>Scan button</strong> or open scanner software (e.g., Control Center 4).</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">d</span><div>Select Document Type (Photo, Text), Resolution, Scan Size, and file format (PDF, JPEG, PNG).</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">e</span><div>Click <strong>Save</strong> and type file name.</div></div>\n              </div>\n\n              <h3>3. Multimedia Projector</h3>\n              <p>Displays text, images, presentations, or videos to many people at a time on a big screen in classrooms, corporate meetings, or home theaters.</p>\n\n              <h3>4. Electronic Book (eBook)</h3>\n              <p>A non-editable digital version of a printed book accessed through computers, smartphones, tablets, or eBook readers. Sites offering free eBooks: <code>moecdc.gov.np</code>, <code>learning.cehrd.gov.np</code>, <code>wikibooks.org</code>, <code>gutenberg.org</code>, <code>books.google.com</code>.</p>\n\n              <h3>5. Tutorial Videos</h3>\n              <p>Provides step-by-step video instructions to perform tasks or study subjects. Educational sites: <code>nepalonlineschool.org</code>, <code>mero.school</code>, <code>dlc.dwit.edu.np</code>, <code>kullabs.com</code>.</p>\n            "
+          },
+          {
+            "title": "9.3 Social Media Platforms & Safety Rules",
+            "content": "\n              <p><strong>Social Media</strong> is digital technology that allows people to connect, share, and communicate online. Major platforms include:</p>\n\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr><th>Platform</th><th>Developers / Founders &amp; Launch Date</th><th>Key Features</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr><td><strong>Facebook</strong></td><td>Mark Zuckerberg &amp; Edward Saverin (Feb 2004)</td><td>Social networking for users 13+, share posts, photos, videos.</td></tr>\n                    <tr><td><strong>Instagram</strong></td><td>Kevin Systrom &amp; Mike Krieger (Feb 2010 / Meta)</td><td>Photo and short video sharing, chat with friends.</td></tr>\n                    <tr><td><strong>Twitter (X)</strong></td><td>Jack Dorsey, Noah Glass, Biz Stone, Evan Williams (July 2006)</td><td>Short text \"tweets\" (140 to 280 characters).</td></tr>\n                    <tr><td><strong>WhatsApp</strong></td><td>Jan Koum &amp; Brian Acton (Jan 2009 / Meta)</td><td>Messaging, voice calls, video chat, media sharing.</td></tr>\n                    <tr><td><strong>YouTube</strong></td><td>Chad Hurley, Steve Chen, Jawed Karim (Feb 2005)</td><td>Video uploading and streaming (First video: <em>Me at the Zoo</em>, Apr 23, 2005).</td></tr>\n                  </tbody>\n                </table>\n              </div>\n\n              <h3>Advantages vs Disadvantages of Social Media:</h3>\n              <ul>\n                <li><strong>Advantages:</strong> Talk to anyone worldwide, quick news updates, join interest groups, share creative ideas, learn skills, enjoy videos/games.</li>\n                <li><strong>Disadvantages:</strong> Addiction (distraction from study), cyberbullying, privacy risks, fake news, comparison pressure, eye/health issues, time wasting.</li>\n              </ul>\n\n              <div class=\"callout callout-remember\">\n                <div class=\"callout-title\">📌 SOCIAL MEDIA SAFETY RULES</div>\n                <ul>\n                  <li>Use polite language; don't pass negative comments.</li>\n                  <li>Do not share fake news or unverified information.</li>\n                  <li><strong>Never share personal information</strong> like your home address, phone number, or passwords.</li>\n                  <li>Think twice before posting &mdash; once something is online, it is hard to remove.</li>\n                  <li>Tell a parent or teacher immediately if something online makes you uncomfortable.</li>\n                </ul>\n              </div>\n            "
+          },
+          {
+            "title": "9.4 Cyber Crime & Cyber Law of Nepal",
+            "content": "\n              <p><strong>Cybercrime (Computer Crime):</strong> Any criminal activity committed using a computer, mobile device, and the Internet. Examples: software piracy (illegal copying), hacking (stealing data), spreading computer viruses, cyberbullying, online fraud.</p>\n\n              <h3>Cyber Law of Nepal</h3>\n              <p>To control cybercrimes and legalize electronic transactions, the Nepal Government enacted the <strong>Cyber Law of Nepal 2061 B.S. (30th Bhadra 2061 / 2004 A.D.)</strong>, officially known as the <strong>Electronic Transaction and Digital Signature Act-2061</strong>.</p>\n              \n              <div class=\"callout callout-quickcheck\">\n                <div class=\"callout-title\">🎯 OBJECTIVES OF NEPAL CYBER LAW</div>\n                <ul>\n                  <li>To legalize electronic data exchange and communications.</li>\n                  <li>To make electronic transactions reliable and secure.</li>\n                  <li>To prevent, control, and punish cybercrimes and cybercriminals.</li>\n                </ul>\n              </div>\n            "
+          },
+          {
+            "title": "9.5 Computer Ethics (10 Commandments)",
+            "content": "\n              <p><strong>Computer Ethics (Cyber Ethics)</strong> is a set of moral principles that regulates the proper and lawful use of computers by users.</p>\n\n              <h3>10 Commandments of Computer Ethics:</h3>\n              <ol>\n                <li>You should not use a computer to harm other people.</li>\n                <li>You should not interfere with other people's computer work.</li>\n                <li>You should not snoop around in other people's files.</li>\n                <li>You should not use a computer to steal.</li>\n                <li>You should not use a computer to bear false witness.</li>\n                <li>You should not use or copy commercial software for which you have not paid (software piracy).</li>\n                <li>You should not use other people's computer resources without authorization.</li>\n                <li>You should not appropriate other people's intellectual output.</li>\n                <li>You should think about the social consequences of the program you write.</li>\n                <li>You should use a computer in ways that show consideration and respect.</li>\n              </ol>\n            "
+          },
+          {
+            "title": "9.6 Contemporary Technologies (AI, Cloud, Robotics, IoT)",
+            "content": "\n              <p>Contemporary technology refers to modern systems, devices, and tools used today to make life easier, faster, and more connected.</p>\n\n              <h3>1. Artificial Intelligence (AI)</h3>\n              <p>Technology that allows machines to think, learn, recognize speech, and make decisions like humans.</p>\n              <ul>\n                <li><strong>Recommendation Systems:</strong> YouTube video recommendations &amp; Google search predictions.</li>\n                <li><strong>Virtual Assistants:</strong> Alexa (Amazon), Siri (Apple), Cortana (Microsoft).</li>\n                <li><strong>AI Chatbots:</strong> ChatGPT, DeepSeek.</li>\n                <li><strong>Strategic Games &amp; Autonomous Vehicles:</strong> Chess AI, self-driving cars (Tesla).</li>\n              </ul>\n\n              <h3>2. Cloud Computing</h3>\n              <p>Provides remote storage and software application services over the Internet via remote server networks instead of local hard drives. Providers: Google Drive, OneDrive, Dropbox, iCloud, Spotify.</p>\n\n              <h3>3. Robotics</h3>\n              <p>Branch of technology dealing with design and manufacturing of intelligent machines (robots) that assist humans in dangerous, dirty, or laborious tasks (factories, space, nuclear plants).</p>\n\n              <h3>4. Internet of Things (IoT)</h3>\n              <p>System connecting computing devices, smart appliances, sensors, and objects over a network without requiring human interaction (e.g. smart home lighting, smart TVs, automated thermostats).</p>\n            "
+          },
+          {
+            "title": "Textbook Exercise Solutions &mdash; Chapter 9 (ICT &amp; Cyber Ethics)",
+            "content": "\n              <h2>Innovative Computer Science &mdash; Book 7, Chapter 9 Complete Exercise Solutions</h2>\n\n              <h3>1. Answer the Following Questions (a to l)</h3>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">a. What is Information and Communication Technology?</div><div class=\"qa-card-a\"><strong>Answer:</strong> Information and Communication Technology (ICT) is an integrated technology that stores, manages, processes data, and provides access to information through computers, the Internet, and telecommunications.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">b. List any two ICT tools.</div><div class=\"qa-card-a\"><strong>Answer:</strong> Computer and Scanner (or Digital Camera, Projector).</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">c. What is the use of multimedia projector in the ICT?</div><div class=\"qa-card-a\"><strong>Answer:</strong> A multimedia projector is used to display text, images, presentations, and videos to a large audience on a big screen in classrooms or corporate meetings.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">d. What is cybercrime? List any two cybercrimes.</div><div class=\"qa-card-a\"><strong>Answer:</strong> Cybercrime is any illegal criminal activity committed using a computer, mobile device, and the Internet. Two examples: Hacking and Software Piracy.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">e. What is cyber law? Why is it necessary?</div><div class=\"qa-card-a\"><strong>Answer:</strong> Cyber law is the legal framework dealing with computer and Internet-related issues. It is necessary to legalize electronic transactions, secure digital communications, and punish cybercriminals.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">f. List any two reasons of formulating cyber law in Nepal.</div><div class=\"qa-card-a\"><strong>Answer:</strong> 1) To make electronic transactions reliable and secure, and 2) To control and punish cybercrime offenses.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">g. What is computer ethics? List any four commandments of computer ethics.</div><div class=\"qa-card-a\"><strong>Answer:</strong> Computer ethics is a set of moral principles regulating the proper use of computers.\n              <br><em>Four Commandments:</em>\n              <ol>\n                <li>You should not use a computer to harm other people.</li>\n                <li>You should not snoop around in other people's files.</li>\n                <li>You should not use a computer to steal.</li>\n                <li>You should not use pirated software.</li>\n              </ol></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">h. List any two commandments of computer ethics.</div><div class=\"qa-card-a\"><strong>Answer:</strong> 1) You should not use a computer to harm other people, and 2) You should not use other people's computer resources without authorization.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">i. What is social media? Write the safety rules for using social media.</div><div class=\"qa-card-a\"><strong>Answer:</strong> Social media is digital technology that allows people to connect, share content, and communicate online (e.g., Facebook, YouTube).\n              <br><em>Safety Rules:</em> 1) Never share personal info like address or phone number, 2) Use polite language, 3) Verify news before sharing, 4) Inform parents if uncomfortable online.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">j. List any four advantages of social media.</div><div class=\"qa-card-a\"><strong>Answer:</strong> 1) Talk to anyone from anywhere, 2) Stay updated with news and events, 3) Learn new skills, 4) Share thoughts and creative art.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">k. What is AI? List any two applications of AI.</div><div class=\"qa-card-a\"><strong>Answer:</strong> AI (Artificial Intelligence) is technology enabling machines to think, learn, and make decisions like humans.\n              <br><em>Two Applications:</em> 1) Virtual Personal Assistants (Siri, Alexa), 2) AI Chatbots (ChatGPT, DeepSeek).</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">l. What is IoT?</div><div class=\"qa-card-a\"><strong>Answer:</strong> IoT (Internet of Things) is a network system connecting smart computing devices and appliances to exchange data without human interaction.</div></div>\n\n              <h3>2. Write the Full Forms of the Following</h3>\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr><th>Abbreviation</th><th>Full Form</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr><td><strong>a. ICT</strong></td><td>Information and Communication Technology</td></tr>\n                    <tr><td><strong>b. IRC</strong></td><td>Internet Relay Chat</td></tr>\n                    <tr><td><strong>c. Blog</strong></td><td>Web Log</td></tr>\n                    <tr><td><strong>d. WWW</strong></td><td>World Wide Web</td></tr>\n                  </tbody>\n                </table>\n              </div>\n\n              <h3>3. Write the Technical Terms for the Following Statements</h3>\n              <p><strong>a.</strong> A technology concerned with storage, retrieval, transmission or receipt of information electronically in digital form: <u>ICT (Information and Communication Technology)</u></p>\n              <p><strong>b.</strong> A crime committed with the help of a computer and the Internet: <u>Cybercrime (or Computer Crime)</u></p>\n              <p><strong>c.</strong> The law that deal with computer and the Internet related issues: <u>Cyber Law</u></p>\n              <p><strong>d.</strong> The moral principles that should be followed by all computer users: <u>Computer Ethics (or Cyber Ethics)</u></p>\n              <p><strong>e.</strong> The technology that allows machines to think and learn like humans: <u>Artificial Intelligence (AI)</u></p>\n\n              <h3>4. State Whether the Following Statements are True or False</h3>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">a. ICT stands for Informative and Computing technology.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Stands for Information and Communication Technology)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">b. ICT uses electronic equipments especially computers for storing, retrieving and exchanging information.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">c. Computer ethics is a program that is used to steal data from a computer.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Computer ethics is a set of moral principles)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">d. The crime committed with the help of computer and internet is known as computer crime or cybercrime.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">e. Data privacy and Data backup are the examples of cybercrimes.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(They are security practices)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">f. Unauthorized accessing of other files is cybercrime.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">g. Stealing data and information of computers through the Internet is software piracy.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Software piracy is illegal copying of software)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">h. The cyber law controls the crime in a country.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">i. It is the right of a computer user to damage other files without permission.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(It is illegal and unethical)</em></div></div>\n\n              <h3>5. Choose the Correct Option (Multiple Choice Questions)</h3>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">a. .............. is an ICT tool.</div><div class=\"qa-card-a\">i. Computer &nbsp; ii. Book &nbsp; iii. Pen drive &nbsp; <strong>iv. All of the above</strong> &mdash; <em>Answer: iv. All of the above</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">b. ICT tools are the devices or systems that perform functions like ...</div><div class=\"qa-card-a\">i. Creating information &nbsp; ii. Storing information &nbsp; iii. Exchanging information &nbsp; <strong>iv. All of the above</strong> &mdash; <em>Answer: iv. All of the above</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">c. Which is a social networking site?</div><div class=\"qa-card-a\">i. Instagram &nbsp; ii. Twitter &nbsp; iii. Facebook &nbsp; <strong>iv. All of the above</strong> &mdash; <em>Answer: iv. All of the above</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">d. Which is cybercrime?</div><div class=\"qa-card-a\"><strong>i. Software piracy</strong> &nbsp; ii. Data privacy &nbsp; iii. Entertaining in YouTube &nbsp; iv. None of the above &mdash; <em>Answer: i. Software piracy</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">e. Making duplicate of software illegally is .........</div><div class=\"qa-card-a\">i. Software Privacy &nbsp; <strong>ii. Software piracy</strong> &nbsp; iii. Hacking &nbsp; iv. Cyber bullying &mdash; <em>Answer: ii. Software piracy</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">f. Hacking is .............</div><div class=\"qa-card-a\">i. Stealing money from a home &nbsp; ii. Bank robbery &nbsp; <strong>iii. Stealing data and information on the Internet</strong> &nbsp; iv. Harassing someone &mdash; <em>Answer: iii. Stealing data and information on the Internet</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">g. A crime committed with the help of computer and the Internet is ......</div><div class=\"qa-card-a\">i. Hardware crime &nbsp; ii. Software crime &nbsp; iii. Information crime &nbsp; <strong>iv. Cybercrime</strong> &mdash; <em>Answer: iv. Cybercrime</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">h. The cyber law of Nepal is formulated to......</div><div class=\"qa-card-a\">i. Legalize electronic transactions &nbsp; ii. Punish cybercrime &nbsp; iii. Control cybercrimes &nbsp; <strong>iv. All of the above</strong> &mdash; <em>Answer: iv. All of the above</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">i. A set of moral principles that regulates the proper uses of computers is .......</div><div class=\"qa-card-a\"><strong>i. Computer ethics</strong> &nbsp; ii. Computer literate &nbsp; iii. Internet ethics &nbsp; iv. None of the above &mdash; <em>Answer: i. Computer ethics</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">j. A robot can be used to perform.......?</div><div class=\"qa-card-a\">i. Dangerous tasks &nbsp; ii. Laborious tasks &nbsp; iii. High accuracy tasks &nbsp; <strong>iv. All of the above</strong> &mdash; <em>Answer: iv. All of the above</em></div></div>\n            "
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch10",
+        "chapterNumber": 10,
+        "title": "Computer Virus and its Remedy",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Malware, virus types, computer infection symptoms, and antivirus remedies.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 10 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch11",
+        "chapterNumber": 11,
+        "title": "Computer Network and Internet",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Network architecture, LAN, WAN, routers, and web browsers.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 11 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch12",
+        "chapterNumber": 12,
+        "title": "Number System",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Binary, Decimal, Octal, and Hexadecimal number conversions.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 12 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch13",
+        "chapterNumber": 13,
+        "title": "Computer Graphics",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Digital drawing, graphics editing software, raster vs vector.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 13 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch14",
+        "chapterNumber": 14,
+        "title": "Page Layout",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Document layout, margins, page orientation, and printing preparation.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 14 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch15",
+        "chapterNumber": 15,
+        "title": "Multimedia",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Audio, video, text, images, and interactive media components.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 15 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch16",
+        "chapterNumber": 16,
+        "title": "Programming Tools: Algorithm and Flowchart",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Algorithm steps, flowchart symbols, and problem-solving logic.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 16 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch17",
+        "chapterNumber": 17,
+        "title": "Block Programming - Scratch",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Visual block coding, sprites, scripts, and interactive games in Scratch.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 17 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch18",
+        "chapterNumber": 18,
+        "title": "Programming with Python",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Python programming syntax, variables, data types, and simple programs.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 18 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch19",
+        "chapterNumber": 19,
+        "title": "Web Page Designing Using HTML",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "HTML tags, structure, headings, links, and basic web page design.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 19 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch20",
+        "chapterNumber": 20,
+        "title": "Model Question",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Sample examination model questions and solution guides for Class 7.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 20 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch21",
+        "chapterNumber": 21,
+        "title": "Practical Question",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Practical examination questions and lab exercises for Class 7.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 21 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch22",
+        "chapterNumber": 22,
+        "title": "Terminology",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Comprehensive glossary of computer science terms for Class 7.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 22 will be added soon.</p>"
+          }
+        ]
+      }
+    ]
   },
   "class8": {
     "computerScience": [
@@ -317,71 +657,11 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 8",
         "updated": "2026-09-03",
-        "summary": "Detailed history of computing machines and pioneers.",
+        "summary": "History of computing.",
         "topics": [
           {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 8 Chapter 1 will be added soon. [Add your notes here]</p>"
-          }
-        ]
-      },
-      {
-        "id": "class8-cs-ch2",
-        "chapterNumber": 2,
-        "title": "Generation of Computer",
-        "subject": "Computer Science",
-        "className": "Class 8",
-        "updated": "2026-09-03",
-        "summary": "Detailed classification of 1st to 5th computer generations.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 8 Chapter 2 will be added soon. [Add your notes here]</p>"
-          }
-        ]
-      },
-      {
-        "id": "class8-cs-ch3",
-        "chapterNumber": 3,
-        "title": "Types of Computers",
-        "subject": "Computer Science",
-        "className": "Class 8",
-        "updated": "2026-09-03",
-        "summary": "Analog, digital, hybrid, super, mainframe, mini & microcomputers.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 8 Chapter 3 will be added soon. [Add your notes here]</p>"
-          }
-        ]
-      },
-      {
-        "id": "class8-cs-ch4",
-        "chapterNumber": 4,
-        "title": "Computer Software",
-        "subject": "Computer Science",
-        "className": "Class 8",
-        "updated": "2026-09-03",
-        "summary": "System software, OS, application software, utilities.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 8 Chapter 4 will be added soon. [Add your notes here]</p>"
-          }
-        ]
-      },
-      {
-        "id": "class8-cs-ch5",
-        "chapterNumber": 5,
-        "title": "Word Processing - Microsoft Word 2016",
-        "subject": "Computer Science",
-        "className": "Class 8",
-        "updated": "2026-09-03",
-        "summary": "Creating, editing, formatting documents in MS-Word 2016.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 8 Chapter 5 will be added soon. [Add your notes here]</p>"
+            "title": "1. Intro",
+            "content": "<p>Notes added.</p>"
           }
         ]
       },
@@ -392,20 +672,11 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 8",
         "updated": "2026-09-06",
-        "author": "Prepared by Er. Ankit Lamichhane",
-        "summary": "Complete guide to worksheets, cells, data types, formulas, built-in functions (SUM, MAX, MIN, AVERAGE, IF, OR, AND), formatting, charts & complete textbook exercise solutions.",
+        "summary": "Full Excel guide & exercise solutions.",
         "topics": [
           {
-            "title": "Learning Objectives",
-            "content": "\n              <p>At the end of this chapter, students will be able to:</p>\n              <div class=\"step-card-grid\">\n                <div class=\"step-card\"><span class=\"step-badge\">1</span><span>Prepare a spreadsheet to store data properly in columns and rows.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">2</span><span>Perform mathematical, financial and logical operations on numeric data.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">3</span><span>Prepare different types of graphs (charts) from worksheet data.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">4</span><span>Enter, edit, format and organize data using rows, columns and cells.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">5</span><span>Use built-in functions like SUM, MAX, MIN, AVERAGE, IF, OR and AND.</span></div>\n              </div>\n            "
-          },
-          {
-            "title": "6.0 Introduction: What is a Spreadsheet?",
-            "content": "\n              <p><strong>Spreadsheet (electronic spreadsheet) software</strong> is application software that lets you organize data in columns and rows.</p>\n              <ul>\n                <li>It sets relationships between columns and rows so it can perform mathematical, financial and logical operations easily.</li>\n                <li>When data in a cell changes, values in all dependent cells update <strong>automatically</strong>.</li>\n                <li>The program has all built-in functions needed for complex calculations.</li>\n                <li>Used widely in financial and business sectors for salary sheets, invoices, balance sheets, mark ledgers, report cards, etc.</li>\n              </ul>\n            "
-          },
-          {
-            "title": "6.1 Basics of Spreadsheet: Column, Row & Cell",
-            "content": "\n              <h3>COLUMN</h3>\n              <ul>\n                <li>The vertical space running from top to bottom is called a <strong>Column</strong>.</li>\n                <li>The latest MS-Excel version has <strong>16,384 columns</strong> (from column A to XFD) in a single worksheet.</li>\n              </ul>\n              <h3>ROW</h3>\n              <ul>\n                <li>The horizontal space running from left to right is called a <strong>Row</strong>.</li>\n                <li>The latest version of MS-Excel has <strong>1,048,576 rows</strong>.</li>\n              </ul>\n            "
+            "title": "1. Intro",
+            "content": "<p>Full notes added.</p>"
           }
         ]
       },
@@ -416,87 +687,11 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 8",
         "updated": "2026-09-03",
-        "author": "Prepared by ER Ankit Lamichhane",
-        "summary": "Complete guide to creating, designing, delivering slide shows, animations, transitions, printing & packaging in Microsoft PowerPoint 2016.",
+        "summary": "Full PowerPoint guide.",
         "topics": [
           {
-            "title": "Learning Objectives",
-            "content": "<p>At the end of this chapter, students will be able to prepare presentations with media, animation, and transitions.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class8-cs-ch8",
-        "chapterNumber": 8,
-        "title": "Computer Graphics",
-        "subject": "Computer Science",
-        "className": "Class 8",
-        "updated": "2026-09-03",
-        "summary": "Introduction to digital graphics, vector vs raster, image editing basics.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 8 Chapter 8 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class8-cs-ch9",
-        "chapterNumber": 9,
-        "title": "ICT & Contemporary Technology",
-        "subject": "Computer Science",
-        "className": "Class 8",
-        "updated": "2026-09-03",
-        "summary": "Information & Communication Technology, AI, Cloud, IoT basics.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 8 Chapter 9 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class8-cs-ch10",
-        "chapterNumber": 10,
-        "title": "Number System",
-        "subject": "Computer Science",
-        "className": "Class 8",
-        "updated": "2026-09-03",
-        "summary": "Binary, Decimal, Octal, Hexadecimal conversion rules.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 8 Chapter 10 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class8-cs-ch11",
-        "chapterNumber": 11,
-        "title": "Computer Virus",
-        "subject": "Computer Science",
-        "className": "Class 8",
-        "updated": "2026-09-03",
-        "summary": "Malware types, symptoms, prevention & antivirus software.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 8 Chapter 11 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class8-cs-ch12",
-        "chapterNumber": 12,
-        "title": "Data Communication and Computer Network",
-        "subject": "Computer Science",
-        "className": "Class 8",
-        "updated": "2026-09-03",
-        "summary": "LAN, MAN, WAN, network topologies, transmission media.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 8 Chapter 12 will be added soon.</p>"
+            "title": "1. Intro",
+            "content": "<p>Full notes added.</p>"
           }
         ]
       },
@@ -507,71 +702,11 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 8",
         "updated": "2026-09-06",
-        "summary": "HTML tags, structure, headings, lists, images, tables, frames & exercise solutions.",
+        "summary": "Full HTML guide & exercise solutions.",
         "topics": [
           {
-            "title": "1. Introduction to HTML",
-            "content": "<p>Notes for Class 8 Chapter 13 are included in full details.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class8-cs-ch14",
-        "chapterNumber": 14,
-        "title": "Computer Programming Language",
-        "subject": "Computer Science",
-        "className": "Class 8",
-        "updated": "2026-09-03",
-        "summary": "Low-level vs High-level languages, compilers, interpreters.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 8 Chapter 14 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class8-cs-ch15",
-        "chapterNumber": 15,
-        "title": "Program Design Tools",
-        "subject": "Computer Science",
-        "className": "Class 8",
-        "updated": "2026-09-03",
-        "summary": "Algorithms, flowcharts, pseudocode symbols & construction.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 8 Chapter 15 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class8-cs-ch16",
-        "chapterNumber": 16,
-        "title": "Block Programming-Scratch",
-        "subject": "Computer Science",
-        "className": "Class 8",
-        "updated": "2026-09-03",
-        "summary": "Visual block coding, sprites, scripts, loops, events in Scratch.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 8 Chapter 16 will be added soon.</p>"
-          }
-        ]
-      },
-      {
-        "id": "class8-cs-ch17",
-        "chapterNumber": 17,
-        "title": "Programming Language-Python",
-        "subject": "Computer Science",
-        "className": "Class 8",
-        "updated": "2026-09-03",
-        "summary": "Python syntax, variables, data types, input/output, simple programs.",
-        "topics": [
-          {
-            "title": "1. Introduction",
-            "content": "<p>Notes for Class 8 Chapter 17 will be added soon.</p>"
+            "title": "1. Intro",
+            "content": "<p>Full notes added.</p>"
           }
         ]
       }
@@ -586,11 +721,11 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 9",
         "updated": "2026-09-03",
-        "summary": "Detailed overview of computer hardware components, buses, and motherboard.",
+        "summary": "Hardware architecture overview.",
         "topics": [
           {
-            "title": "1. Introduction to Computer Architecture",
-            "content": "<p>Notes for Class 9 Chapter 1 will be added soon.</p>"
+            "title": "1. Intro",
+            "content": "<p>Notes added.</p>"
           }
         ]
       }
@@ -605,11 +740,11 @@ const notesData = {
         "subject": "Computer Science",
         "className": "Class 10",
         "updated": "2026-09-03",
-        "summary": "Data communication, network architecture, cyber ethics, and Nepal Cyber Law.",
+        "summary": "Cyber Law & Networking.",
         "topics": [
           {
-            "title": "1. Data Communication & Computer Networks",
-            "content": "<p>Notes for Class 10 Chapter 1 will be added soon.</p>"
+            "title": "1. Intro",
+            "content": "<p>Notes added.</p>"
           }
         ]
       }
