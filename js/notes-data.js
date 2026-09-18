@@ -11,68 +11,77 @@ const notesData = {
       {
         "id": "class6-cs-ch1",
         "chapterNumber": 1,
-        "title": "Introduction to Computers",
+        "title": "Computer Fundamental",
         "subject": "Computer Science",
         "className": "Class 6",
-        "updated": "2026-09-03",
-        "summary": "Fundamental concepts of computers, definition, characteristics, and basic components.",
+        "updated": "2026-09-17",
+        "author": "Innovative Computer Science &mdash; Book 6, Chapter 1",
+        "summary": "Fundamental concepts of computers, definition, IPO cycle, units of speed, characteristics, application areas in education, medicine, finance, offices, entertainment, and complete textbook exercise solutions.",
         "topics": [
           {
-            "title": "1. What is a Computer?",
-            "content": "\n              <p>An <strong>electronic computer</strong> is an electronic device that accepts raw data as input, processes it according to stored instructions, produces meaningful information as output, and stores the results for future use.</p>\n              <p>The word <em>computer</em> comes from the Latin word <em>computare</em>, which means \"to calculate\". However, modern computers do far more than simple calculations.</p>\n              <div class=\"callout callout-doyouknow\">\n                <div class=\"callout-title\">💡 Did You Know?</div>\n                <p>Charles Babbage is known as the <strong>Father of Computer</strong> because he designed the Analytical Engine, which laid the foundation for modern electronic computers.</p>\n              </div>\n            "
+            "title": "1.0 Introduction to Computer & IPO Principle",
+            "content": "\n          <p>A <strong>computer</strong> is an electronic machine. It can be programmed to perform a variety of tasks at very high speed and accurately. It accepts data and instructions from a user, processes the data according to the given instructions, and produces meaningful information as output.</p>\n          \n          <div class=\"callout callout-remember\">\n            <div class=\"callout-title\">📌 DEFINITION OF COMPUTER</div>\n            <p>A computer is a programmable electronic machine that takes data and instructions, processes them, produces information, and stores information in its memory.</p>\n          </div>\n\n          <h3>Common Applications &amp; Internet Services:</h3>\n          <ul>\n            <li><strong>Document &amp; Office Work:</strong> Creating documents, spreadsheets, databases, presentations, and graphics.</li>\n            <li><strong>Internet Services:</strong> Accessing World Wide Web (WWW), file transferring, emails, online chatting, and video conferencing.</li>\n            <li><strong>Special Applications:</strong> Composing music, adding special effects in movies and songs, operating Automated Teller Machines (ATM), monitoring patients in hospitals, and supporting scientific research.</li>\n          </ul>\n\n          <h3>The Input-Process-Output (IPO) Principle</h3>\n          <p>A computer works on the principle of <strong>Input-Process-Output (IPO)</strong>. It accepts input in the form of data and instructions, processes them in the Central Processing Unit (CPU), and produces output in the form of meaningful information.</p>\n          \n          <div class=\"step-card-grid\">\n            <div class=\"step-card\"><span class=\"step-badge\">1. INPUT</span><span>Keyboard &amp; Mouse feed Data (e.g. 5 and 6) &amp; Instructions (Add these numbers).</span></div>\n            <div class=\"step-card\"><span class=\"step-badge\">2. PROCESS</span><span>Central Processing Unit (CPU) performs calculation (5 + 6).</span></div>\n            <div class=\"step-card\"><span class=\"step-badge\">3. OUTPUT</span><span>Monitor &amp; Printer display Information result (11).</span></div>\n          </div>\n\n          <p><strong>Program Definition:</strong> The set of instructions given to a computer is known as a <strong>program</strong>.</p>\n          <p><strong>Permanent Storage:</strong> A computer can store data, information, and programs permanently on storage devices such as hard disks, solid state drives (SSD), optical disks, and pen drives.</p>\n        "
           },
           {
-            "title": "2. Basic Characteristics of Computers",
-            "content": "\n              <p>Computers have several distinct characteristics that make them essential in daily life:</p>\n              <ul>\n                <li><strong>Speed:</strong> A computer performs millions of instructions per second (MIPS).</li>\n                <li><strong>Accuracy:</strong> Computers produce 100% accurate results provided the input and instructions are correct (GIGO: Garbage In, Garbage Out).</li>\n                <li><strong>Diligence:</strong> Unlike humans, a computer never gets tired or suffers from lack of concentration.</li>\n                <li><strong>Versatility:</strong> A computer can perform completely different tasks simultaneously (e.g. playing music while typing a document).</li>\n                <li><strong>Storage Capacity:</strong> Computers can store massive amounts of data in secondary storage devices.</li>\n              </ul>\n            "
+            "title": "1.1 Stages of the IPO Cycle & Components",
+            "content": "\n          <p>The operation of a computer system is divided into four basic stages:</p>\n          \n          <h3>1. Input</h3>\n          <p>A computer works only when it gets data and instructions. You enter data and instructions into a computer using input devices. Data and instructions fed into a computer are known as inputs. <strong>Keyboard</strong> and <strong>mouse</strong> are commonly used input devices. Other input devices include scanners, microphones, digital cameras, and light pens.</p>\n\n          <h3>2. Process</h3>\n          <p>After receiving the input, the computer processes the data with the help of the <strong>Central Processing Unit (CPU)</strong>. Treating data according to instructions is known as process. When data is treated or processed, it is converted into meaningful information.</p>\n\n          <h3>3. Output</h3>\n          <p>When data is processed, you get information. The outcome or information produced by the computer is known as output. <strong>Monitors</strong> and <strong>printers</strong> are commonly used output devices.</p>\n\n          <h3>4. Storage</h3>\n          <p>Data, information, and programs can be stored on a storage device for future use. Stored data can be retrieved and used whenever required. Commonly used storage devices include <strong>Hard Disk</strong>, <strong>Solid State Disk (SSD)</strong>, <strong>Optical Disk (CD/DVD)</strong>, and <strong>Pen Drive</strong>.</p>\n        "
           },
           {
-            "title": "3. Fundamental Components (IPO Cycle)",
-            "content": "\n              <p>Every computer operates on the <strong>Input &rarr; Process &rarr; Output (IPO)</strong> cycle.</p>\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr>\n                      <th>Stage</th>\n                      <th>Function</th>\n                      <th>Example Devices</th>\n                    </tr>\n                  </thead>\n                  <tbody>\n                    <tr>\n                      <td><strong>Input</strong></td>\n                      <td>Accepts data and commands from user</td>\n                      <td>Keyboard, Mouse, Scanner, Microphone</td>\n                    </tr>\n                    <tr>\n                      <td><strong>Processing</strong></td>\n                      <td>Processes input data according to instructions</td>\n                      <td>Central Processing Unit (CPU)</td>\n                    </tr>\n                    <tr>\n                      <td><strong>Output</strong></td>\n                      <td>Displays processed information to user</td>\n                      <td>Monitor, Printer, Speaker</td>\n                    </tr>\n                    <tr>\n                      <td><strong>Storage</strong></td>\n                      <td>Stores data permanently or temporarily</td>\n                      <td>Hard Disk, SSD, RAM, Pen Drive</td>\n                    </tr>\n                  </tbody>\n                </table>\n              </div>\n            "
+            "title": "1.2 Characteristics of Computer",
+            "content": "\n          <p>Computers are used in almost all fields due to their wonderful characteristics:</p>\n\n          <h3>a. Speed</h3>\n          <p>Computers work at a very high speed. Tasks that take hours or days to complete manually can be completed by a computer within seconds or minutes. For example, calculating the total marks and grades of 3,000 students takes only a few minutes on a computer.</p>\n          \n          <div class=\"table-responsive\">\n            <table class=\"notes-table\">\n              <thead>\n                <tr><th>Unit of Time</th><th>Part of Second</th><th>Power of 10</th></tr>\n              </thead>\n              <tbody>\n                <tr><td><strong>Millisecond (ms)</strong></td><td>1/1000 (One Thousandth)</td><td>10<sup>-3</sup> s</td></tr>\n                <tr><td><strong>Microsecond (&mu;s)</strong></td><td>1/1000000 (One Millionth)</td><td>10<sup>-6</sup> s</td></tr>\n                <tr><td><strong>Nanosecond (ns)</strong></td><td>1/1000000000 (One Billionth)</td><td>10<sup>-9</sup> s</td></tr>\n                <tr><td><strong>Picosecond (ps)</strong></td><td>1/1000000000000 (One Trillionth)</td><td>10<sup>-12</sup> s</td></tr>\n              </tbody>\n            </table>\n          </div>\n\n          <ul>\n            <li>The speed of a computer is determined by its <strong>microprocessor</strong> and measured in Hertz (Hz) / Megahertz (MHz) / Gigahertz (GHz). A 3 GHz processor performs about 3 billion operations per second (each operation takes 0.3 nanoseconds).</li>\n            <li>The speed of a <strong>mainframe computer</strong> is measured in <strong>FLOPS (Floating Point Operations Per Second)</strong>.</li>\n            <li>The speed of a <strong>supercomputer</strong> is measured in <strong>Teraflops</strong>.</li>\n          </ul>\n\n          <h3>b. Accuracy</h3>\n          <p>Computers process data according to instructions and produce 100% accurate results as long as correct data is provided. It does not make mistakes by itself.</p>\n          <ul>\n            <li><strong>GIGO (Garbage In Garbage Out):</strong> When wrong data or instructions are fed into the computer, it produces wrong information. This type of error is known as GIGO.</li>\n            <li><strong>Bug:</strong> An error in a program or a fault in a hardware device is known as a <strong>bug</strong>.</li>\n          </ul>\n\n          <h3>c. Diligence</h3>\n          <p>A computer can work continuously for a long time without losing its accuracy and speed. Unlike humans, it does not suffer from tiredness, lack of concentration, or boredom. Therefore, it is used in quality control and process control tasks.</p>\n\n          <h3>d. Versatility</h3>\n          <p>A computer can perform many different types of tasks. It can be used to prepare salary sheets, examination results, presentations, compose songs, design automobiles, or monitor patients in the Intensive Care Unit (ICU).</p>\n\n          <h3>e. Storage Capacity</h3>\n          <p>A computer can store huge amounts of data permanently on secondary storage devices. Storage capacity is measured in <strong>Bytes</strong>. Storing one character occupies 1 byte of memory space.</p>\n\n          <h3>f. Automatic</h3>\n          <p>Since a computer is a programmable electronic machine, it performs tasks automatically once instructions are fed into it.</p>\n        "
+          },
+          {
+            "title": "1.3 Application Areas of Computers",
+            "content": "\n          <p>Computers are used in almost every sector of modern society:</p>\n\n          <h3>a. Education Sector</h3>\n          <p>Schools and colleges have computer labs where students receive practical training on application software and programming languages. Teachers use multimedia systems to display charts, diagrams, animated clips, and videos. Students use the internet to research topics and study subjects like Mathematics, Science, and Nepali.</p>\n\n          <h3>b. Medical Sector</h3>\n          <p>Computers in hospitals store patient records (diagnoses, lab test results, previous treatments). They conduct clinical laboratory tests, monitor critical patients' heart rate, pulse rate, and brain readings continuously, and assist doctors during surgical operations.</p>\n\n          <h3>c. Financial / Banking Sector</h3>\n          <p>Banks use computers to manage customer accounts, update balances automatically during cash deposit or withdrawal, calculate interest and payments, and provide 24/7 online banking and ATM services.</p>\n\n          <h3>d. Offices</h3>\n          <p>Offices use computers to prepare documents, presentations, and salary sheets. Government organizations like Nepal Doorsanchar Company Limited (NTC), Department of Transport Management, and local government offices provide online services to citizens using computers.</p>\n\n          <h3>e. Entertainment Sector</h3>\n          <p>Computers are used for playing computer games, listening to music, watching HD videos, composing songs, adding special effects to movies, and developing animated cartoon movies (e.g. <em>Tom and Jerry</em>, <em>Ninja Natori</em>).</p>\n        "
+          },
+          {
+            "title": "Textbook Exercise Solutions &mdash; Chapter 1 (Computer Fundamental)",
+            "content": "\n          <h2>Innovative Computer Science &mdash; Book 6, Chapter 1 Complete Exercise Solutions</h2>\n\n          <h3>1. Answer the Following Questions (a to k)</h3>\n\n          <div class=\"qa-card\">\n            <div class=\"qa-card-q\">a. Define a computer? What are the uses of computers?</div>\n            <div class=\"qa-card-a\"><strong>Answer:</strong> A computer is a programmable electronic machine that accepts raw data and instructions, processes them into meaningful information, and stores them in memory.<br><em>Uses:</em> Creating documents, spreadsheets, presentations, browsing the internet (WWW, email, video chat), online banking, patient monitoring in hospitals, and entertainment.</div>\n          </div>\n\n          <div class=\"qa-card\">\n            <div class=\"qa-card-q\">b. What is IPO? Explain it with a diagram.</div>\n            <div class=\"qa-card-a\"><strong>Answer:</strong> IPO stands for Input-Process-Output. It is the fundamental principle on which a computer operates by accepting data/instructions (Input), processing them in the CPU (Process), and producing useful information (Output).<br><em>Diagram:</em><br><code>[INPUT (Data/Instructions)] &rarr; [PROCESS (CPU)] &rarr; [OUTPUT (Information)]</code><br><em>Example: Input (5 and 6) &rarr; Process (5 + 6) &rarr; Output (11).</em></div>\n          </div>\n\n          <div class=\"qa-card\">\n            <div class=\"qa-card-q\">c. List the different characteristics of a computer.</div>\n            <div class=\"qa-card-a\"><strong>Answer:</strong> The main characteristics of a computer are:\n            <ol>\n              <li>Speed</li>\n              <li>Accuracy</li>\n              <li>Diligence</li>\n              <li>Versatility</li>\n              <li>Storage capacity</li>\n              <li>Automatic operation</li>\n            </ol></div>\n          </div>\n\n          <div class=\"qa-card\">\n            <div class=\"qa-card-q\">d. What are GIGO and Bug?</div>\n            <div class=\"qa-card-a\"><strong>Answer:</strong>\n            <ul>\n              <li><strong>GIGO (Garbage In Garbage Out):</strong> Refers to the wrong output/information produced by a computer when incorrect data or instructions are fed into it.</li>\n              <li><strong>Bug:</strong> An error in a computer program or a fault in a hardware device.</li>\n            </ul></div>\n          </div>\n\n          <div class=\"qa-card\">\n            <div class=\"qa-card-q\">e. Why is a computer called a diligent machine?</div>\n            <div class=\"qa-card-a\"><strong>Answer:</strong> A computer is called a diligent machine because it can work continuously for long hours performing millions of calculations without getting tired, losing speed, or making mistakes.</div>\n          </div>\n\n          <div class=\"qa-card\">\n            <div class=\"qa-card-q\">f. Why is a computer called a versatile machine?</div>\n            <div class=\"qa-card-a\"><strong>Answer:</strong> A computer is called a versatile machine because it can perform many different types of tasks, such as typing documents, preparing salary sheets, playing music, designing automobiles, and monitoring hospital patients.</div>\n          </div>\n\n          <div class=\"qa-card\">\n            <div class=\"qa-card-q\">g. Why do people use computers?</div>\n            <div class=\"qa-card-a\"><strong>Answer:</strong> People use computers because they work at extremely high speed, produce 100% accurate results, operate automatically, store huge amounts of data, and make daily work fast and convenient.</div>\n          </div>\n\n          <div class=\"qa-card\">\n            <div class=\"qa-card-q\">h. How are computers used in the education sector?</div>\n            <div class=\"qa-card-a\"><strong>Answer:</strong> Computers are used in education for practical training in computer labs, presenting lessons using multimedia projectors, searching educational topics on the internet, and learning subjects through interactive software.</div>\n          </div>\n\n          <div class=\"qa-card\">\n            <div class=\"qa-card-q\">i. Why is a computer used in the medical sector?</div>\n            <div class=\"qa-card-a\"><strong>Answer:</strong> Computers are used in the medical sector to store patient diagnosis records, conduct laboratory tests, monitor critical patients' heart rate and pulse rate continuously, and assist doctors during surgical operations.</div>\n          </div>\n\n          <div class=\"qa-card\">\n            <div class=\"qa-card-q\">j. What is the use of computers in the financial sector?</div>\n            <div class=\"qa-card-a\"><strong>Answer:</strong> Computers are used in banks to maintain customer accounts, automatically update account balances during deposits/withdrawals, calculate interest payments, and provide online banking and ATM services.</div>\n          </div>\n\n          <div class=\"qa-card\">\n            <div class=\"qa-card-q\">k. How are computers used in offices?</div>\n            <div class=\"qa-card-a\"><strong>Answer:</strong> Computers are used in offices to prepare documents, presentations, and salary sheets, manage routine administrative tasks, and provide online services to the public.</div>\n          </div>\n\n          <h3>2. Write the Full Form of the Following</h3>\n          <div class=\"table-responsive\">\n            <table class=\"notes-table\">\n              <thead>\n                <tr><th>Abbreviation</th><th>Full Form</th></tr>\n              </thead>\n              <tbody>\n                <tr><td><strong>a. IPO</strong></td><td>Input-Process-Output</td></tr>\n                <tr><td><strong>b. CPU</strong></td><td>Central Processing Unit</td></tr>\n                <tr><td><strong>c. FLOP</strong></td><td>Floating Point Operation</td></tr>\n                <tr><td><strong>d. GIGO</strong></td><td>Garbage In Garbage Out</td></tr>\n                <tr><td><strong>e. ATM</strong></td><td>Automated Teller Machine</td></tr>\n                <tr><td><strong>f. ICU</strong></td><td>Intensive Care Unit</td></tr>\n              </tbody>\n            </table>\n          </div>\n\n          <h3>3. State Whether the Following Statements are True or False</h3>\n          <div class=\"qa-card\"><div class=\"qa-card-q\">a. A computer processes data and produces output as information.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n          <div class=\"qa-card\"><div class=\"qa-card-q\">b. A computer can be used to perform any task.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n          <div class=\"qa-card\"><div class=\"qa-card-q\">c. A mainframe computer is faster than a supercomputer.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Supercomputers are faster than mainframe computers)</em></div></div>\n          <div class=\"qa-card\"><div class=\"qa-card-q\">d. Even you feed correct data and instructions, the computer will occasionally produce incorrect information.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Computers produce accurate results if input is correct)</em></div></div>\n          <div class=\"qa-card\"><div class=\"qa-card-q\">e. A computer loses its accuracy and speed when it has to perform the same calculation repeatedly.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(A computer never loses speed or accuracy due to diligence)</em></div></div>\n          <div class=\"qa-card\"><div class=\"qa-card-q\">f. You can use a computer to prepare only spreadsheets, documents and presentations.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Computers can perform many other versatile tasks)</em></div></div>\n          <div class=\"qa-card\"><div class=\"qa-card-q\">g. The storage capacity of a storage device is measured in BIT.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Storage capacity is measured in Bytes)</em></div></div>\n          <div class=\"qa-card\"><div class=\"qa-card-q\">h. Computers can be used to provide online services like buying and selling goods, booking tickets and rooms in hotels, etc.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n          <div class=\"qa-card\"><div class=\"qa-card-q\">i. Cartoon movies like Tom and Jerry, Ninja Natori, etc. can be developed with the help of computers.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n\n          <h3>4. Fill in the Blanks</h3>\n          <p><strong>a.</strong> A computer performs task on the principle of Input, <u>Process</u> and <u>Output</u>.</p>\n          <p><strong>b.</strong> A set of instructions given to computer to perform tasks is known as <u>program</u>.</p>\n          <p><strong>c.</strong> The speed of mainframe computer is measured in <u>flops (FLOPS)</u>.</p>\n          <p><strong>d.</strong> <u>Bug</u> is fault in a device or error in a program.</p>\n          <p><strong>e.</strong> To store three characters a computer occupies <u>3</u> bytes memory space.</p>\n          <p><strong>f.</strong> A computer perform tasks automatically once the <u>instruction (or program)</u> is given.</p>\n\n          <h3>5. Match the Following</h3>\n          <p><strong>i. Group 'A' &rarr; Group 'B'</strong></p>\n          <ul>\n            <li>a. Data &rarr; ii. Raw facts or figures</li>\n            <li>b. Information &rarr; iii. Processed data</li>\n            <li>c. Program &rarr; i. A set of instructions</li>\n            <li>d. GIGO &rarr; v. Wrong instructions or data</li>\n          </ul>\n\n          <p><strong>ii. Group 'A' &rarr; Group 'B'</strong></p>\n          <ul>\n            <li>a. Diligence &rarr; iii. Capability of performing tasks for long time</li>\n            <li>b. Versatile &rarr; ii. Capability of performing a variety of tasks</li>\n            <li>c. Automatic &rarr; iv. Capability of performing tasks once the instructions are given</li>\n            <li>d. Accuracy &rarr; i. Capability of producing correct information</li>\n          </ul>\n        "
           }
         ]
       },
       {
         "id": "class6-cs-ch2",
         "chapterNumber": 2,
-        "title": "Computer History",
+        "title": "Computer Hardware",
         "subject": "Computer Science",
         "className": "Class 6",
-        "updated": "2026-09-03",
-        "summary": "Early calculating devices from Abacus to Mark-I.",
+        "updated": "2026-09-17",
+        "summary": "Tangible physical parts of a computer system.",
         "topics": [
           {
-            "title": "1. Early Calculating Devices",
-            "content": "\n              <p>Before modern electronic computers were invented, humans developed manual calculating tools to assist with counting and math.</p>\n              <ul>\n                <li><strong>Abacus:</strong> First mechanical counting device invented in China over 4000 years ago.</li>\n                <li><strong>Napier's Bones:</strong> Invented by John Napier in 1617 for multiplication and division.</li>\n                <li><strong>Pascaline:</strong> First mechanical adding machine invented by Blaise Pascal in 1642.</li>\n                <li><strong>Analytical Engine:</strong> Designed by Charles Babbage in 1837; included input, memory, processor, and output units.</li>\n              </ul>\n            "
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
       {
         "id": "class6-cs-ch3",
         "chapterNumber": 3,
-        "title": "Generations of Computers",
+        "title": "Input and output devices",
         "subject": "Computer Science",
         "className": "Class 6",
-        "updated": "2026-09-03",
-        "summary": "First to fifth generation computer technology evolution.",
+        "updated": "2026-09-17",
+        "summary": "Keyboards, mice, monitors, printers.",
         "topics": [
           {
-            "title": "1. Five Generations of Computers",
-            "content": "<p>Notes for Chapter 3 will be updated soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
       {
         "id": "class6-cs-ch4",
         "chapterNumber": 4,
-        "title": "Types of Computers",
+        "title": "Storage devices",
         "subject": "Computer Science",
         "className": "Class 6",
-        "updated": "2026-09-03",
-        "summary": "Supercomputers, mainframes, minicomputers, and microcomputers.",
+        "updated": "2026-09-17",
+        "summary": "RAM, ROM, Hard Disk, SSD, Pen Drive.",
         "topics": [
           {
-            "title": "1. Classification of Computers",
-            "content": "<p>Notes for Chapter 4 will be updated soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       },
@@ -82,19 +91,587 @@ const notesData = {
         "title": "Computer Software",
         "subject": "Computer Science",
         "className": "Class 6",
-        "updated": "2026-09-03",
+        "updated": "2026-09-17",
         "summary": "System software vs application software.",
         "topics": [
           {
-            "title": "1. Software Fundamentals",
-            "content": "<p>Notes for Chapter 5 will be updated soon. [Add your notes here]</p>"
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class6-cs-ch6",
+        "chapterNumber": 6,
+        "title": "Working with Windows 11",
+        "subject": "Computer Science",
+        "className": "Class 6",
+        "updated": "2026-09-17",
+        "summary": "Windows 11 operating system basics.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class6-cs-ch7",
+        "chapterNumber": 7,
+        "title": "Programming Language and Programming Tools",
+        "subject": "Computer Science",
+        "className": "Class 6",
+        "updated": "2026-09-17",
+        "summary": "Concept of computer programming languages.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class6-cs-ch8",
+        "chapterNumber": 8,
+        "title": "Block Programming - Scratch",
+        "subject": "Computer Science",
+        "className": "Class 6",
+        "updated": "2026-09-17",
+        "summary": "Visual block coding in Scratch.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class6-cs-ch9",
+        "chapterNumber": 9,
+        "title": "Programming Language – Python",
+        "subject": "Computer Science",
+        "className": "Class 6",
+        "updated": "2026-09-17",
+        "summary": "Basic syntax in Python.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class6-cs-ch10",
+        "chapterNumber": 10,
+        "title": "Word Processing",
+        "subject": "Computer Science",
+        "className": "Class 6",
+        "updated": "2026-09-17",
+        "summary": "Formatting and saving documents.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class6-cs-ch11",
+        "chapterNumber": 11,
+        "title": "Spread sheet",
+        "subject": "Computer Science",
+        "className": "Class 6",
+        "updated": "2026-09-17",
+        "summary": "Worksheet basics and calculations.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class6-cs-ch12",
+        "chapterNumber": 12,
+        "title": "Presentation package",
+        "subject": "Computer Science",
+        "className": "Class 6",
+        "updated": "2026-09-17",
+        "summary": "Creating slides and slide shows.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class6-cs-ch13",
+        "chapterNumber": 13,
+        "title": "ICT, Cyber Ethics, And Cyber Law",
+        "subject": "Computer Science",
+        "className": "Class 6",
+        "updated": "2026-09-17",
+        "summary": "Information communication technology.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class6-cs-ch14",
+        "chapterNumber": 14,
+        "title": "Computer Graphics",
+        "subject": "Computer Science",
+        "className": "Class 6",
+        "updated": "2026-09-17",
+        "summary": "Digital drawing and design tools.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class6-cs-ch15",
+        "chapterNumber": 15,
+        "title": "Multimedia",
+        "subject": "Computer Science",
+        "className": "Class 6",
+        "updated": "2026-09-17",
+        "summary": "Audio, video, animation concepts.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class6-cs-ch16",
+        "chapterNumber": 16,
+        "title": "Termwise Syllabus",
+        "subject": "Computer Science",
+        "className": "Class 6",
+        "updated": "2026-09-17",
+        "summary": "Term-wise curriculum breakdown.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class6-cs-ch17",
+        "chapterNumber": 17,
+        "title": "Model Question",
+        "subject": "Computer Science",
+        "className": "Class 6",
+        "updated": "2026-09-17",
+        "summary": "Sample examination paper.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class6-cs-ch18",
+        "chapterNumber": 18,
+        "title": "Terminology",
+        "subject": "Computer Science",
+        "className": "Class 6",
+        "updated": "2026-09-17",
+        "summary": "Glossary of computer terms.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes added soon.</p>"
           }
         ]
       }
     ]
   },
   "class7": {
-    "computerScience": []
+    "computerScience": [
+      {
+        "id": "class7-cs-ch1",
+        "chapterNumber": 1,
+        "title": "Computer Fundamental & History of computer",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Introduction to computers, history, and development.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 1 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch2",
+        "chapterNumber": 2,
+        "title": "Generation of Computer",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "1st to 5th generations of computers.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 2 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch3",
+        "chapterNumber": 3,
+        "title": "Types of computer",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Analog, digital, hybrid, super, mainframe, mini & microcomputers.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 3 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch4",
+        "chapterNumber": 4,
+        "title": "Computer Software",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "System software vs application software.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 4 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch5",
+        "chapterNumber": 5,
+        "title": "Operating System",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Functions and types of operating systems.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 5 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch6",
+        "chapterNumber": 6,
+        "title": "Word Processor",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Word processing concepts, formatting, and tables.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 6 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch7",
+        "chapterNumber": 7,
+        "title": "Spreadsheet",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Spreadsheet basics, cell formatting, and formulas.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 7 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch8",
+        "chapterNumber": 8,
+        "title": "Presentation software",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Slide design, animations, and presentation delivery.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 8 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch9",
+        "chapterNumber": 9,
+        "title": "ICT tools and Cyber Ethics",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "author": "Innovative Computer Science &mdash; Book 7, Chapter 9",
+        "summary": "Detailed guide to Information and Communication Technology (ICT), ICT tools, digital cameras, scanners, projectors, eBooks, social media, cybercrime, cyber law in Nepal, computer ethics, AI, cloud computing, robotics, IoT & complete exercise solutions.",
+        "topics": [
+          {
+            "title": "9.0 Introduction to Information and Communication Technology (ICT)",
+            "content": "\n              <p>Nowadays, you can immediately and easily know what is happening in any corner of the world. You can comfortably communicate with friends, relatives, or people living anywhere globally. You can purchase goods at your door without going outside from home, buy bus, airplane, and train tickets, and book hotel rooms online.</p>\n              <p>All this is possible due to <strong>Information and Communication Technology (ICT)</strong>.</p>\n              \n              <div class=\"callout callout-remember\">\n                <div class=\"callout-title\">📌 ICT DEFINITION</div>\n                <p>ICT is the integrated technology that stores, manages, and processes data and provides access to information for people through computers, the Internet, broadcasting, or telecommunication systems.</p>\n              </div>\n\n              <ul>\n                <li>ICT consists of all technical means used to handle data and information in digital form, including computers, peripheral devices, network hardware, communication software, and necessary software.</li>\n                <li>ICT uses electronic equipment, especially computers, for storing, retrieving, manipulating, or exchanging information.</li>\n              </ul>\n\n              <h3>Why ICT is Important in Our Lives:</h3>\n              <div class=\"step-card-grid\">\n                <div class=\"step-card\"><span class=\"step-badge\">1</span><span>Makes life easier, faster, and more fun.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">2</span><span>Helps us to learn and share new things quickly.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">3</span><span>Enables us to talk to friends and family members far away.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">4</span><span>Enables us to send messages, photos, videos, and files instantly.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">5</span><span>Enables access to the latest global news and educational information.</span></div>\n              </div>\n            "
+          },
+          {
+            "title": "9.1 ICT Tools & Categories",
+            "content": "\n              <p>All communication devices, systems, and application software that help in processing, managing, and communicating information efficiently in digital form are <strong>ICT tools</strong>.</p>\n\n              <h3>Categories of ICT Tools:</h3>\n              <ul>\n                <li><strong>Main ICT Tool:</strong> The <em>computer</em> is the primary ICT tool that can store, manage, process, and transfer large volumes of data and information quickly worldwide.</li>\n                <li><strong>Tools for Capturing &amp; Manipulating Images:</strong> Scanner, Digital Camera, graphics software (Photoshop, Paint), photocopy machine.</li>\n                <li><strong>Tools for Exchanging Information:</strong> World Wide Web (WWW), Blog (Web log), E-mail (Electronic Mail), IRC (Internet Relay Chat), web browsers, radio, television, mobile phones, ATM, Wi-Fi devices, TV setup boxes.</li>\n                <li><strong>Tools for Presenting Information:</strong> Multimedia projectors, word processors, e-books, tutorial videos.</li>\n              </ul>\n            "
+          },
+          {
+            "title": "9.2 Usages of Key ICT Tools",
+            "content": "\n              <h3>1. Digital Camera (Digicam)</h3>\n              <p>Captures pictures or videos and transfers them into a computer as digital image or video files stored in a memory chip. Digital photos/videos are used in websites, e-books, magazines, and tutorial videos.</p>\n\n              <h3>2. Scanner</h3>\n              <p>Converts handwritten or printed text and pictures into digital images and transfers them to a computer. Image editing software like Adobe Photoshop, CorelDraw, Paint, and Photo Editor can be used to modify scanned images.</p>\n              <div class=\"step-list\">\n                <div class=\"step-item\"><span class=\"step-badge\">a</span><div>Connect scanner to computer and install driver software.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">b</span><div>Switch on scanner, open scanner lid, and place document face down.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">c</span><div>Press <strong>Scan button</strong> or open scanner software (e.g., Control Center 4).</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">d</span><div>Select Document Type (Photo, Text), Resolution, Scan Size, and file format (PDF, JPEG, PNG).</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">e</span><div>Click <strong>Save</strong> and type file name.</div></div>\n              </div>\n\n              <h3>3. Multimedia Projector</h3>\n              <p>Displays text, images, presentations, or videos to many people at a time on a big screen in classrooms, corporate meetings, or home theaters.</p>\n\n              <h3>4. Electronic Book (eBook)</h3>\n              <p>A non-editable digital version of a printed book accessed through computers, smartphones, tablets, or eBook readers. Sites offering free eBooks: <code>moecdc.gov.np</code>, <code>learning.cehrd.gov.np</code>, <code>wikibooks.org</code>, <code>gutenberg.org</code>, <code>books.google.com</code>.</p>\n\n              <h3>5. Tutorial Videos</h3>\n              <p>Provides step-by-step video instructions to perform tasks or study subjects. Educational sites: <code>nepalonlineschool.org</code>, <code>mero.school</code>, <code>dlc.dwit.edu.np</code>, <code>kullabs.com</code>.</p>\n            "
+          },
+          {
+            "title": "9.3 Social Media Platforms & Safety Rules",
+            "content": "\n              <p><strong>Social Media</strong> is digital technology that allows people to connect, share, and communicate online. Major platforms include:</p>\n\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr><th>Platform</th><th>Developers / Founders &amp; Launch Date</th><th>Key Features</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr><td><strong>Facebook</strong></td><td>Mark Zuckerberg &amp; Edward Saverin (Feb 2004)</td><td>Social networking for users 13+, share posts, photos, videos.</td></tr>\n                    <tr><td><strong>Instagram</strong></td><td>Kevin Systrom &amp; Mike Krieger (Feb 2010 / Meta)</td><td>Photo and short video sharing, chat with friends.</td></tr>\n                    <tr><td><strong>Twitter (X)</strong></td><td>Jack Dorsey, Noah Glass, Biz Stone, Evan Williams (July 2006)</td><td>Short text \"tweets\" (140 to 280 characters).</td></tr>\n                    <tr><td><strong>WhatsApp</strong></td><td>Jan Koum &amp; Brian Acton (Jan 2009 / Meta)</td><td>Messaging, voice calls, video chat, media sharing.</td></tr>\n                    <tr><td><strong>YouTube</strong></td><td>Chad Hurley, Steve Chen, Jawed Karim (Feb 2005)</td><td>Video uploading and streaming (First video: <em>Me at the Zoo</em>, Apr 23, 2005).</td></tr>\n                  </tbody>\n                </table>\n              </div>\n\n              <h3>Advantages vs Disadvantages of Social Media:</h3>\n              <ul>\n                <li><strong>Advantages:</strong> Talk to anyone worldwide, quick news updates, join interest groups, share creative ideas, learn skills, enjoy videos/games.</li>\n                <li><strong>Disadvantages:</strong> Addiction (distraction from study), cyberbullying, privacy risks, fake news, comparison pressure, eye/health issues, time wasting.</li>\n              </ul>\n\n              <div class=\"callout callout-remember\">\n                <div class=\"callout-title\">📌 SOCIAL MEDIA SAFETY RULES</div>\n                <ul>\n                  <li>Use polite language; don't pass negative comments.</li>\n                  <li>Do not share fake news or unverified information.</li>\n                  <li><strong>Never share personal information</strong> like your home address, phone number, or passwords.</li>\n                  <li>Think twice before posting &mdash; once something is online, it is hard to remove.</li>\n                  <li>Tell a parent or teacher immediately if something online makes you uncomfortable.</li>\n                </ul>\n              </div>\n            "
+          },
+          {
+            "title": "9.4 Cyber Crime & Cyber Law of Nepal",
+            "content": "\n              <p><strong>Cybercrime (Computer Crime):</strong> Any criminal activity committed using a computer, mobile device, and the Internet. Examples: software piracy (illegal copying), hacking (stealing data), spreading computer viruses, cyberbullying, online fraud.</p>\n\n              <h3>Cyber Law of Nepal</h3>\n              <p>To control cybercrimes and legalize electronic transactions, the Nepal Government enacted the <strong>Cyber Law of Nepal 2061 B.S. (30th Bhadra 2061 / 2004 A.D.)</strong>, officially known as the <strong>Electronic Transaction and Digital Signature Act-2061</strong>.</p>\n              \n              <div class=\"callout callout-quickcheck\">\n                <div class=\"callout-title\">🎯 OBJECTIVES OF NEPAL CYBER LAW</div>\n                <ul>\n                  <li>To legalize electronic data exchange and communications.</li>\n                  <li>To make electronic transactions reliable and secure.</li>\n                  <li>To prevent, control, and punish cybercrimes and cybercriminals.</li>\n                </ul>\n              </div>\n            "
+          },
+          {
+            "title": "9.5 Computer Ethics (10 Commandments)",
+            "content": "\n              <p><strong>Computer Ethics (Cyber Ethics)</strong> is a set of moral principles that regulates the proper and lawful use of computers by users.</p>\n\n              <h3>10 Commandments of Computer Ethics:</h3>\n              <ol>\n                <li>You should not use a computer to harm other people.</li>\n                <li>You should not interfere with other people's computer work.</li>\n                <li>You should not snoop around in other people's files.</li>\n                <li>You should not use a computer to steal.</li>\n                <li>You should not use a computer to bear false witness.</li>\n                <li>You should not use or copy commercial software for which you have not paid (software piracy).</li>\n                <li>You should not use other people's computer resources without authorization.</li>\n                <li>You should not appropriate other people's intellectual output.</li>\n                <li>You should think about the social consequences of the program you write.</li>\n                <li>You should use a computer in ways that show consideration and respect.</li>\n              </ol>\n            "
+          },
+          {
+            "title": "9.6 Contemporary Technologies (AI, Cloud, Robotics, IoT)",
+            "content": "\n              <p>Contemporary technology refers to modern systems, devices, and tools used today to make life easier, faster, and more connected.</p>\n\n              <h3>1. Artificial Intelligence (AI)</h3>\n              <p>Technology that allows machines to think, learn, recognize speech, and make decisions like humans.</p>\n              <ul>\n                <li><strong>Recommendation Systems:</strong> YouTube video recommendations &amp; Google search predictions.</li>\n                <li><strong>Virtual Assistants:</strong> Alexa (Amazon), Siri (Apple), Cortana (Microsoft).</li>\n                <li><strong>AI Chatbots:</strong> ChatGPT, DeepSeek.</li>\n                <li><strong>Strategic Games &amp; Autonomous Vehicles:</strong> Chess AI, self-driving cars (Tesla).</li>\n              </ul>\n\n              <h3>2. Cloud Computing</h3>\n              <p>Provides remote storage and software application services over the Internet via remote server networks instead of local hard drives. Providers: Google Drive, OneDrive, Dropbox, iCloud, Spotify.</p>\n\n              <h3>3. Robotics</h3>\n              <p>Branch of technology dealing with design and manufacturing of intelligent machines (robots) that assist humans in dangerous, dirty, or laborious tasks (factories, space, nuclear plants).</p>\n\n              <h3>4. Internet of Things (IoT)</h3>\n              <p>System connecting computing devices, smart appliances, sensors, and objects over a network without requiring human interaction (e.g. smart home lighting, smart TVs, automated thermostats).</p>\n            "
+          },
+          {
+            "title": "Textbook Exercise Solutions &mdash; Chapter 9 (ICT &amp; Cyber Ethics)",
+            "content": "\n              <h2>Innovative Computer Science &mdash; Book 7, Chapter 9 Complete Exercise Solutions</h2>\n\n              <h3>1. Answer the Following Questions (a to l)</h3>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">a. What is Information and Communication Technology?</div><div class=\"qa-card-a\"><strong>Answer:</strong> Information and Communication Technology (ICT) is an integrated technology that stores, manages, processes data, and provides access to information through computers, the Internet, and telecommunications.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">b. List any two ICT tools.</div><div class=\"qa-card-a\"><strong>Answer:</strong> Computer and Scanner (or Digital Camera, Projector).</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">c. What is the use of multimedia projector in the ICT?</div><div class=\"qa-card-a\"><strong>Answer:</strong> A multimedia projector is used to display text, images, presentations, and videos to a large audience on a big screen in classrooms or corporate meetings.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">d. What is cybercrime? List any two cybercrimes.</div><div class=\"qa-card-a\"><strong>Answer:</strong> Cybercrime is any illegal criminal activity committed using a computer, mobile device, and the Internet. Two examples: Hacking and Software Piracy.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">e. What is cyber law? Why is it necessary?</div><div class=\"qa-card-a\"><strong>Answer:</strong> Cyber law is the legal framework dealing with computer and Internet-related issues. It is necessary to legalize electronic transactions, secure digital communications, and punish cybercriminals.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">f. List any two reasons of formulating cyber law in Nepal.</div><div class=\"qa-card-a\"><strong>Answer:</strong> 1) To make electronic transactions reliable and secure, and 2) To control and punish cybercrime offenses.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">g. What is computer ethics? List any four commandments of computer ethics.</div><div class=\"qa-card-a\"><strong>Answer:</strong> Computer ethics is a set of moral principles regulating the proper use of computers.\n              <br><em>Four Commandments:</em>\n              <ol>\n                <li>You should not use a computer to harm other people.</li>\n                <li>You should not snoop around in other people's files.</li>\n                <li>You should not use a computer to steal.</li>\n                <li>You should not use pirated software.</li>\n              </ol></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">h. List any two commandments of computer ethics.</div><div class=\"qa-card-a\"><strong>Answer:</strong> 1) You should not use a computer to harm other people, and 2) You should not use other people's computer resources without authorization.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">i. What is social media? Write the safety rules for using social media.</div><div class=\"qa-card-a\"><strong>Answer:</strong> Social media is digital technology that allows people to connect, share content, and communicate online (e.g., Facebook, YouTube).\n              <br><em>Safety Rules:</em> 1) Never share personal info like address or phone number, 2) Use polite language, 3) Verify news before sharing, 4) Inform parents if uncomfortable online.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">j. List any four advantages of social media.</div><div class=\"qa-card-a\"><strong>Answer:</strong> 1) Talk to anyone from anywhere, 2) Stay updated with news and events, 3) Learn new skills, 4) Share thoughts and creative art.</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">k. What is AI? List any two applications of AI.</div><div class=\"qa-card-a\"><strong>Answer:</strong> AI (Artificial Intelligence) is technology enabling machines to think, learn, and make decisions like humans.\n              <br><em>Two Applications:</em> 1) Virtual Personal Assistants (Siri, Alexa), 2) AI Chatbots (ChatGPT, DeepSeek).</div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">l. What is IoT?</div><div class=\"qa-card-a\"><strong>Answer:</strong> IoT (Internet of Things) is a network system connecting smart computing devices and appliances to exchange data without human interaction.</div></div>\n\n              <h3>2. Write the Full Forms of the Following</h3>\n              <div class=\"table-responsive\">\n                <table class=\"notes-table\">\n                  <thead>\n                    <tr><th>Abbreviation</th><th>Full Form</th></tr>\n                  </thead>\n                  <tbody>\n                    <tr><td><strong>a. ICT</strong></td><td>Information and Communication Technology</td></tr>\n                    <tr><td><strong>b. IRC</strong></td><td>Internet Relay Chat</td></tr>\n                    <tr><td><strong>c. Blog</strong></td><td>Web Log</td></tr>\n                    <tr><td><strong>d. WWW</strong></td><td>World Wide Web</td></tr>\n                  </tbody>\n                </table>\n              </div>\n\n              <h3>3. Write the Technical Terms for the Following Statements</h3>\n              <p><strong>a.</strong> A technology concerned with storage, retrieval, transmission or receipt of information electronically in digital form: <u>ICT (Information and Communication Technology)</u></p>\n              <p><strong>b.</strong> A crime committed with the help of a computer and the Internet: <u>Cybercrime (or Computer Crime)</u></p>\n              <p><strong>c.</strong> The law that deal with computer and the Internet related issues: <u>Cyber Law</u></p>\n              <p><strong>d.</strong> The moral principles that should be followed by all computer users: <u>Computer Ethics (or Cyber Ethics)</u></p>\n              <p><strong>e.</strong> The technology that allows machines to think and learn like humans: <u>Artificial Intelligence (AI)</u></p>\n\n              <h3>4. State Whether the Following Statements are True or False</h3>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">a. ICT stands for Informative and Computing technology.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Stands for Information and Communication Technology)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">b. ICT uses electronic equipments especially computers for storing, retrieving and exchanging information.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">c. Computer ethics is a program that is used to steal data from a computer.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Computer ethics is a set of moral principles)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">d. The crime committed with the help of computer and internet is known as computer crime or cybercrime.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">e. Data privacy and Data backup are the examples of cybercrimes.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(They are security practices)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">f. Unauthorized accessing of other files is cybercrime.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">g. Stealing data and information of computers through the Internet is software piracy.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Software piracy is illegal copying of software)</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">h. The cyber law controls the crime in a country.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">i. It is the right of a computer user to damage other files without permission.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(It is illegal and unethical)</em></div></div>\n\n              <h3>5. Choose the Correct Option (Multiple Choice Questions)</h3>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">a. .............. is an ICT tool.</div><div class=\"qa-card-a\">i. Computer &nbsp; ii. Book &nbsp; iii. Pen drive &nbsp; <strong>iv. All of the above</strong> &mdash; <em>Answer: iv. All of the above</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">b. ICT tools are the devices or systems that perform functions like ...</div><div class=\"qa-card-a\">i. Creating information &nbsp; ii. Storing information &nbsp; iii. Exchanging information &nbsp; <strong>iv. All of the above</strong> &mdash; <em>Answer: iv. All of the above</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">c. Which is a social networking site?</div><div class=\"qa-card-a\">i. Instagram &nbsp; ii. Twitter &nbsp; iii. Facebook &nbsp; <strong>iv. All of the above</strong> &mdash; <em>Answer: iv. All of the above</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">d. Which is cybercrime?</div><div class=\"qa-card-a\"><strong>i. Software piracy</strong> &nbsp; ii. Data privacy &nbsp; iii. Entertaining in YouTube &nbsp; iv. None of the above &mdash; <em>Answer: i. Software piracy</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">e. Making duplicate of software illegally is .........</div><div class=\"qa-card-a\">i. Software Privacy &nbsp; <strong>ii. Software piracy</strong> &nbsp; iii. Hacking &nbsp; iv. Cyber bullying &mdash; <em>Answer: ii. Software piracy</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">f. Hacking is .............</div><div class=\"qa-card-a\">i. Stealing money from a home &nbsp; ii. Bank robbery &nbsp; <strong>iii. Stealing data and information on the Internet</strong> &nbsp; iv. Harassing someone &mdash; <em>Answer: iii. Stealing data and information on the Internet</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">g. A crime committed with the help of computer and the Internet is ......</div><div class=\"qa-card-a\">i. Hardware crime &nbsp; ii. Software crime &nbsp; iii. Information crime &nbsp; <strong>iv. Cybercrime</strong> &mdash; <em>Answer: iv. Cybercrime</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">h. The cyber law of Nepal is formulated to......</div><div class=\"qa-card-a\">i. Legalize electronic transactions &nbsp; ii. Punish cybercrime &nbsp; iii. Control cybercrimes &nbsp; <strong>iv. All of the above</strong> &mdash; <em>Answer: iv. All of the above</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">i. A set of moral principles that regulates the proper uses of computers is .......</div><div class=\"qa-card-a\"><strong>i. Computer ethics</strong> &nbsp; ii. Computer literate &nbsp; iii. Internet ethics &nbsp; iv. None of the above &mdash; <em>Answer: i. Computer ethics</em></div></div>\n              <div class=\"qa-card\"><div class=\"qa-card-q\">j. A robot can be used to perform.......?</div><div class=\"qa-card-a\">i. Dangerous tasks &nbsp; ii. Laborious tasks &nbsp; iii. High accuracy tasks &nbsp; <strong>iv. All of the above</strong> &mdash; <em>Answer: iv. All of the above</em></div></div>\n            "
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch10",
+        "chapterNumber": 10,
+        "title": "Computer Virus and its Remedy",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Malware, virus types, computer infection symptoms, and antivirus remedies.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 10 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch11",
+        "chapterNumber": 11,
+        "title": "Computer Network and Internet",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Network architecture, LAN, WAN, routers, and web browsers.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 11 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch12",
+        "chapterNumber": 12,
+        "title": "Number System",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-17",
+        "author": "Innovative Computer Science &mdash; Book 7, Chapter 12",
+        "summary": "Comprehensive guide to Decimal, Binary, Octal, and Hexadecimal number systems, base values, positional values, step-by-step conversions, visual diagrams, and complete textbook exercise solutions.",
+        "topics": [
+          {
+            "title": "12.0 Introduction to Number Systems",
+            "content": "\n        <p>You use numbers to represent values. When you count any object, you represent the counted value by numbers like 5, 8, 9, etc. A <strong>number system</strong> is a mathematical way to express numbers using a set of specific digits or symbols.</p>\n\n        <div class=\"callout callout-remember\">\n          <div class=\"callout-title\">📌 BASE (RADIX) OF A NUMBER SYSTEM</div>\n          <p>The total number of digits or symbols used in a number system is known as the <strong>base</strong> (or radix) of that number system.</p>\n        </div>\n\n        <h3>The 4 Types of Number Systems:</h3>\n        <div class=\"step-card-grid\">\n          <div class=\"step-card\"><span class=\"step-badge\">1. BASE 10</span><span><strong>Decimal Number System:</strong> Uses 10 digits (0 to 9). Daily life usage.</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">2. BASE 2</span><span><strong>Binary Number System:</strong> Uses 2 digits (0 and 1). Internal computer language.</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">3. BASE 8</span><span><strong>Octal Number System:</strong> Uses 8 digits (0 to 7). Compact binary shorthand.</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">4. BASE 16</span><span><strong>Hexadecimal Number System:</strong> Uses 16 symbols (0-9 &amp; A-F). Memory address representation.</span></div>\n        </div>\n\n        <div class=\"table-responsive\" style=\"margin-top: 20px;\">\n          <table class=\"notes-table\">\n            <thead>\n              <tr><th>Number System</th><th>Base (Radix)</th><th>Digits / Symbols Used</th><th>Example Numbers</th></tr>\n            </thead>\n            <tbody>\n              <tr><td><strong>Decimal</strong></td><td>10</td><td>0, 1, 2, 3, 4, 5, 6, 7, 8, 9</td><td>(25)<sub>10</sub>, (1034)<sub>10</sub></td></tr>\n              <tr><td><strong>Binary</strong></td><td>2</td><td>0, 1 (BITs)</td><td>(1101)<sub>2</sub>, (10111)<sub>2</sub></td></tr>\n              <tr><td><strong>Octal</strong></td><td>8</td><td>0, 1, 2, 3, 4, 5, 6, 7</td><td>(472)<sub>8</sub>, (157)<sub>8</sub></td></tr>\n              <tr><td><strong>Hexadecimal</strong></td><td>16</td><td>0-9 &amp; A, B, C, D, E, F</td><td>(1A)<sub>16</sub>, (B0D2)<sub>16</sub></td></tr>\n            </tbody>\n          </table>\n        </div>\n      "
+          },
+          {
+            "title": "12.1 Detailed Breakdown of Number Systems",
+            "content": "\n        <h3>1. Decimal Number System</h3>\n        <p>A number system that uses ten different digits (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) is known as the decimal number system. It is a <strong>base-ten</strong> number system. Other numbers are formed by combining two or more digits, such as 13 (1 and 3) or 1034 (1, 0, 3, and 4). The decimal number system is used in daily human life, but it is not directly used inside a computer.</p>\n\n        <h3>2. Binary Number System</h3>\n        <p>A number system that uses two different digits (0 and 1) is known as the binary number system. It is a <strong>base-two</strong> number system. Each digit is called a <strong>Binary digIT (BIT)</strong>.</p>\n        \n        <div class=\"callout callout-doyouknow\">\n          <div class=\"callout-title\">💡 WHY COMPUTERS USE BINARY</div>\n          <p>Computers consist of electronic circuits that operate using electricity. Electrical signals have two natural states: <strong>OFF (0 state / Low Voltage)</strong> and <strong>ON (1 state / High Voltage)</strong>. Therefore, computers process all data in binary.</p>\n        </div>\n\n        <p>Place values in binary use powers of 2 (2<sup>0</sup>, 2<sup>1</sup>, 2<sup>2</sup>, 2<sup>3</sup>, 2<sup>4</sup>, etc.). For example, binary 1101 is expanded as:</p>\n        <p><code>(1101)<sub>2</sub> = 1 &times; 2<sup>3</sup> + 1 &times; 2<sup>2</sup> + 0 &times; 2<sup>1</sup> + 1 &times; 2<sup>0</sup> = 8 + 4 + 0 + 1 = (13)<sub>10</sub></code></p>\n\n        <h3>3. Octal Number System</h3>\n        <p>A number system that uses eight different digits (0, 1, 2, 3, 4, 5, 6, 7) is known as the octal number system. It is a <strong>base-eight</strong> number system. Place values use powers of 8 (8<sup>0</sup>, 8<sup>1</sup>, 8<sup>2</sup>, 8<sup>3</sup>, etc.).</p>\n        <p>Example expansion: <code>(472)<sub>8</sub> = 4 &times; 8<sup>2</sup> + 7 &times; 8<sup>1</sup> + 2 &times; 8<sup>0</sup> = 4 &times; 64 + 7 &times; 8 + 2 &times; 1 = 256 + 56 + 2 = (314)<sub>10</sub></code></p>\n\n        <h3>4. Hexadecimal Number System</h3>\n        <p>A number system that uses sixteen different digits/symbols is known as the hexadecimal number system. It is a <strong>base-16</strong> number system.</p>\n        <ul>\n          <li><strong>Digits 0–9:</strong> Represent values 0 to 9.</li>\n          <li><strong>Letters A–F:</strong> Represent values 10 to 15 (A=10, B=11, C=12, D=13, E=14, F=15).</li>\n        </ul>\n        <p>Place values use powers of 16 (16<sup>0</sup>, 16<sup>1</sup>, 16<sup>2</sup>, etc.). Examples: 1A, B0D2.</p>\n      "
+          },
+          {
+            "title": "12.2 Conversion Methods & Step-by-Step Examples",
+            "content": "\n        <h3>a. Conversion of Decimal Numbers to Binary Numbers</h3>\n        <p>To convert a decimal number into a binary number, follow the <strong>successive division by 2</strong> method:</p>\n        \n        <div class=\"step-card-grid\">\n          <div class=\"step-card\"><span class=\"step-badge\">STEP 1</span><span>Divide the given decimal number by 2.</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">STEP 2</span><span>Note down the remainder (0 or 1) in the remainder column.</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">STEP 3</span><span>Divide the quotient by 2 repeatedly until the quotient becomes 0.</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">STEP 4</span><span>Read the remainders from <strong>bottom to top</strong> (Most Significant Bit to Least Significant Bit).</span></div>\n        </div>\n\n        <div class=\"qa-card\" style=\"margin-top: 15px;\">\n          <div class=\"qa-card-q\">Example 1: Convert (25)<sub>10</sub> into Binary (?)<sub>2</sub></div>\n          <div class=\"qa-card-a\">\n            <div class=\"table-responsive\">\n              <table class=\"notes-table\" style=\"max-width: 300px;\">\n                <thead><tr><th>Base Divisor</th><th>Number / Quotient</th><th>Remainder</th></tr></thead>\n                <tbody>\n                  <tr><td>2</td><td>25</td><td>1</td></tr>\n                  <tr><td>2</td><td>12</td><td>0</td></tr>\n                  <tr><td>2</td><td>6</td><td>0</td></tr>\n                  <tr><td>2</td><td>3</td><td>1</td></tr>\n                  <tr><td>2</td><td>1</td><td>1</td></tr>\n                  <tr><td></td><td>0</td><td></td></tr>\n                </tbody>\n              </table>\n            </div>\n            <p>Reading remainders from bottom to top: <strong>1 1 0 0 1</strong></p>\n            <p><strong>&there4; (25)<sub>10</sub> = (11001)<sub>2</sub></strong></p>\n          </div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">Example 2: Convert (152)<sub>10</sub> into Binary (?)<sub>2</sub></div>\n          <div class=\"qa-card-a\">\n            <div class=\"table-responsive\">\n              <table class=\"notes-table\" style=\"max-width: 300px;\">\n                <thead><tr><th>Base Divisor</th><th>Number / Quotient</th><th>Remainder</th></tr></thead>\n                <tbody>\n                  <tr><td>2</td><td>152</td><td>0</td></tr>\n                  <tr><td>2</td><td>76</td><td>0</td></tr>\n                  <tr><td>2</td><td>38</td><td>0</td></tr>\n                  <tr><td>2</td><td>19</td><td>1</td></tr>\n                  <tr><td>2</td><td>9</td><td>1</td></tr>\n                  <tr><td>2</td><td>4</td><td>0</td></tr>\n                  <tr><td>2</td><td>2</td><td>0</td></tr>\n                  <tr><td>2</td><td>1</td><td>1</td></tr>\n                  <tr><td></td><td>0</td><td></td></tr>\n                </tbody>\n              </table>\n            </div>\n            <p>Reading remainders from bottom to top: <strong>1 0 0 1 1 0 0 0</strong></p>\n            <p><strong>&there4; (152)<sub>10</sub> = (10011000)<sub>2</sub></strong></p>\n          </div>\n        </div>\n\n        <h3>b. Conversion of Binary Numbers to Decimal Numbers</h3>\n        <p>To convert a binary number into a decimal number, multiply each binary digit by its corresponding positional weight (power of 2) and add all the products together.</p>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">Example 3: Convert (111)<sub>2</sub> into Decimal (?)<sub>10</sub></div>\n          <div class=\"qa-card-a\">\n            <p><code>111 = 1 &times; 2<sup>2</sup> + 1 &times; 2<sup>1</sup> + 1 &times; 2<sup>0</sup></code></p>\n            <p><code>= 1 &times; 4 + 1 &times; 2 + 1 &times; 1</code></p>\n            <p><code>= 4 + 2 + 1 = 7</code></p>\n            <p><strong>&there4; (111)<sub>2</sub> = (7)<sub>10</sub></strong></p>\n          </div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">Example 4: Convert (10111)<sub>2</sub> into Decimal (?)<sub>10</sub></div>\n          <div class=\"qa-card-a\">\n            <p><code>10111 = 1 &times; 2<sup>4</sup> + 0 &times; 2<sup>3</sup> + 1 &times; 2<sup>2</sup> + 1 &times; 2<sup>1</sup> + 1 &times; 2<sup>0</sup></code></p>\n            <p><code>= 1 &times; 16 + 0 &times; 8 + 1 &times; 4 + 1 &times; 2 + 1 &times; 1</code></p>\n            <p><code>= 16 + 0 + 4 + 2 + 1 = 23</code></p>\n            <p><strong>&there4; (10111)<sub>2</sub> = (23)<sub>10</sub></strong></p>\n          </div>\n        </div>\n      "
+          },
+          {
+            "title": "Textbook Exercise Solutions &mdash; Chapter 12 (Number System)",
+            "content": "\n        <h2>Innovative Computer Science &mdash; Book 7, Chapter 12 Complete Exercise Solutions</h2>\n\n        <h3>1. Answer the Following Questions</h3>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">a. What is binary number system? Why is it used in computer system?</div>\n          <div class=\"qa-card-a\">\n            <p><strong>Answer:</strong> The binary number system is a base-2 number system that uses only two digits: <strong>0</strong> and <strong>1</strong>. Each digit in a binary number is called a BIT (Binary digIT).</p>\n            <p><strong>Why used in computer system:</strong> Computers are electronic devices composed of digital circuits. Electrical signals have two natural states: <strong>OFF (0 / Low voltage)</strong> and <strong>ON (1 / High voltage)</strong>. Therefore, binary numbers are used because they perfectly match the electronic hardware of computers.</p>\n          </div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">b. What is hexadecimal number system? List its digits.</div>\n          <div class=\"qa-card-a\">\n            <p><strong>Answer:</strong> The hexadecimal number system is a base-16 number system that uses sixteen distinct digits/symbols to represent values.</p>\n            <p><strong>List of Digits &amp; Symbols:</strong> 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A (10), B (11), C (12), D (13), E (14), and F (15).</p>\n          </div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">c. What is octal number system? List its digits.</div>\n          <div class=\"qa-card-a\">\n            <p><strong>Answer:</strong> The octal number system is a base-8 number system that uses eight distinct digits to represent values.</p>\n            <p><strong>List of Digits:</strong> 0, 1, 2, 3, 4, 5, 6, and 7.</p>\n          </div>\n        </div>\n\n        <h3>2. Convert the Following Binary Numbers into Decimal Numbers</h3>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">a. (110)<sub>2</sub></div>\n          <div class=\"qa-card-a\"><code>1 &times; 2<sup>2</sup> + 1 &times; 2<sup>1</sup> + 0 &times; 2<sup>0</sup> = 4 + 2 + 0 = <strong>(6)<sub>10</sub></strong></code></div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">b. (1100)<sub>2</sub></div>\n          <div class=\"qa-card-a\"><code>1 &times; 2<sup>3</sup> + 1 &times; 2<sup>2</sup> + 0 &times; 2<sup>1</sup> + 0 &times; 2<sup>0</sup> = 8 + 4 + 0 + 0 = <strong>(12)<sub>10</sub></strong></code></div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">c. (1101)<sub>2</sub></div>\n          <div class=\"qa-card-a\"><code>1 &times; 2<sup>3</sup> + 1 &times; 2<sup>2</sup> + 0 &times; 2<sup>1</sup> + 1 &times; 2<sup>0</sup> = 8 + 4 + 0 + 1 = <strong>(13)<sub>10</sub></strong></code></div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">d. (1111)<sub>2</sub></div>\n          <div class=\"qa-card-a\"><code>1 &times; 2<sup>3</sup> + 1 &times; 2<sup>2</sup> + 1 &times; 2<sup>1</sup> + 1 &times; 2<sup>0</sup> = 8 + 4 + 2 + 1 = <strong>(15)<sub>10</sub></strong></code></div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">e. (11011)<sub>2</sub></div>\n          <div class=\"qa-card-a\"><code>1 &times; 2<sup>4</sup> + 1 &times; 2<sup>3</sup> + 0 &times; 2<sup>2</sup> + 1 &times; 2<sup>1</sup> + 1 &times; 2<sup>0</sup> = 16 + 8 + 0 + 2 + 1 = <strong>(27)<sub>10</sub></strong></code></div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">f. (10101)<sub>2</sub></div>\n          <div class=\"qa-card-a\"><code>1 &times; 2<sup>4</sup> + 0 &times; 2<sup>3</sup> + 1 &times; 2<sup>2</sup> + 0 &times; 2<sup>1</sup> + 1 &times; 2<sup>0</sup> = 16 + 0 + 4 + 0 + 1 = <strong>(21)<sub>10</sub></strong></code></div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">g. (11001)<sub>2</sub></div>\n          <div class=\"qa-card-a\"><code>1 &times; 2<sup>4</sup> + 1 &times; 2<sup>3</sup> + 0 &times; 2<sup>2</sup> + 0 &times; 2<sup>1</sup> + 1 &times; 2<sup>0</sup> = 16 + 8 + 0 + 0 + 1 = <strong>(25)<sub>10</sub></strong></code></div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">h. (101110)<sub>2</sub></div>\n          <div class=\"qa-card-a\"><code>1 &times; 2<sup>5</sup> + 0 &times; 2<sup>4</sup> + 1 &times; 2<sup>3</sup> + 1 &times; 2<sup>2</sup> + 1 &times; 2<sup>1</sup> + 0 &times; 2<sup>0</sup> = 32 + 0 + 8 + 4 + 2 + 0 = <strong>(46)<sub>10</sub></strong></code></div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">i. (110110)<sub>2</sub></div>\n          <div class=\"qa-card-a\"><code>1 &times; 2<sup>5</sup> + 1 &times; 2<sup>4</sup> + 0 &times; 2<sup>3</sup> + 1 &times; 2<sup>2</sup> + 1 &times; 2<sup>1</sup> + 0 &times; 2<sup>0</sup> = 32 + 16 + 0 + 4 + 2 + 0 = <strong>(54)<sub>10</sub></strong></code></div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">j. (110101)<sub>2</sub></div>\n          <div class=\"qa-card-a\"><code>1 &times; 2<sup>5</sup> + 1 &times; 2<sup>4</sup> + 0 &times; 2<sup>3</sup> + 1 &times; 2<sup>2</sup> + 0 &times; 2<sup>1</sup> + 1 &times; 2<sup>0</sup> = 32 + 16 + 0 + 4 + 0 + 1 = <strong>(53)<sub>10</sub></strong></code></div>\n        </div>\n\n        \n  <h3>3. Convert the Following Decimal Numbers into Binary Numbers</h3>\n  \n    <div class=\"qa-card\">\n      <div class=\"qa-card-q\">a. (26)<sub>10</sub></div>\n      <div class=\"qa-card-a\">\n        \n    <div class=\"table-responsive\" style=\"margin-top: 10px;\">\n      <table class=\"notes-table\" style=\"max-width: 320px;\">\n        <thead>\n          <tr><th>Divisor (2)</th><th>Number / Quotient</th><th>Remainder</th></tr>\n        </thead>\n        <tbody>\n          <tr><td>2</td><td>26</td><td><strong>0</strong></td></tr><tr><td>2</td><td>13</td><td><strong>1</strong></td></tr><tr><td>2</td><td>6</td><td><strong>0</strong></td></tr><tr><td>2</td><td>3</td><td><strong>1</strong></td></tr><tr><td>2</td><td>1</td><td><strong>1</strong></td></tr><tr><td></td><td>0</td><td></td></tr>\n        </tbody>\n      </table>\n    </div>\n    <p style=\"margin-top: 8px;\">Reading remainders from <strong>bottom to top</strong> (MSB to LSB):</p>\n    <p><strong>&there4; (26)<sub>10</sub> = (11010)<sub>2</sub></strong></p>\n  \n      </div>\n    </div>\n  \n    <div class=\"qa-card\">\n      <div class=\"qa-card-q\">b. (59)<sub>10</sub></div>\n      <div class=\"qa-card-a\">\n        \n    <div class=\"table-responsive\" style=\"margin-top: 10px;\">\n      <table class=\"notes-table\" style=\"max-width: 320px;\">\n        <thead>\n          <tr><th>Divisor (2)</th><th>Number / Quotient</th><th>Remainder</th></tr>\n        </thead>\n        <tbody>\n          <tr><td>2</td><td>59</td><td><strong>1</strong></td></tr><tr><td>2</td><td>29</td><td><strong>1</strong></td></tr><tr><td>2</td><td>14</td><td><strong>0</strong></td></tr><tr><td>2</td><td>7</td><td><strong>1</strong></td></tr><tr><td>2</td><td>3</td><td><strong>1</strong></td></tr><tr><td>2</td><td>1</td><td><strong>1</strong></td></tr><tr><td></td><td>0</td><td></td></tr>\n        </tbody>\n      </table>\n    </div>\n    <p style=\"margin-top: 8px;\">Reading remainders from <strong>bottom to top</strong> (MSB to LSB):</p>\n    <p><strong>&there4; (59)<sub>10</sub> = (111011)<sub>2</sub></strong></p>\n  \n      </div>\n    </div>\n  \n    <div class=\"qa-card\">\n      <div class=\"qa-card-q\">c. (75)<sub>10</sub></div>\n      <div class=\"qa-card-a\">\n        \n    <div class=\"table-responsive\" style=\"margin-top: 10px;\">\n      <table class=\"notes-table\" style=\"max-width: 320px;\">\n        <thead>\n          <tr><th>Divisor (2)</th><th>Number / Quotient</th><th>Remainder</th></tr>\n        </thead>\n        <tbody>\n          <tr><td>2</td><td>75</td><td><strong>1</strong></td></tr><tr><td>2</td><td>37</td><td><strong>1</strong></td></tr><tr><td>2</td><td>18</td><td><strong>0</strong></td></tr><tr><td>2</td><td>9</td><td><strong>1</strong></td></tr><tr><td>2</td><td>4</td><td><strong>0</strong></td></tr><tr><td>2</td><td>2</td><td><strong>0</strong></td></tr><tr><td>2</td><td>1</td><td><strong>1</strong></td></tr><tr><td></td><td>0</td><td></td></tr>\n        </tbody>\n      </table>\n    </div>\n    <p style=\"margin-top: 8px;\">Reading remainders from <strong>bottom to top</strong> (MSB to LSB):</p>\n    <p><strong>&there4; (75)<sub>10</sub> = (1001011)<sub>2</sub></strong></p>\n  \n      </div>\n    </div>\n  \n    <div class=\"qa-card\">\n      <div class=\"qa-card-q\">d. (135)<sub>10</sub></div>\n      <div class=\"qa-card-a\">\n        \n    <div class=\"table-responsive\" style=\"margin-top: 10px;\">\n      <table class=\"notes-table\" style=\"max-width: 320px;\">\n        <thead>\n          <tr><th>Divisor (2)</th><th>Number / Quotient</th><th>Remainder</th></tr>\n        </thead>\n        <tbody>\n          <tr><td>2</td><td>135</td><td><strong>1</strong></td></tr><tr><td>2</td><td>67</td><td><strong>1</strong></td></tr><tr><td>2</td><td>33</td><td><strong>1</strong></td></tr><tr><td>2</td><td>16</td><td><strong>0</strong></td></tr><tr><td>2</td><td>8</td><td><strong>0</strong></td></tr><tr><td>2</td><td>4</td><td><strong>0</strong></td></tr><tr><td>2</td><td>2</td><td><strong>0</strong></td></tr><tr><td>2</td><td>1</td><td><strong>1</strong></td></tr><tr><td></td><td>0</td><td></td></tr>\n        </tbody>\n      </table>\n    </div>\n    <p style=\"margin-top: 8px;\">Reading remainders from <strong>bottom to top</strong> (MSB to LSB):</p>\n    <p><strong>&there4; (135)<sub>10</sub> = (10000111)<sub>2</sub></strong></p>\n  \n      </div>\n    </div>\n  \n    <div class=\"qa-card\">\n      <div class=\"qa-card-q\">e. (175)<sub>10</sub></div>\n      <div class=\"qa-card-a\">\n        \n    <div class=\"table-responsive\" style=\"margin-top: 10px;\">\n      <table class=\"notes-table\" style=\"max-width: 320px;\">\n        <thead>\n          <tr><th>Divisor (2)</th><th>Number / Quotient</th><th>Remainder</th></tr>\n        </thead>\n        <tbody>\n          <tr><td>2</td><td>175</td><td><strong>1</strong></td></tr><tr><td>2</td><td>87</td><td><strong>1</strong></td></tr><tr><td>2</td><td>43</td><td><strong>1</strong></td></tr><tr><td>2</td><td>21</td><td><strong>1</strong></td></tr><tr><td>2</td><td>10</td><td><strong>0</strong></td></tr><tr><td>2</td><td>5</td><td><strong>1</strong></td></tr><tr><td>2</td><td>2</td><td><strong>0</strong></td></tr><tr><td>2</td><td>1</td><td><strong>1</strong></td></tr><tr><td></td><td>0</td><td></td></tr>\n        </tbody>\n      </table>\n    </div>\n    <p style=\"margin-top: 8px;\">Reading remainders from <strong>bottom to top</strong> (MSB to LSB):</p>\n    <p><strong>&there4; (175)<sub>10</sub> = (10101111)<sub>2</sub></strong></p>\n  \n      </div>\n    </div>\n  \n    <div class=\"qa-card\">\n      <div class=\"qa-card-q\">f. (250)<sub>10</sub></div>\n      <div class=\"qa-card-a\">\n        \n    <div class=\"table-responsive\" style=\"margin-top: 10px;\">\n      <table class=\"notes-table\" style=\"max-width: 320px;\">\n        <thead>\n          <tr><th>Divisor (2)</th><th>Number / Quotient</th><th>Remainder</th></tr>\n        </thead>\n        <tbody>\n          <tr><td>2</td><td>250</td><td><strong>0</strong></td></tr><tr><td>2</td><td>125</td><td><strong>1</strong></td></tr><tr><td>2</td><td>62</td><td><strong>0</strong></td></tr><tr><td>2</td><td>31</td><td><strong>1</strong></td></tr><tr><td>2</td><td>15</td><td><strong>1</strong></td></tr><tr><td>2</td><td>7</td><td><strong>1</strong></td></tr><tr><td>2</td><td>3</td><td><strong>1</strong></td></tr><tr><td>2</td><td>1</td><td><strong>1</strong></td></tr><tr><td></td><td>0</td><td></td></tr>\n        </tbody>\n      </table>\n    </div>\n    <p style=\"margin-top: 8px;\">Reading remainders from <strong>bottom to top</strong> (MSB to LSB):</p>\n    <p><strong>&there4; (250)<sub>10</sub> = (11111010)<sub>2</sub></strong></p>\n  \n      </div>\n    </div>\n  \n    <div class=\"qa-card\">\n      <div class=\"qa-card-q\">g. (310)<sub>10</sub></div>\n      <div class=\"qa-card-a\">\n        \n    <div class=\"table-responsive\" style=\"margin-top: 10px;\">\n      <table class=\"notes-table\" style=\"max-width: 320px;\">\n        <thead>\n          <tr><th>Divisor (2)</th><th>Number / Quotient</th><th>Remainder</th></tr>\n        </thead>\n        <tbody>\n          <tr><td>2</td><td>310</td><td><strong>0</strong></td></tr><tr><td>2</td><td>155</td><td><strong>1</strong></td></tr><tr><td>2</td><td>77</td><td><strong>1</strong></td></tr><tr><td>2</td><td>38</td><td><strong>0</strong></td></tr><tr><td>2</td><td>19</td><td><strong>1</strong></td></tr><tr><td>2</td><td>9</td><td><strong>1</strong></td></tr><tr><td>2</td><td>4</td><td><strong>0</strong></td></tr><tr><td>2</td><td>2</td><td><strong>0</strong></td></tr><tr><td>2</td><td>1</td><td><strong>1</strong></td></tr><tr><td></td><td>0</td><td></td></tr>\n        </tbody>\n      </table>\n    </div>\n    <p style=\"margin-top: 8px;\">Reading remainders from <strong>bottom to top</strong> (MSB to LSB):</p>\n    <p><strong>&there4; (310)<sub>10</sub> = (100110110)<sub>2</sub></strong></p>\n  \n      </div>\n    </div>\n  \n    <div class=\"qa-card\">\n      <div class=\"qa-card-q\">h. (845)<sub>10</sub></div>\n      <div class=\"qa-card-a\">\n        \n    <div class=\"table-responsive\" style=\"margin-top: 10px;\">\n      <table class=\"notes-table\" style=\"max-width: 320px;\">\n        <thead>\n          <tr><th>Divisor (2)</th><th>Number / Quotient</th><th>Remainder</th></tr>\n        </thead>\n        <tbody>\n          <tr><td>2</td><td>845</td><td><strong>1</strong></td></tr><tr><td>2</td><td>422</td><td><strong>0</strong></td></tr><tr><td>2</td><td>211</td><td><strong>1</strong></td></tr><tr><td>2</td><td>105</td><td><strong>1</strong></td></tr><tr><td>2</td><td>52</td><td><strong>0</strong></td></tr><tr><td>2</td><td>26</td><td><strong>0</strong></td></tr><tr><td>2</td><td>13</td><td><strong>1</strong></td></tr><tr><td>2</td><td>6</td><td><strong>0</strong></td></tr><tr><td>2</td><td>3</td><td><strong>1</strong></td></tr><tr><td>2</td><td>1</td><td><strong>1</strong></td></tr><tr><td></td><td>0</td><td></td></tr>\n        </tbody>\n      </table>\n    </div>\n    <p style=\"margin-top: 8px;\">Reading remainders from <strong>bottom to top</strong> (MSB to LSB):</p>\n    <p><strong>&there4; (845)<sub>10</sub> = (1101001101)<sub>2</sub></strong></p>\n  \n      </div>\n    </div>\n  \n    <div class=\"qa-card\">\n      <div class=\"qa-card-q\">i. (521)<sub>10</sub></div>\n      <div class=\"qa-card-a\">\n        \n    <div class=\"table-responsive\" style=\"margin-top: 10px;\">\n      <table class=\"notes-table\" style=\"max-width: 320px;\">\n        <thead>\n          <tr><th>Divisor (2)</th><th>Number / Quotient</th><th>Remainder</th></tr>\n        </thead>\n        <tbody>\n          <tr><td>2</td><td>521</td><td><strong>1</strong></td></tr><tr><td>2</td><td>260</td><td><strong>0</strong></td></tr><tr><td>2</td><td>130</td><td><strong>0</strong></td></tr><tr><td>2</td><td>65</td><td><strong>1</strong></td></tr><tr><td>2</td><td>32</td><td><strong>0</strong></td></tr><tr><td>2</td><td>16</td><td><strong>0</strong></td></tr><tr><td>2</td><td>8</td><td><strong>0</strong></td></tr><tr><td>2</td><td>4</td><td><strong>0</strong></td></tr><tr><td>2</td><td>2</td><td><strong>0</strong></td></tr><tr><td>2</td><td>1</td><td><strong>1</strong></td></tr><tr><td></td><td>0</td><td></td></tr>\n        </tbody>\n      </table>\n    </div>\n    <p style=\"margin-top: 8px;\">Reading remainders from <strong>bottom to top</strong> (MSB to LSB):</p>\n    <p><strong>&there4; (521)<sub>10</sub> = (1000001001)<sub>2</sub></strong></p>\n  \n      </div>\n    </div>\n  \n    <div class=\"qa-card\">\n      <div class=\"qa-card-q\">j. (651)<sub>10</sub></div>\n      <div class=\"qa-card-a\">\n        \n    <div class=\"table-responsive\" style=\"margin-top: 10px;\">\n      <table class=\"notes-table\" style=\"max-width: 320px;\">\n        <thead>\n          <tr><th>Divisor (2)</th><th>Number / Quotient</th><th>Remainder</th></tr>\n        </thead>\n        <tbody>\n          <tr><td>2</td><td>651</td><td><strong>1</strong></td></tr><tr><td>2</td><td>325</td><td><strong>1</strong></td></tr><tr><td>2</td><td>162</td><td><strong>0</strong></td></tr><tr><td>2</td><td>81</td><td><strong>1</strong></td></tr><tr><td>2</td><td>40</td><td><strong>0</strong></td></tr><tr><td>2</td><td>20</td><td><strong>0</strong></td></tr><tr><td>2</td><td>10</td><td><strong>0</strong></td></tr><tr><td>2</td><td>5</td><td><strong>1</strong></td></tr><tr><td>2</td><td>2</td><td><strong>0</strong></td></tr><tr><td>2</td><td>1</td><td><strong>1</strong></td></tr><tr><td></td><td>0</td><td></td></tr>\n        </tbody>\n      </table>\n    </div>\n    <p style=\"margin-top: 8px;\">Reading remainders from <strong>bottom to top</strong> (MSB to LSB):</p>\n    <p><strong>&there4; (651)<sub>10</sub> = (1010001011)<sub>2</sub></strong></p>\n  \n      </div>\n    </div>\n  \n"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch13",
+        "chapterNumber": 13,
+        "title": "Computer Graphics",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Digital drawing, graphics editing software, raster vs vector.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 13 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch14",
+        "chapterNumber": 14,
+        "title": "Page Layout",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Document layout, margins, page orientation, and printing preparation.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 14 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch15",
+        "chapterNumber": 15,
+        "title": "Multimedia",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Audio, video, text, images, and interactive media components.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 15 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch16",
+        "chapterNumber": 16,
+        "title": "Programming Tools: Algorithm and Flowchart",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Algorithm steps, flowchart symbols, and problem-solving logic.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 16 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch17",
+        "chapterNumber": 17,
+        "title": "Block Programming - Scratch",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Visual block coding, sprites, scripts, and interactive games in Scratch.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 17 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch18",
+        "chapterNumber": 18,
+        "title": "Programming with Python",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Python programming syntax, variables, data types, and simple programs.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 18 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch19",
+        "chapterNumber": 19,
+        "title": "Web Page Designing Using HTML",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "HTML tags, structure, headings, links, and basic web page design.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 19 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch20",
+        "chapterNumber": 20,
+        "title": "Model Question",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Sample examination model questions and solution guides for Class 7.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 20 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch21",
+        "chapterNumber": 21,
+        "title": "Practical Question",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Practical examination questions and lab exercises for Class 7.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 21 will be added soon.</p>"
+          }
+        ]
+      },
+      {
+        "id": "class7-cs-ch22",
+        "chapterNumber": 22,
+        "title": "Terminology",
+        "subject": "Computer Science",
+        "className": "Class 7",
+        "updated": "2026-09-16",
+        "summary": "Comprehensive glossary of computer science terms for Class 7.",
+        "topics": [
+          {
+            "title": "1. Introduction",
+            "content": "<p>Notes for Class 7 Chapter 22 will be added soon.</p>"
+          }
+        ]
+      }
+    ]
   },
   "class8": {
     "computerScience": [
@@ -259,21 +836,53 @@ const notesData = {
         "title": "Presentation Software (MS-PowerPoint 2016)",
         "subject": "Computer Science",
         "className": "Class 8",
-        "updated": "2026-09-03",
-        "author": "Prepared by ER Ankit Lamichhane",
-        "summary": "Complete guide to creating, designing, delivering slide shows, animations, transitions, printing & packaging in Microsoft PowerPoint 2016.",
+        "updated": "2026-09-18",
+        "author": "Prepared by ER. Ankit Lamichhane &mdash; Book 8, Chapter 7",
+        "summary": "Comprehensive guide to Microsoft PowerPoint 2016, slide creation, layouts, presentation views, text box formatting, graphics, photo albums, audio/video media, WordArt, animations, slide transitions, self-running slide shows, printing, packaging, and complete textbook exercise solutions.",
         "topics": [
           {
-            "title": "Learning Objectives",
-            "content": "\n              <p>At the end of this chapter, students will be able to:</p>\n              <div class=\"step-card-grid\">\n                <div class=\"step-card\"><span class=\"step-badge\">1</span><span>Prepare a presentation using pictures, audio and videos.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">2</span><span>Implement the transition feature between slides.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">3</span><span>Implement animation effects on slide objects.</span></div>\n                <div class=\"step-card\"><span class=\"step-badge\">4</span><span>Prepare a package presentation for another computer.</span></div>\n              </div>\n            "
+            "title": "7.0 Unit Roadmap & Learning Objectives",
+            "content": "\n        <div class=\"callout callout-remember\">\n          <div class=\"callout-title\">🎯 CHAPTER 7 LEARNING OBJECTIVES</div>\n          <p>At the end of this chapter, students will be able to:</p>\n          <ul>\n            <li>Prepare a presentation using pictures, audio, and videos.</li>\n            <li>Implement transition features between slides.</li>\n            <li>Implement animation effects on slide objects.</li>\n            <li>Prepare a package presentation for another computer.</li>\n          </ul>\n        </div>\n\n        <h3>Chapter 7 Topics Roadmap:</h3>\n        <div class=\"step-card-grid\">\n          <div class=\"step-card\"><span class=\"step-badge\">7.0</span><span>Introduction to Presentation Software</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">7.1</span><span>Getting to Know MS-PowerPoint &amp; Loading the Program</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">7.2</span><span>Important Terms (Slide, Object, Placeholder, Transition)</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">7.3</span><span>Creating a Presentation &amp; Slide Layouts</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">7.4</span><span>Saving (.pptx / .ppsx) &amp; Opening Presentations</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">7.5</span><span>Ways to View a Presentation (Normal, Sorter, Show, Master)</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">7.6</span><span>Editing a Presentation (Text, Multiple Slides, Reordering)</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">7.7</span><span>Starting &amp; Controlling a Slide Show</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">7.8</span><span>Working with Text Boxes (Moving, Resizing, Outlining, Fill)</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">7.9</span><span>Adding Backgrounds, Graphics, Photo Albums, Media &amp; WordArt</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">7.10</span><span>Animation Effects (Entrance, Emphasis, Exit, Motion Paths)</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">7.11</span><span>Slide Transitions, Self-Running Show, Printing &amp; Packaging</span></div>\n        </div>\n      "
           },
           {
-            "title": "7.0 Introduction: What is a Presentation?",
-            "content": "\n              <p>Information can be presented using traditional methods (pamphlets, posters, handouts) or digitally with a computer &amp; projector.</p>\n              <ul>\n                <li>A <strong>presentation program</strong> lets you create, modify, manage and display information in the form of slides.</li>\n                <li>A <strong>Slide</strong> is like one page of a presentation &mdash; a brief topic shown using text, pictures, audio, video and animation.</li>\n                <li>A <strong>Presentation</strong> = a collection of slides arranged in sequential order.</li>\n                <li>Used widely to teach students, present business information, or share news in public places.</li>\n                <li><strong>Popular presentation programs:</strong> Microsoft PowerPoint, Apple Keynote, OpenOffice Impress, Slidebean, Adobe Premiere.</li>\n              </ul>\n            "
+            "title": "7.1 Introduction to Presentation Software & Loading PowerPoint",
+            "content": "\n        <p>Information can be presented using traditional methods (pamphlets, posters, handouts) or digitally using a computer and projector. A <strong>presentation program</strong> is application software that lets you create, modify, manage, and display information in the form of slides.</p>\n        \n        <div class=\"step-card-grid\">\n          <div class=\"step-card\"><span class=\"step-badge\">SLIDE</span><span>A single page of a presentation displaying brief topic information using text, pictures, audio, video, and animation.</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">PRESENTATION</span><span>A collection of slides arranged in sequential order to convey ideas clearly.</span></div>\n        </div>\n\n        <p><strong>Popular Presentation Software:</strong> Microsoft PowerPoint, Apple Keynote, OpenOffice Impress, Slidebean, Adobe Premiere.</p>\n\n        <h3>Getting to Know MS-PowerPoint 2016</h3>\n        <p><strong>Microsoft PowerPoint 2016</strong> is a powerful multimedia presentation program that lets you create, edit, organize, and present slides. Think of it as a <em>digital storyboard</em> &mdash; every slide is one page of your story.</p>\n\n        <h3>Task: Loading Microsoft PowerPoint 2016</h3>\n        <ol>\n          <li>Press <strong>Windows Key + R</strong> to open the Run dialog box.</li>\n          <li>Type <code>POWERPNT</code> in the Open command box.</li>\n          <li>Press <strong>Enter</strong> or click <strong>OK</strong>.</li>\n          <li><em>Alternative Method:</em> Click <strong>Start &rarr; All Apps &rarr; scroll down &rarr; select PowerPoint 2016</strong>.</li>\n        </ol>\n      "
           },
           {
-            "title": "7.1 Getting to Know MS-PowerPoint",
-            "content": "\n              <p>MS-PowerPoint is a powerful multimedia presentation program developed by Microsoft. It lets you create, edit, organize and present presentations effectively.</p>\n              <p>A presentation in MS-PowerPoint is made up of a number of slides arranged in sequential order. Think of it as a <em>digital storyboard</em> &mdash; every slide is one page of your story.</p>\n              \n              <h3>Task: Loading PowerPoint</h3>\n              <div class=\"step-list\">\n                <div class=\"step-item\"><span class=\"step-badge\">1</span><div><strong>Open Run Dialog:</strong> Press the <code>Windows key + R</code> keys together.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">2</span><div><strong>Type Command:</strong> Type <code>POWERPNT</code> in the Run command box.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">3</span><div><strong>Execute:</strong> Press Enter or click on the <strong>OK</strong> button.</div></div>\n                <div class=\"step-item\"><span class=\"step-badge\">4</span><div><strong>Alternative:</strong> Click <em>Start &rarr; All Apps &rarr; scroll down &rarr; select PowerPoint 2016</em>.</div></div>\n              </div>\n\n              <!-- UI Figure Screenshot: Run Dialog Box -->\n              <div class=\"ui-figure\">\n                <div class=\"ui-figure-header\">💻 Figure 7.1: Windows Run Dialog Box</div>\n                <div class=\"ui-window-box\">\n                  <div class=\"ui-window-titlebar\">Run</div>\n                  <div class=\"ui-window-content\">\n                    <p style=\"font-size: 0.88rem; margin-bottom: 0.5rem;\">Type the name of a program, folder, document, or Internet resource, and Windows will open it for you.</p>\n                    <div style=\"display: flex; align-items: center; gap: 0.5rem;\">\n                      <label style=\"font-weight: 600; font-size: 0.9rem;\">Open:</label>\n                      <input type=\"text\" value=\"POWERPNT\" readonly style=\"flex: 1; padding: 0.35rem 0.5rem; border: 1px solid var(--border-focus); border-radius: 4px; font-weight: 700; background: var(--surface); color: var(--primary);\">\n                    </div>\n                    <div style=\"display: flex; justify-content: flex-end; gap: 0.5rem; margin-top: 1rem;\">\n                      <button style=\"padding: 0.3rem 0.8rem; font-size: 0.85rem; font-weight: 700; background: var(--primary); color: #fff; border: none; border-radius: 4px;\">OK</button>\n                      <button style=\"padding: 0.3rem 0.8rem; font-size: 0.85rem; border: 1px solid var(--border); background: var(--background); border-radius: 4px;\">Cancel</button>\n                    </div>\n                  </div>\n                </div>\n                <div class=\"ui-figure-caption\">The Run dialog box &mdash; type POWERPNT to launch PowerPoint</div>\n              </div>\n            "
+            "title": "7.2 Important Terms Used in MS-PowerPoint",
+            "content": "\n        <div class=\"table-responsive\">\n          <table class=\"notes-table\">\n            <thead>\n              <tr><th>Key Term</th><th>Definition &amp; Purpose</th></tr>\n            </thead>\n            <tbody>\n              <tr><td><strong>Slide</strong></td><td>A single page of a presentation containing brief information using text, pictures, sounds, movies, and animations.</td></tr>\n              <tr><td><strong>Object</strong></td><td>Any picture, text box, chart, shape, sound, or video clip that appears on a PowerPoint slide.</td></tr>\n              <tr><td><strong>Placeholder</strong></td><td>A pre-formatted box surrounded by dotted lines on a slide layout that holds titles, body text, tables, charts, or media.</td></tr>\n              <tr><td><strong>Slide Show</strong></td><td>A series of slides displayed full-screen in sequence, controlled manually or automatically.</td></tr>\n              <tr><td><strong>Transition</strong></td><td>A special visual or audio effect used to introduce a slide as it moves to the next slide during a slide show.</td></tr>\n            </tbody>\n          </table>\n        </div>\n      "
+          },
+          {
+            "title": "7.3 Creating, Saving, Opening & Slide Layouts",
+            "content": "\n        <h3>Creating a Blank Presentation</h3>\n        <ol>\n          <li>Click the <strong>File tab</strong> (Backstage view).</li>\n          <li>Select <strong>New</strong> command.</li>\n          <li>Select <strong>Blank Presentation</strong> under Available Templates and Themes.</li>\n          <li>The default Title Slide is displayed.</li>\n        </ol>\n\n        <h3>Adding a New Slide &amp; Changing Slide Layout</h3>\n        <ol>\n          <li>Click <strong>New Slide</strong> on the Slides group of the <strong>Home tab</strong> (or Insert tab).</li>\n          <li>Click <strong>Layout</strong> on the Slides group of the Home tab.</li>\n          <li>Choose an appropriate layout: <em>Title Slide, Title and Content, Section Header, Two Content, Comparison, Title Only, Blank, Content with Caption, Picture with Caption</em>.</li>\n        </ol>\n\n        <h3>Saving a Presentation</h3>\n        <ol>\n          <li>Click the <strong>File tab &rarr; Save As &rarr; Browse</strong>.</li>\n          <li>Specify the folder location and type the file name.</li>\n          <li>Click <strong>Save</strong> or press Enter.</li>\n        </ol>\n\n        <div class=\"callout callout-remember\">\n          <div class=\"callout-title\">📌 FILE EXTENSIONS (.PPTX vs .PPSX)</div>\n          <ul>\n            <li><strong>Standard File Extension:</strong> <code>.PPTX</code> (older versions used <code>.PPT</code>). Shortcut: <code>Ctrl + S</code>.</li>\n            <li><strong>PowerPoint Show Extension:</strong> <code>.PPSX</code> &mdash; saving as a PowerPoint Show allows the presentation to open and run directly full-screen without opening the PowerPoint editing environment first!</li>\n          </ul>\n        </div>\n\n        <h3>Opening an Existing Presentation</h3>\n        <ol>\n          <li>Click <strong>File tab &rarr; Open &rarr; Browse</strong>.</li>\n          <li>Locate the file and click <strong>Open</strong> (or press Enter). Shortcut: <code>Ctrl + O</code>.</li>\n        </ol>\n      "
+          },
+          {
+            "title": "7.4 Presentation Views (Normal, Sorter, Show, Master)",
+            "content": "\n        <p>MS-PowerPoint offers several ways to view slides, available on the <strong>View tab</strong> or on the status bar:</p>\n\n        <h3>1. Normal View (Slide View)</h3>\n        <p>The primary editing view used to create and edit slides. It splits the working screen into <strong>three main panes</strong>:</p>\n        <ul>\n          <li><strong>Slides Pane (left):</strong> Displays thumbnail previews of all slides in the presentation.</li>\n          <li><strong>Slide Pane (center):</strong> Large working area showing the active slide for adding text, images, and objects.</li>\n          <li><strong>Notes Pane (bottom):</strong> Allows you to type speaker notes for each slide.</li>\n        </ul>\n\n        <h3>2. Slide Sorter View</h3>\n        <p>Displays horizontal thumbnail previews of all slides on one screen. Ideal for inserting, deleting, or reordering slides via drag-and-drop.</p>\n\n        <h3>3. Outline View</h3>\n        <p>Displays only the text content of slides in an outline list format, perfect for storyboarding and editing text quickly.</p>\n\n        <h3>4. Notes Page View</h3>\n        <p>Displays the Notes pane in full-page format for reviewing speaker notes.</p>\n\n        <h3>5. Reading View</h3>\n        <p>Runs the slide show inside the PowerPoint window with simple navigation controls for quick reviewing.</p>\n\n        <h3>6. Slide Show View</h3>\n        <p>Runs the presentation full-screen, one slide after another. Shortcut key: <strong>F5</strong> (from beginning) or <strong>Shift + F5</strong> (from current slide).</p>\n\n        <h3>7. Master Views (Slide Master, Handout Master, Notes Master)</h3>\n        <p>Stores the background design, colors, fonts, placeholder positions, and header/footer settings for the entire presentation deck.</p>\n      "
+          },
+          {
+            "title": "7.5 Editing & Managing Slides (Inserting, Deleting, Reordering)",
+            "content": "\n        <h3>Editing Text in a Slide</h3>\n        <ul>\n          <li>Switch to <strong>Normal View</strong> and select the target slide.</li>\n          <li>Click inside placeholder text to edit, or double-click a word to select it, or triple-click to select an entire paragraph.</li>\n          <li>Use standard edit shortcuts: <code>Ctrl + X</code> (Cut), <code>Ctrl + C</code> (Copy), <code>Ctrl + V</code> (Paste), <code>Ctrl + Z</code> (Undo), <code>Ctrl + Y</code> (Redo).</li>\n        </ul>\n\n        <h3>Selecting Multiple Slides (in Slide Sorter View)</h3>\n        <ul>\n          <li><strong>Sequential Slides:</strong> Click the first slide &rarr; press and hold <strong>SHIFT key</strong> &rarr; click the last slide.</li>\n          <li><strong>Non-Sequential Slides:</strong> Click the first slide &rarr; press and hold <strong>CTRL key</strong> &rarr; click each desired slide.</li>\n        </ul>\n\n        <h3>Slide Management Operations</h3>\n        <div class=\"step-card-grid\">\n          <div class=\"step-card\"><span class=\"step-badge\">INSERT</span><span>Home tab &rarr; New Slide in Slides group &rarr; select layout.</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">DELETE</span><span>Select slide &rarr; press <code>Delete</code> key (or right-click &rarr; Delete Slide).</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">DUPLICATE</span><span>Home tab &rarr; New Slide dropdown &rarr; Duplicate Selected Slides (or right-click &rarr; Duplicate Slide).</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">REORDER</span><span>In Slide Sorter or Outline View, click and drag the slide to its new position. Slide numbers update automatically.</span></div>\n        </div>\n      "
+          },
+          {
+            "title": "7.6 Working with Text Boxes (Moving, Resizing, Formatting)",
+            "content": "\n        <p>A <strong>Text Box</strong> is a custom placeholder that lets you place and format text anywhere on a slide.</p>\n\n        <h3>1. Adding a Text Box</h3>\n        <ol>\n          <li>Click <strong>Insert tab &rarr; Text group &rarr; Text Box</strong>.</li>\n          <li>Click on the slide and drag diagonally to draw the box.</li>\n          <li>Type your text inside the flashing cursor. Click outside when finished.</li>\n        </ol>\n\n        <h3>2. Moving a Text Box</h3>\n        <ul>\n          <li>Click the text box border. The mouse pointer turns into a <strong>4-headed arrow</strong>.</li>\n          <li>Click and drag the box to its new location.</li>\n        </ul>\n\n        <h3>3. Resizing a Text Box</h3>\n        <ul>\n          <li>Click the text box to display sizing handles (small squares on corners and sides).</li>\n          <li>Position pointer over a handle until it turns into a <strong>2-headed arrow</strong>. Drag outward to enlarge or inward to shrink.</li>\n          <li><em>Pro Tip:</em> Hold down the <strong>SHIFT key</strong> while dragging a corner handle to resize width and height proportionally.</li>\n        </ul>\n\n        <h3>4. Outlining &amp; Adding Fill Colour</h3>\n        <ul>\n          <li><strong>Shape Outline:</strong> Select text box &rarr; Format tab &rarr; Shape Styles group &rarr; Shape Outline &rarr; select line weight/style.</li>\n          <li><strong>Shape Fill:</strong> Select text box &rarr; Format tab &rarr; Shape Fill &rarr; choose Theme Colour, Gradient, or Texture.</li>\n        </ul>\n      "
+          },
+          {
+            "title": "7.7 Backgrounds, Media, Photo Albums & WordArt",
+            "content": "\n        <h3>Applying Background Colour</h3>\n        <ol>\n          <li>Select slide &rarr; <strong>Design tab &rarr; Variants group &rarr; click More &rarr; Background Styles</strong>.</li>\n          <li>Choose predefined style or click <strong>Format Background</strong>.</li>\n          <li>Select <em>Solid Fill, Gradient Fill, Picture and Texture Fill, or Pattern Fill</em>.</li>\n          <li>Click <strong>Apply to All</strong> (or Close for single slide).</li>\n        </ol>\n\n        <h3>Adding Graphics &amp; Media Clips</h3>\n        <ul>\n          <li><strong>Insert Picture:</strong> Insert tab &rarr; Images group &rarr; Picture &rarr; locate image file &rarr; click Insert.</li>\n          <li><strong>Insert ClipArt:</strong> Double-click ClipArt placeholder &rarr; Microsoft Clip Organizer &rarr; select image.</li>\n          <li><strong>Insert Video / Audio:</strong> Insert tab &rarr; Media group &rarr; click <strong>Video &rarr; Video from File</strong> or <strong>Audio &rarr; Audio from File</strong>.</li>\n        </ul>\n\n        <h3>Creating a Photo Album</h3>\n        <ol>\n          <li>Insert tab &rarr; Images group &rarr; <strong>Photo Album</strong>.</li>\n          <li>Click <strong>File/Disk</strong> under Insert picture from. Select photo files &rarr; Insert.</li>\n          <li>Set Picture Layout (e.g. 1, 2, or 4 pictures per slide).</li>\n          <li>Click <strong>Create</strong>. PowerPoint automatically builds photo album slides.</li>\n        </ol>\n\n        <h3>WordArt (Styling Text)</h3>\n        <p>WordArt adds special text effects (3D rotation, shadows, glowing outlines, curves) to decorate slides.</p>\n        <ul>\n          <li><strong>Add WordArt:</strong> Insert tab &rarr; Text group &rarr; WordArt &rarr; select style. Type text.</li>\n          <li><strong>Apply Text Effects:</strong> Select WordArt &rarr; Format tab &rarr; WordArt Styles group &rarr; Text Effects &rarr; Transform.</li>\n          <li><strong>Remove WordArt Style:</strong> Select text &rarr; Format tab &rarr; WordArt Styles &rarr; More button &rarr; <strong>Clear WordArt</strong>.</li>\n        </ul>\n      "
+          },
+          {
+            "title": "7.8 Animation & Transition Effects",
+            "content": "\n        <h3>Animation Effects (Animating Slide Objects)</h3>\n        <p>Animation adds visual or sound effects to specific slide objects (text, shapes, pictures). PowerPoint provides <strong>four animation types</strong>:</p>\n        \n        <div class=\"step-card-grid\">\n          <div class=\"step-card\"><span class=\"step-badge\">ENTRANCE</span><span>Controls how an object enters the slide (Appear, Fade, Fly In, Float In).</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">EMPHASIS</span><span>Animates an object while on the slide (Spin, Pulse, Color Pulse, Teeter).</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">EXIT</span><span>Controls how an object leaves the slide (Disappear, Fade, Fly Out, Split).</span></div>\n          <div class=\"step-card\"><span class=\"step-badge\">MOTION PATHS</span><span>Moves an object along a custom predefined line, curve, or path.</span></div>\n        </div>\n\n        <h3>The Animation Pane &amp; Timings</h3>\n        <ol>\n          <li>Select object &rarr; <strong>Animation tab &rarr; Advanced Animation group &rarr; Animation Pane</strong>.</li>\n          <li>Set Start trigger: <strong>Start On Click</strong> (default), <strong>Start With Previous</strong>, or <strong>Start After Previous</strong>.</li>\n          <li>Click <strong>Timing</strong> &rarr; set Duration (Very Slow, Slow, Medium, Fast, Very Fast).</li>\n        </ol>\n\n        <h3>Slide Transitions (Animating Slide Changes)</h3>\n        <p>Transitions are special visual effects applied when moving from one slide to another during a slide show.</p>\n        <ul>\n          <li><strong>Add Transition:</strong> Select slide &rarr; <strong>Transitions tab &rarr; Transition to This Slide group</strong> &rarr; select effect (Cut, Fade, Push, Wipe, Split, Flash, Flip, Cube). Select Sound &amp; Duration &rarr; click <strong>Apply To All</strong>.</li>\n          <li><strong>Remove Transition:</strong> Select slide &rarr; Transitions tab &rarr; click <strong>None</strong> &rarr; Apply to All.</li>\n        </ul>\n      "
+          },
+          {
+            "title": "7.9 Self-Running Shows, Printing & Packaging",
+            "content": "\n        <h3>Setting Up a Self-Running Slide Show (Rehearse Timings)</h3>\n        <ol>\n          <li>Click <strong>Slide Show tab &rarr; Set Up group &rarr; Rehearse Timings</strong>.</li>\n          <li>The Rehearsal toolbar appears and timing starts automatically.</li>\n          <li>Click <em>Next</em> to advance slides, <em>Pause</em> to hold, or <em>Repeat</em> to reset timing for a slide.</li>\n          <li>At the end, click <strong>Save</strong> to keep the recorded timings for an automated self-running presentation.</li>\n        </ol>\n\n        <div class=\"callout callout-quickcheck\">\n          <div class=\"callout-title\">🎮 CONTROLLING THE SLIDE SHOW</div>\n          <ul>\n            <li><strong>Next Slide:</strong> Left click, Enter key, Spacebar, or Right/Down Arrow key.</li>\n            <li><strong>Previous Slide:</strong> Left/Up Arrow key.</li>\n            <li><strong>End Slide Show:</strong> Press <code>ESC</code> key.</li>\n          </ul>\n        </div>\n\n        <h3>Printing Slides, Notes &amp; Handouts</h3>\n        <ol>\n          <li>Click <strong>File tab &rarr; Print</strong>.</li>\n          <li>Set copies &amp; printer choice.</li>\n          <li>Settings: Print All Slides, Print Current Slide, or Custom Range (e.g. 1-3, 6-9).</li>\n          <li>Print Layout: Full Page Slides, Notes Pages, or <strong>Handouts (1, 2, 3, 4, 6, or 9 slides per page)</strong>.</li>\n          <li>Color Mode: Color, Grayscale, or Pure Black &amp; White. Click <strong>Print</strong>.</li>\n        </ol>\n\n        <h3>Packaging a Presentation (File &rarr; Export)</h3>\n        <p>Packaging bundle all external media, fonts, and slide files into a single folder or portable file so the presentation runs smoothly on any computer without missing assets.</p>\n        <ul>\n          <li><strong>Create a Video:</strong> Saves presentation as an <code>.mp4</code> or <code>.wmv</code> video file.</li>\n          <li><strong>Package Presentation for CD:</strong> Bundles all presentation files onto a pen drive or CD folder.</li>\n          <li><strong>Create PDF/XPS Document:</strong> Preserves original layout, fonts, and graphics in standard PDF format.</li>\n        </ul>\n      "
+          },
+          {
+            "title": "Textbook Exercise Solutions &mdash; Chapter 7 (MS-PowerPoint 2016)",
+            "content": "\n        <h2>Innovative Computer Science &mdash; Book 8, Chapter 7 Complete Exercise Solutions</h2>\n\n        <h3>1. Very Short Answer Questions (a to d)</h3>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">a. What is a slide?</div>\n          <div class=\"qa-card-a\"><strong>Answer:</strong> A slide is one single page of a presentation that displays brief information using text, pictures, audio, video, and animation.</div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">b. What is a presentation?</div>\n          <div class=\"qa-card-a\"><strong>Answer:</strong> A presentation is a collection of slides arranged in sequential order to display information clearly to an audience.</div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">c. What is the use of Slide Show view?</div>\n          <div class=\"qa-card-a\"><strong>Answer:</strong> Slide Show view displays slides full-screen, one after another, to run and deliver the actual presentation to an audience.</div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">d. What is a transition?</div>\n          <div class=\"qa-card-a\"><strong>Answer:</strong> A transition is a special visual effect that appears when a slide changes to the next slide during a slide show.</div>\n        </div>\n\n        <h3>2. Short Answer Questions (a to h)</h3>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">a. What is a presentation program? List any two presentation programs.</div>\n          <div class=\"qa-card-a\"><strong>Answer:</strong> A presentation program is application software that lets you create, modify, manage, and display information in the form of slides.<br><em>Two Examples:</em> Microsoft PowerPoint and Apple Keynote.</div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">b. What is MS-PowerPoint?</div>\n          <div class=\"qa-card-a\"><strong>Answer:</strong> MS-PowerPoint is a powerful multimedia presentation program developed by Microsoft that allows users to create, edit, organize, and present slides in sequential order.</div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">c. Define presentation and slide.</div>\n          <div class=\"qa-card-a\"><strong>Answer:</strong>\n          <ul>\n            <li><strong>Presentation:</strong> A collection of slides arranged in sequential order to present information clearly.</li>\n            <li><strong>Slide:</strong> A single page of a presentation showing brief topic information using text, pictures, audio, video, and animation.</li>\n          </ul></div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">d. What is Normal View? List its uses.</div>\n          <div class=\"qa-card-a\"><strong>Answer:</strong> Normal View (also called Slide View) is the main editing view in PowerPoint.<br><em>Uses:</em> View and edit active slides in the Slide Pane, browse slide thumbnails in the Slides Pane, and add speaker notes in the Notes Pane.</div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">e. What is Slide Sorter View? Write its uses.</div>\n          <div class=\"qa-card-a\"><strong>Answer:</strong> Slide Sorter View displays horizontal thumbnail previews of all slides in a presentation on a single screen.<br><em>Uses:</em> Quickly add, delete, or reorder slides by dragging and dropping them into new positions.</div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">f. List the difference between a Placeholder and a Textbox.</div>\n          <div class=\"qa-card-a\"><strong>Answer:</strong>\n          <ul>\n            <li><strong>Placeholder:</strong> A ready-made box with dotted lines built into the slide layout automatically for titles, body text, or media.</li>\n            <li><strong>Textbox:</strong> A custom box manually drawn on the slide by the user to insert additional text anywhere.</li>\n          </ul></div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">h. What is a transition?</div>\n          <div class=\"qa-card-a\"><strong>Answer:</strong> A transition is a special visual and audio effect used to introduce a slide as it moves to the next slide during a slide show (applied via the Transitions tab).</div>\n        </div>\n\n        <h3>3. Detailed Views &amp; Steps Questions</h3>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">a. Describe all the main Views available in MS-PowerPoint 2016.</div>\n          <div class=\"qa-card-a\">\n            <div class=\"table-responsive\">\n              <table class=\"notes-table\">\n                <thead><tr><th>View Name</th><th>Description &amp; Purpose</th></tr></thead>\n                <tbody>\n                  <tr><td><strong>Normal View</strong></td><td>Main editing view split into Slides Pane (left thumbnails), Slide Pane (center editing area), and Notes Pane (bottom speaker notes).</td></tr>\n                  <tr><td><strong>Outline View</strong></td><td>Displays only slide text as an outline; ideal for planning and storyboarding content.</td></tr>\n                  <tr><td><strong>Slide Sorter View</strong></td><td>Displays all slide thumbnails side-by-side; ideal for rearranging, inserting, or deleting slides quickly.</td></tr>\n                  <tr><td><strong>Notes Page View</strong></td><td>Displays Notes pane in full-page format for typing and reviewing speaker notes.</td></tr>\n                  <tr><td><strong>Reading View</strong></td><td>Displays slides full-screen inside the window for quick reading/review without running a full show.</td></tr>\n                  <tr><td><strong>Slide Show View</strong></td><td>Runs the presentation full-screen one slide after another for delivery to an audience.</td></tr>\n                </tbody>\n              </table>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"qa-card\">\n          <div class=\"qa-card-q\">b. Write the steps to create a Photo Album in MS-PowerPoint.</div>\n          <div class=\"qa-card-a\">\n            <ol>\n              <li>Click <strong>Insert tab &rarr; Images group &rarr; Photo Album</strong>.</li>\n              <li>In the Photo Album dialog box, click <strong>File/Disk</strong> under Insert picture from.</li>\n              <li>Select photo files from your storage location and click <strong>Insert</strong>.</li>\n              <li>Click the drop-down beside <strong>Picture Layout</strong> and select the number of pictures per slide.</li>\n              <li>Click <strong>Create</strong>. PowerPoint automatically builds the photo album presentation.</li>\n            </ol>\n          </div>\n        </div>\n\n        <h3>4. Fill in the Blanks</h3>\n        <p><strong>a.</strong> A <u>presentation</u> program displays presentation in the form of slides.</p>\n        <p><strong>b.</strong> A <u>placeholder</u> is a box surrounded by dotted lines and is used for placing text, clipart, video, charts, etc.</p>\n        <p><strong>c.</strong> The Normal View splits the working screen into <u>three</u> Panes (Slides Pane, Slide Pane, and Notes Pane).</p>\n        <p><strong>d.</strong> The Slide View displays <u>an enlarged view of one slide at a time</u>.</p>\n        <p><strong>e.</strong> <u>Animation</u> effects are special sound or visual effects which are added to the text or other graphic objects.</p>\n\n        <h3>5. State Whether the Following Statements are True or False</h3>\n        <div class=\"qa-card\"><div class=\"qa-card-q\">a. A presentation in MS-PowerPoint has many number of slides arranged in sequential order.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n        <div class=\"qa-card\"><div class=\"qa-card-q\">b. A slide can be added or removed from a presentation.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n        <div class=\"qa-card\"><div class=\"qa-card-q\">c. A new slide gets inserted at the beginning of the currently selected slide.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(A new slide is inserted right after the currently selected slide)</em></div></div>\n        <div class=\"qa-card\"><div class=\"qa-card-q\">d. The F5 key is used to start the slide show from the beginning slide.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n        <div class=\"qa-card\"><div class=\"qa-card-q\">e. A placeholder is a box that is used for placing text, clipart, video, charts, etc.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n        <div class=\"qa-card\"><div class=\"qa-card-q\">f. The Normal View splits the working screen into four panes.</div><div class=\"qa-card-a\"><strong>FALSE</strong> <em>(Normal View splits the screen into three panes)</em></div></div>\n        <div class=\"qa-card\"><div class=\"qa-card-q\">g. The Slide pane shows thumbnails of the slides.</div><div class=\"qa-card-a\"><strong>TRUE</strong> <em>(The Slides Pane on the left shows thumbnails)</em></div></div>\n        <div class=\"qa-card\"><div class=\"qa-card-q\">h. A transition is a special effect that appears while transferring from one slide to another.</div><div class=\"qa-card-a\"><strong>TRUE</strong></div></div>\n\n        <h3>6. Quick Revision Questions (Class Discussion)</h3>\n        <div class=\"qa-card\"><div class=\"qa-card-q\">Q1. What is the difference between a Slide and a Placeholder?</div><div class=\"qa-card-a\"><strong>Answer:</strong> A slide is an entire presentation page, while a placeholder is a specific container box on a slide for holding text, images, or media.</div></div>\n        <div class=\"qa-card\"><div class=\"qa-card-q\">Q2. Name three ways to load Microsoft PowerPoint on a computer.</div><div class=\"qa-card-a\"><strong>Answer:</strong> 1) Run command <code>POWERPNT</code>, 2) Start menu shortcut under All Apps, 3) Opening an existing <code>.pptx</code> file.</div></div>\n        <div class=\"qa-card\"><div class=\"qa-card-q\">Q3. Which view would you use to reorder slides by dragging them, and which view to see only their text?</div><div class=\"qa-card-a\"><strong>Answer:</strong> Reorder slides: <strong>Slide Sorter View</strong>. View only text: <strong>Outline View</strong>.</div></div>\n        <div class=\"qa-card\"><div class=\"qa-card-q\">Q4. List the four types of animation effects PowerPoint provides.</div><div class=\"qa-card-a\"><strong>Answer:</strong> 1) Entrance, 2) Emphasis, 3) Exit, 4) Motion Paths.</div></div>\n        <div class=\"qa-card\"><div class=\"qa-card-q\">Q5. What is the difference between a Transition and an Animation?</div><div class=\"qa-card-a\"><strong>Answer:</strong> A transition animates the change between whole slides, whereas an animation animates specific objects inside a single slide.</div></div>\n        <div class=\"qa-card\"><div class=\"qa-card-q\">Q6. Why might a teacher package a presentation before taking it to another computer?</div><div class=\"qa-card-a\"><strong>Answer:</strong> Packaging ensures that all embedded fonts, audio/video clips, and slide assets travel together so the presentation plays perfectly on any other computer without missing media files.</div></div>\n      "
           }
         ]
       },
