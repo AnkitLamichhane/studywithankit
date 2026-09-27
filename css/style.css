@@ -1143,6 +1143,37 @@ a:hover {
   margin-bottom: 0.45rem;
 }
 
+/* Notes Content Figures & Educational Images */
+.notes-body img,
+.note-figure-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  display: block;
+  margin: 1.5rem auto;
+  box-shadow: var(--card-shadow);
+  border: 1px solid var(--border);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.notes-body img:hover,
+.note-figure-img:hover {
+  box-shadow: var(--hover-shadow);
+}
+
+.note-figure {
+  margin: 1.75rem 0;
+  text-align: center;
+}
+
+.note-caption {
+  font-family: var(--font-main);
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-top: 0.6rem;
+  font-weight: 600;
+}
+
 /* Code Block with Copy Button */
 .code-block-wrapper {
   position: relative;
