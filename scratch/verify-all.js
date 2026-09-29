@@ -75,6 +75,35 @@ ch4.topics.forEach((t, i) => {
   console.log(`  [${i + 1}] ${t.title}`);
 });
 
+console.log('\n=== CLASS 7 CHAPTER 5 AUDIT ===');
+const ch5 = data.class7.computerScience.find(c => c.chapterNumber === 5);
+console.log('ID:', ch5.id);
+console.log('Title:', ch5.title);
+console.log('Summary:', ch5.summary);
+console.log('Total Topics:', ch5.topics.length);
+ch5.topics.forEach((t, i) => {
+  console.log(`  [${i + 1}] ${t.title}`);
+});
+
+console.log('\n=== CLASS 7 CH 5 IMAGE REFERENCES AUDIT ===');
+const foundImgsCh5 = [];
+ch5.topics.forEach(t => {
+  let m;
+  const regex = /src="([^"]+)"/g;
+  while ((m = regex.exec(t.content)) !== null) {
+    foundImgsCh5.push(m[1]);
+  }
+});
+console.log(`Found ${foundImgsCh5.length} image references in Class 7 Chapter 5:`);
+let allCh5ImgsExist = true;
+foundImgsCh5.forEach((src, idx) => {
+  const fullPath = path.join(__dirname, '..', src);
+  const exists = fs.existsSync(fullPath);
+  if (!exists) allCh5ImgsExist = false;
+  console.log(`  (${idx + 1}) ${src} -> Exists on disk: ${exists}`);
+});
+console.log('All 20 Chapter 5 images exist on disk:', allCh5ImgsExist);
+
 console.log('\n=== INTEGRITY CHECKS ===');
 console.log('Class 6 chapters preserved (18):', counts.class6 === 18);
 console.log('Class 7 chapters preserved (22):', counts.class7 === 22);
@@ -82,5 +111,6 @@ console.log('Class 8 chapters preserved (17):', counts.class8 === 17);
 console.log('Class 9 chapters preserved (5):', counts.class9 === 5);
 console.log('Class 10 chapters preserved (6):', counts.class10 === 6);
 console.log('Total chapters across all classes:', Object.values(counts).reduce((a, b) => a + b, 0));
+
 
 
