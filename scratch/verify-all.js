@@ -104,13 +104,82 @@ foundImgsCh5.forEach((src, idx) => {
 });
 console.log('All 20 Chapter 5 images exist on disk:', allCh5ImgsExist);
 
+console.log('\n=== CLASS 7 CHAPTER 7 AUDIT ===');
+const ch7 = data.class7.computerScience.find(c => c.chapterNumber === 7);
+console.log('ID:', ch7.id);
+console.log('Title:', ch7.title);
+console.log('Summary:', ch7.summary);
+console.log('Total Topics:', ch7.topics.length);
+ch7.topics.forEach((t, i) => {
+  console.log(`  [${i + 1}] ${t.title}`);
+});
+
+console.log('\n=== CLASS 7 CH 7 IMAGE REFERENCES AUDIT ===');
+const foundImgsCh7 = [];
+ch7.topics.forEach(t => {
+  let m;
+  const regex = /src="([^"]+)"/g;
+  while ((m = regex.exec(t.content)) !== null) {
+    foundImgsCh7.push(m[1]);
+  }
+});
+console.log(`Found ${foundImgsCh7.length} image references in Class 7 Chapter 7:`);
+let allCh7ImgsExist = true;
+foundImgsCh7.forEach((src, idx) => {
+  const fullPath = path.join(__dirname, '..', src);
+  const exists = fs.existsSync(fullPath);
+  if (!exists) {
+    allCh7ImgsExist = false;
+    console.log(`  (${idx + 1}) MISSING: ${src}`);
+  }
+});
+console.log('All 53 Chapter 7 images exist on disk:', allCh7ImgsExist);
+
+console.log('\n=== CLASS 9 CHAPTER 1 AUDIT ===');
+const ch9ch1 = data.class9.computerScience.find(c => c.chapterNumber === 1);
+console.log('ID:', ch9ch1.id);
+console.log('Title:', ch9ch1.title);
+console.log('Summary:', ch9ch1.summary);
+console.log('Total Topics:', ch9ch1.topics.length);
+ch9ch1.topics.forEach((t, i) => {
+  console.log(`  [${i + 1}] ${t.title}`);
+});
+
+console.log('\n=== CLASS 9 CH 1 IMAGE REFERENCES AUDIT ===');
+const foundImgsCh9Ch1 = [];
+ch9ch1.topics.forEach(t => {
+  let m;
+  const regex = /src="([^"]+)"/g;
+  while ((m = regex.exec(t.content)) !== null) {
+    foundImgsCh9Ch1.push(m[1]);
+  }
+});
+console.log(`Found ${foundImgsCh9Ch1.length} image references in Class 9 Chapter 1:`);
+let allCh9Ch1ImgsExist = true;
+foundImgsCh9Ch1.forEach((src, idx) => {
+  const fullPath = path.join(__dirname, '..', src);
+  const exists = fs.existsSync(fullPath);
+  if (!exists) allCh9Ch1ImgsExist = false;
+  console.log(`  (${idx + 1}) ${src} -> Exists on disk: ${exists}`);
+});
+console.log('All Class 9 Chapter 1 images exist on disk:', allCh9Ch1ImgsExist);
+
+console.log('\n=== CLASS 9 CHAPTERS AUDIT ===');
+console.log('Class 9 Total Chapters:', data.class9.computerScience.length);
+data.class9.computerScience.forEach(ch => {
+  console.log(`  [Ch ${ch.chapterNumber}] ${ch.title}`);
+});
+
 console.log('\n=== INTEGRITY CHECKS ===');
 console.log('Class 6 chapters preserved (18):', counts.class6 === 18);
 console.log('Class 7 chapters preserved (22):', counts.class7 === 22);
 console.log('Class 8 chapters preserved (17):', counts.class8 === 17);
-console.log('Class 9 chapters preserved (5):', counts.class9 === 5);
+console.log('Class 9 chapters updated (15):', counts.class9 === 15);
 console.log('Class 10 chapters preserved (6):', counts.class10 === 6);
 console.log('Total chapters across all classes:', Object.values(counts).reduce((a, b) => a + b, 0));
+
+
+
 
 
 
