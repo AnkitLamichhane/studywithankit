@@ -109,33 +109,38 @@ function handleRoute() {
   // Scroll to top on view change
   window.scrollTo({ top: 0, behavior: 'instant' });
 
-  // Route Dispatcher
+  // Toggle background image for non-home pages
   if (route === '#home' || route === '') {
+    document.body.classList.remove('has-page-bg');
     showView('view-home');
-  } else if (route === '#class-6') {
-    showView('view-class-6');
-    renderClassChapters('class6', 'class-6-container');
-  } else if (route === '#class-7') {
-    showView('view-class-7');
-    renderClassChapters('class7', 'class-7-container');
-  } else if (route === '#class-8') {
-    showView('view-class-8');
-    renderClassChapters('class8', 'class-8-container');
-  } else if (route === '#class-9') {
-    showView('view-class-9');
-    renderClassChapters('class9', 'class-9-container');
-  } else if (route === '#class-10') {
-    showView('view-class-10');
-    renderClassChapters('class10', 'class-10-container');
-  } else if (route === '#about') {
-    showView('view-about');
-  } else if (route === '#notes') {
-    showView('view-notes');
-    const params = new URLSearchParams(queryString);
-    const noteId = params.get('id');
-    renderNotesReader(noteId);
   } else {
-    showView('view-home');
+    document.body.classList.add('has-page-bg');
+    if (route === '#class-6') {
+      showView('view-class-6');
+      renderClassChapters('class6', 'class-6-container');
+    } else if (route === '#class-7') {
+      showView('view-class-7');
+      renderClassChapters('class7', 'class-7-container');
+    } else if (route === '#class-8') {
+      showView('view-class-8');
+      renderClassChapters('class8', 'class-8-container');
+    } else if (route === '#class-9') {
+      showView('view-class-9');
+      renderClassChapters('class9', 'class-9-container');
+    } else if (route === '#class-10') {
+      showView('view-class-10');
+      renderClassChapters('class10', 'class-10-container');
+    } else if (route === '#about') {
+      showView('view-about');
+    } else if (route === '#notes') {
+      showView('view-notes');
+      const params = new URLSearchParams(queryString);
+      const noteId = params.get('id');
+      renderNotesReader(noteId);
+    } else {
+      document.body.classList.remove('has-page-bg');
+      showView('view-home');
+    }
   }
 }
 
@@ -322,7 +327,129 @@ function renderNotesReader(noteId) {
 
   // Enhancements: Add copy button to code blocks inside notes body
   enhanceCodeBlocks(readerArea);
+
+  // Presentation Enhancement: Convert fragmented floating cards into standard structured tables
+  enhanceEducationalLayouts(readerArea);
 }
+
+/* --------------------------------------------------------------------------
+   Educational Presentation Enhancer
+   Converts fragmented card grids into connected, easy-to-scan academic tables
+   Preserves 100% of underlying educational content, text, and markup
+   -------------------------------------------------------------------------- */
+function enhanceEducationalLayouts(container) {
+  if (!container) return;
+
+  const grids = container.querySelectorAll('.step-card-grid');
+  grids.forEach(grid => {
+    const cards = Array.from(grid.querySelectorAll('.step-card'));
+    if (cards.length === 0) return;
+
+    // Detect if this is a sequence/steps, classifications/types, or numbered items
+    let hasStep = false;
+    let hasType = false;
+
+    cards.forEach(card => {
+      const badge = card.querySelector('.step-badge');
+      if (badge) {
+        const text = badge.textContent.trim().toLowerCase();
+        if (text.includes('step') || text.includes('stage') || /^\d+$/.test(text)) {
+          hasStep = true;
+        } else if (text.length > 2 && !/^[a-z]$/i.test(text)) {
+          hasType = true;
+        }
+      }
+    });
+
+    let th1 = 'Stage';
+    let th2 = 'Process / Concept';
+    let th3 = 'Explanation & Details';
+
+    if (hasStep) {
+      th1 = 'Stage';
+      th2 = 'Process';
+      th3 = 'Explanation';
+    } else if (hasType) {
+      th1 = 'Category';
+      th2 = 'Type / Component';
+      th3 = 'Description & Function';
+    } else {
+      th1 = '#';
+      th2 = 'Concept / Item';
+      th3 = 'Description & Details';
+    }
+
+    const tableWrapper = document.createElement('div');
+    tableWrapper.className = 'table-responsive educational-table-wrapper';
+
+    const table = document.createElement('table');
+    table.className = 'notes-table educational-structured-table';
+
+    const thead = document.createElement('thead');
+    thead.innerHTML = `
+      <tr>
+        <th style="width: 15%; min-width: 90px;">${th1}</th>
+        <th style="width: 30%; min-width: 160px;">${th2}</th>
+        <th>${th3}</th>
+      </tr>
+    `;
+    table.appendChild(thead);
+
+    const tbody = document.createElement('tbody');
+
+    cards.forEach((card, idx) => {
+      const tr = document.createElement('tr');
+
+      const badgeEl = card.querySelector('.step-badge');
+      const badgeText = badgeEl ? badgeEl.textContent.trim() : String(idx + 1);
+
+      // Clone card to safely extract inner HTML without badge
+      const clone = card.cloneNode(true);
+      const cloneBadge = clone.querySelector('.step-badge');
+      if (cloneBadge) cloneBadge.remove();
+
+      let innerHtml = clone.innerHTML.trim();
+      // If wrapped in single outer <span>...</span>
+      if (clone.children.length === 1 && clone.children[0].tagName === 'SPAN') {
+        innerHtml = clone.children[0].innerHTML.trim();
+      }
+
+      // Extract concept (strong/b) and details
+      let conceptHtml = '';
+      let detailsHtml = '';
+
+      // Check if there is strong/b tag at the beginning
+      const strongMatch = innerHtml.match(/^\s*<(?:strong|b)>([\s\S]*?)<\/(?:strong|b)>\s*(?::\s*|&mdash;\s*|\s*-\s*|\s*)?([\s\S]*)$/i);
+      if (strongMatch) {
+        conceptHtml = strongMatch[1].replace(/:\s*$/, '').trim();
+        detailsHtml = strongMatch[2].trim();
+      } else {
+        // Check for colon
+        const colonIdx = innerHtml.indexOf(':');
+        if (colonIdx > 0 && colonIdx < 60) {
+          conceptHtml = innerHtml.substring(0, colonIdx).trim();
+          detailsHtml = innerHtml.substring(colonIdx + 1).trim();
+        } else {
+          conceptHtml = badgeText;
+          detailsHtml = innerHtml;
+        }
+      }
+
+      tr.innerHTML = `
+        <td class="col-step"><span class="table-step-badge">${badgeText}</span></td>
+        <td class="col-concept"><strong>${conceptHtml}</strong></td>
+        <td class="col-desc">${detailsHtml || conceptHtml}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+
+    table.appendChild(tbody);
+    tableWrapper.appendChild(table);
+
+    grid.parentNode.replaceChild(tableWrapper, grid);
+  });
+}
+
 
 /* Enhances Code Blocks with a 1-click Copy Button Header */
 function enhanceCodeBlocks(container) {

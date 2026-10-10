@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Study with Ankit | Computer Science Notes Library (Class 6 - 10)</title>
-  <meta name="description" content="Chapter-wise educational notes and learning resources for Class 6, 7, 8, 9 and 10 Computer Science by ER Ankit Lamichhane.">
+  <meta name="description" content="Chapter-wise educational notes, step-by-step guides, and 100% complete textbook solutions for Class 6, 7, 8, 9 and 10 Computer Science by ER Ankit Lamichhane.">
   <meta name="keywords" content="Study with Ankit, Class 6 Notes, Class 7 Notes, Class 8 Notes, Class 9 Notes, Class 10 Notes, Computer Science Notes, PowerPoint 2016 Notes, Excel 2016 Notes, HTML Notes, Ankit Lamichhane">
   <meta name="author" content="ER Ankit Lamichhane">
 
@@ -14,8 +14,16 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://csnotes.ankitlamichhane.com.np/">
 
-  <!-- Stylesheet -->
+  <link rel="icon" type="image/png" href="assets/images/logo-icon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700&family=Patrick+Hand&family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet and Hero Scene Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/hero-scene.css">
 </head>
 <body>
 
@@ -29,12 +37,12 @@
     <div class="container header-inner">
       <a href="#home" class="brand">
         <img src="assets/images/logo-icon.png" alt="Study with Ankit Logo" class="brand-logo-img">
-        <span class="brand-name">Study with Ankit</span>
+        <span class="brand-name">Study with <span class="brand-title-gold">Ankit</span></span>
       </a>
 
       <div class="nav-controls-wrap">
         <nav class="main-nav" aria-label="Main Navigation">
-          <a href="#home" class="nav-link">Home</a>
+          <a href="#home" class="nav-link active-home-pill">Home</a>
           <a href="#class-6" class="nav-link">Class 6</a>
           <a href="#class-7" class="nav-link">Class 7</a>
           <a href="#class-8" class="nav-link">Class 8</a>
@@ -45,7 +53,7 @@
 
         <div class="header-actions">
           <button class="icon-btn search-trigger-btn" title="Search Notes (Press / or Ctrl+K)" aria-label="Search Notes">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           </button>
           <button class="icon-btn theme-toggle-btn" title="Toggle Light/Dark Theme" aria-label="Toggle Theme"></button>
           <button class="hamburger-btn" aria-label="Toggle Menu" aria-expanded="false">&#9776;</button>
@@ -67,69 +75,289 @@
   </div>
 
   <!-- Main SPA Content Container -->
-  <main class="main-content">
+  <main class="main-content" style="padding-top: 0; padding-bottom: 2rem;">
 
     <!-- VIEW 1: HOMEPAGE -->
     <div id="view-home" class="spa-view active-view">
-      <section class="hero">
-        <div class="container">
+      
+      <!-- HERO CLASSROOM DESK SCENE (Fits in single desktop viewport) -->
+      <section class="hero-stage">
+        <!-- Ambient Blue Central Glow -->
+        <div class="hero-ambient-glow"></div>
+
+        <!-- Left Chalkboard Doodle: Glowing Lightbulb & Chalk Script (Upper-Left Safe Zone) -->
+        <div class="doodle-left">
+          <svg width="45" height="55" viewBox="0 0 70 80" fill="none" style="filter: drop-shadow(0 0 8px rgba(56,189,248,0.6));">
+            <path d="M15 25 L8 20" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" />
+            <path d="M35 10 L35 2" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" />
+            <path d="M55 25 L62 20" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" />
+            <path d="M10 40 L2 40" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" />
+            <path d="M60 40 L68 40" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" />
+            <path d="M24 55 C18 48 18 30 26 22 C34 14 46 16 50 24 C54 32 48 48 44 55" stroke="#38BDF8" stroke-width="2.8" stroke-linecap="round" />
+            <path d="M30 48 L32 34 L36 38 L38 34 L40 48" stroke="#FDE047" stroke-width="2" stroke-linecap="round" />
+            <circle cx="35" cy="35" r="4" fill="#FEF08A" style="filter: drop-shadow(0 0 6px #FDE047);" />
+            <path d="M25 58 L43 58" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" />
+            <path d="M27 63 L41 63" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" />
+            <path d="M29 68 L39 68" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" />
+          </svg>
+          <p class="chalk-script" style="margin-top: 3px;">Better Students<br>Brighter Future</p>
+          <svg width="110" height="16" viewBox="0 0 140 20" fill="none">
+            <path d="M6 12 C40 4, 90 16, 134 8" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" style="filter: drop-shadow(0 0 5px rgba(56,189,248,0.6));" />
+          </svg>
+        </div>
+
+        <!-- Right Chalkboard Doodle: Laptop Code, Chalk Script, Computer Mouse (Upper-Right Safe Zone) -->
+        <div class="doodle-right">
+          <svg width="48" height="40" viewBox="0 0 70 60" fill="none" style="filter: drop-shadow(0 0 8px rgba(56,189,248,0.6));">
+            <rect x="14" y="10" width="42" height="28" rx="3" stroke="#38BDF8" stroke-width="2.5" />
+            <path d="M26 20 L20 24 L26 28" stroke="#FDE047" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M36 18 L32 30" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" />
+            <path d="M42 20 L48 24 L42 28" stroke="#FDE047" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M6 42 L62 42" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" />
+          </svg>
+          <p class="chalk-script" style="margin-top: 3px;">Code Learn<br>Build Future</p>
+          <svg width="110" height="16" viewBox="0 0 140 20" fill="none">
+            <path d="M134 12 C100 4, 50 16, 6 8" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" style="filter: drop-shadow(0 0 5px rgba(56,189,248,0.6));" />
+          </svg>
+          <svg width="34" height="40" viewBox="0 0 50 60" fill="none" style="filter: drop-shadow(0 0 6px rgba(56,189,248,0.5)); margin-top: 4px;">
+            <rect x="15" y="24" width="20" height="30" rx="10" stroke="#38BDF8" stroke-width="2.5" />
+            <line x1="25" y1="24" x2="25" y2="36" stroke="#38BDF8" stroke-width="2" />
+            <path d="M25 24 C25 15, 12 18, 18 10 C22 4, 30 6, 26 0" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </div>
+
+        <!-- Desk Lamp with Light Cone Overlay (Far-Right Perimeter) -->
+        <div class="desk-lamp-wrap">
+          <div class="lamp-light-cone"></div>
+          <svg width="105" height="135" viewBox="0 0 140 180" fill="none" style="filter: drop-shadow(0 8px 12px rgba(0,0,0,0.5));">
+            <ellipse cx="110" cy="165" rx="22" ry="7" fill="#1E293B" stroke="#334155" stroke-width="2" />
+            <path d="M110 162 L105 110 L80 60" stroke="#0F172A" stroke-width="6" stroke-linecap="round" />
+            <circle cx="105" cy="110" r="4" fill="#64748B" />
+            <circle cx="80" cy="60" r="4" fill="#64748B" />
+            <path d="M78 58 L45 75 L60 95 L88 70 Z" fill="#0F172A" stroke="#334155" stroke-width="2" />
+            <circle cx="56" cy="88" r="7" fill="#FFB800" style="filter: drop-shadow(0 0 12px #FFB800);" />
+            <circle cx="56" cy="88" r="4" fill="#FFFBEB" />
+          </svg>
+        </div>
+
+        <!-- Center Hero Content Block -->
+        <div class="hero-content-wrap">
           <!-- Live Status Indicator Pill -->
-          <div class="hero-live-badge">
-            <span class="live-dot"></span>
+          <div class="hero-live-badge-new">
+            <span class="live-green-dot"></span>
             <span>Digital Classroom &bull; Always Free &amp; Online</span>
           </div>
 
-          <h1 class="hero-title">Study with Ankit</h1>
-          <p class="hero-motto">"Learn. Understand. Practice."</p>
-          <p class="hero-desc">Chapter-wise computer science notes, illustrated step-by-step guides, and 100% complete textbook solutions for Class 6, Class 7, Class 8, Class 9, and Class 10.</p>
-          
-          <!-- Quick Hero Action Buttons -->
-          <div class="hero-action-btns">
-            <a href="#class-8" class="hero-btn primary-hero-btn">
+          <!-- Main Heading -->
+          <h1 class="hero-title-main">
+            Study with <span class="gold-name">Ankit</span>
+          </h1>
+
+          <!-- Tagline -->
+          <p class="hero-motto-new">“Learn. Understand. Practice.”</p>
+
+          <!-- Description Subtitle -->
+          <p class="hero-desc-new">
+            Chapter-wise computer science notes, illustrated step-by-step guides, and 100% complete textbook solutions for Class 6, Class 7, Class 8, Class 9, and Class 10.
+          </p>
+
+          <!-- Action Buttons: Class 8 Notes & Search Notes (Side-by-side) -->
+          <div class="hero-action-buttons">
+            <a href="#class-8" class="hero-btn-primary">
               <span>🚀 Class 8 Notes</span>
               <span>&rarr;</span>
             </a>
-            <button class="hero-btn secondary-hero-btn search-trigger-btn">
-              <span>🔍 Search Notes</span>
-              <kbd class="kbd-badge">Ctrl + K</kbd>
+            <button class="hero-btn-secondary search-trigger-btn" type="button" aria-label="Search Notes">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <span>Search Notes</span>
+              <kbd>Ctrl + k</kbd>
             </button>
           </div>
+        </div>
 
-          <!-- Instructor Badge -->
-          <div class="hero-instructor-badge">
-            <img src="assets/images/instructor.jpeg" alt="ER. Ankit Lamichhane">
-            <div>
-              <div style="font-weight: 800; font-size: 0.95rem;">Prepared by ER. Ankit Lamichhane</div>
-              <div style="font-size: 0.78rem; color: var(--text-muted);">Computer Science Instructor &amp; Educator</div>
+        <!-- Classroom Desk Scene Environment -->
+        <div class="classroom-desk-scene">
+
+          <!-- Desk Items: Textbooks, Notebook, Laptop -->
+          <div class="desk-items-row">
+            
+            <!-- Left: 5 Stacked Textbooks (Class 6 to Class 10), Colored Pencils, Shelf Plant -->
+            <div class="book-stack-group">
+              <!-- Hanging Shelf Plant -->
+              <div class="book-shelf-plant">
+                <svg width="65" height="50" viewBox="0 0 100 80" fill="none">
+                  <path d="M35 55 L40 75 L60 75 L65 55 Z" fill="#9A3412" stroke="#7C2D12" stroke-width="2" />
+                  <path d="M32 52 L68 52 L66 57 L34 57 Z" fill="#C2410C" />
+                  <path d="M48 52 C45 35 30 30 20 38 C32 46 42 48 48 52" fill="#15803D" />
+                  <path d="M52 52 C55 30 72 25 82 32 C70 42 60 46 52 52" fill="#22C55E" />
+                  <path d="M50 50 C40 25 50 10 52 5 C56 20 62 32 50 50" fill="#16A34A" />
+                  <path d="M45 53 C30 48 15 58 12 70 C24 68 36 60 45 53" fill="#15803D" opacity="0.8" />
+                  <path d="M55 53 C68 50 82 58 85 68 C75 66 64 60 55 53" fill="#4ADE80" opacity="0.85" />
+                </svg>
+              </div>
+
+              <!-- Books Stack: Exactly 5 books (Class 6, 7, 8, 9, 10) -->
+              <div class="book-item book-1">
+                <span>CLASS 6</span>
+                <div class="book-pages-edge"></div>
+              </div>
+              <div class="book-item book-2">
+                <span>CLASS 7</span>
+                <div class="book-pages-edge"></div>
+              </div>
+              <div class="book-item book-3">
+                <span>CLASS 8</span>
+                <div class="book-pages-edge"></div>
+              </div>
+              <div class="book-item book-4">
+                <span>CLASS 9</span>
+                <div class="book-pages-edge"></div>
+              </div>
+              <div class="book-item book-5">
+                <span>CLASS 10</span>
+                <div class="book-pages-edge"></div>
+              </div>
+
+              <!-- Pencil Holder -->
+              <div class="pencil-cup-wrap">
+                <div style="position: absolute; top: -16px; left: 3px; width: 3px; height: 28px; background: #facc15; transform: rotate(-10deg); border-radius: 2px;"></div>
+                <div style="position: absolute; top: -22px; left: 11px; width: 3px; height: 34px; background: #00cfff; transform: rotate(4deg); border-radius: 2px;"></div>
+                <div style="position: absolute; top: -19px; left: 19px; width: 3px; height: 30px; background: #ef4444; transform: rotate(14deg); border-radius: 2px;"></div>
+                <div style="position: absolute; bottom: 0; width: 30px; height: 40px; background: linear-gradient(180deg, #334155, #1e293b); border-radius: 0 0 8px 8px; border: 1px solid #475569;"></div>
+              </div>
             </div>
+
+            <!-- Center: Open Spiral Notebook with Handwritten Message & Pen -->
+            <div style="position: relative;">
+              <div class="spiral-notebook">
+                <div class="notebook-rings">
+                  <div class="ring-coil"></div>
+                  <div class="ring-coil"></div>
+                  <div class="ring-coil"></div>
+                  <div class="ring-coil"></div>
+                  <div class="ring-coil"></div>
+                  <div class="ring-coil"></div>
+                  <div class="ring-coil"></div>
+                </div>
+                <div class="notebook-lines">
+                  <div class="ruled-line"></div>
+                  <div class="ruled-line"></div>
+                  <div class="ruled-line"></div>
+                  <div class="ruled-line"></div>
+                  <div class="ruled-line"></div>
+                  <div class="ruled-line"></div>
+                </div>
+                <div class="notebook-red-margin"></div>
+                <div class="notebook-handwriting">
+                  <div style="transform: rotate(1deg);">Learn</div>
+                  <div style="padding-left: 6px; transform: rotate(-1deg);">Practice</div>
+                  <div style="padding-left: 12px; transform: rotate(1.5deg);">
+                    Grow <span style="color: #f59e0b; font-size: 1.15rem;">:)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="ballpoint-pen"></div>
+            </div>
+
+            <!-- Right: Angled Modern Laptop with Glowing "A" Screen & Desk Succulent -->
+            <div class="laptop-wrap">
+              <div class="laptop-screen">
+                <div class="laptop-logo-badge">A</div>
+                <div style="display: flex; gap: 3px; margin-top: 5px;">
+                  <span style="width: 20px; height: 2px; border-radius: 2px; background: rgba(56, 189, 248, 0.5);"></span>
+                  <span style="width: 11px; height: 2px; border-radius: 2px; background: rgba(253, 224, 71, 0.5);"></span>
+                  <span style="width: 16px; height: 2px; border-radius: 2px; background: rgba(52, 211, 153, 0.5);"></span>
+                </div>
+              </div>
+              <div class="laptop-base">
+                <div class="laptop-trackpad"></div>
+              </div>
+
+              <!-- Desk Succulent -->
+              <div class="laptop-succulent">
+                <svg width="28" height="34" viewBox="0 0 36 42" fill="none">
+                  <path d="M8 20 L12 38 L24 38 L28 20 Z" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1.5" />
+                  <circle cx="18" cy="18" r="6" fill="#10B981" />
+                  <circle cx="14" cy="15" r="5" fill="#34D399" />
+                  <circle cx="22" cy="15" r="5" fill="#059669" />
+                  <circle cx="18" cy="12" r="5" fill="#6EE7B7" />
+                </svg>
+              </div>
+            </div>
+
           </div>
 
-          <!-- Feature Stats Bar -->
-          <div class="hero-stats-bar">
-            <div class="stat-item">
-              <span class="stat-num">5</span>
-              <span class="stat-label">Grade Levels</span>
+          <!-- Floating Stats Panel -->
+          <div class="stats-floating-panel">
+            
+            <!-- Creator Profile -->
+            <div class="stats-author-block">
+              <img src="assets/images/instructor.jpeg" alt="ER. Ankit Lamichhane" class="author-avatar-img">
+              <div class="author-meta-block">
+                <span class="author-label-text">Prepared by ER. Ankit Lamichhane</span>
+                <span class="author-sublabel-text">Computer Science Instructor &amp; Educator</span>
+              </div>
             </div>
-            <div class="stat-divider"></div>
-            <div class="stat-item">
-              <span class="stat-num">30+</span>
-              <span class="stat-label">Chapter Notes</span>
+
+            <!-- Divider -->
+            <div class="stats-v-divider"></div>
+
+            <!-- 4 Stat Items -->
+            <div class="stats-items-grid">
+              
+              <!-- Stat 1: 5 Grade Levels -->
+              <div class="stat-box-unit">
+                <div class="stat-icon-wrapper" style="color: #38bdf8;">👥</div>
+                <div class="stat-text-meta">
+                  <span class="stat-huge-number">5</span>
+                  <span class="stat-micro-subtext">GRADE LEVELS</span>
+                </div>
+              </div>
+
+              <!-- Stat 2: 30+ Chapter Notes -->
+              <div class="stat-box-unit">
+                <div class="stat-icon-wrapper" style="color: #60a5fa;">📄</div>
+                <div class="stat-text-meta">
+                  <span class="stat-huge-number">30+</span>
+                  <span class="stat-micro-subtext">CHAPTER NOTES</span>
+                </div>
+              </div>
+
+              <!-- Stat 3: 100% Solved Exercises -->
+              <div class="stat-box-unit">
+                <div class="stat-icon-wrapper" style="color: #34d399;">🛡️</div>
+                <div class="stat-text-meta">
+                  <span class="stat-huge-number">100%</span>
+                  <span class="stat-micro-subtext">SOLVED EXERCISES</span>
+                </div>
+              </div>
+
+              <!-- Stat 4: Instant Search -->
+              <div class="stat-box-unit">
+                <div class="stat-icon-wrapper" style="color: #fbbf24;">⚡</div>
+                <div class="stat-text-meta">
+                  <span class="stat-huge-number" style="font-size: 0.82rem;">INSTANT</span>
+                  <span class="stat-micro-subtext">SEARCH</span>
+                </div>
+              </div>
+
             </div>
-            <div class="stat-divider"></div>
-            <div class="stat-item">
-              <span class="stat-num">100%</span>
-              <span class="stat-label">Solved Exercises</span>
-            </div>
-            <div class="stat-divider"></div>
-            <div class="stat-item">
-              <span class="stat-num">⚡</span>
-              <span class="stat-label">Instant Search</span>
-            </div>
+
           </div>
+
+          <!-- Thin Brown/Gold Horizontal Desk Surface Strip (Separated Below Navbar) -->
+          <div class="wooden-desk-surface">
+            <div class="desk-reflection-overlay"></div>
+          </div>
+
         </div>
       </section>
 
-      <div class="container">
+      <!-- SELECT YOUR GRADE SECTION -->
+      <div class="container" style="padding-top: 2.75rem;">
         <div style="text-align: center; margin-bottom: 2.25rem;">
           <span class="section-pill">Select Your Grade</span>
           <h2 style="font-size: 1.85rem; font-weight: 900; margin-top: 0.4rem; letter-spacing: -0.02em;">Explore Computer Science Classes</h2>
@@ -414,7 +642,9 @@
   <!-- Footer -->
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div style="font-weight: 900; font-size: 1.3rem; color: var(--text); letter-spacing: -0.02em;">Study with Ankit</div>
+      <div style="font-weight: 900; font-size: 1.3rem; color: var(--text); letter-spacing: -0.02em;">
+        Study with <span style="color: #FFB800;">Ankit</span>
+      </div>
       <div style="font-size: 0.92rem; color: var(--accent); font-weight: 700;">Learn. Understand. Practice.</div>
       <div class="footer-links">
         <a href="#home">Home</a>
@@ -427,12 +657,12 @@
         <a href="https://ankitlamichhane.com.np" target="_blank" rel="noopener">ankitlamichhane.com.np</a>
       </div>
       <div style="font-size: 0.85rem; color: var(--text-muted); border-top: 1px solid var(--border); width: 100%; padding-top: 1.25rem; margin-top: 0.5rem;">
-        &copy; 2026 Study with Ankit. All rights reserved. | csnotes.ankitlamichhane.com.np
+        &copy; 2026 Study with Ankit. All rights reserved. | Prepared by ER. Ankit Lamichhane
       </div>
     </div>
   </footer>
 
-  <!-- Scripts -->
+  <!-- Scripts: Vanilla JS with zero external dependencies -->
   <script src="js/notes-data.js"></script>
   <script src="js/app.js"></script>
 </body>

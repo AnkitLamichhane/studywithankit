@@ -1,0 +1,813 @@
+/* ==========================================================================
+   STUDY WITH ANKIT - HERO CLASSROOM DESK SCENE STYLESHEET
+   Pure Vanilla CSS3 - Pixel-Accurate Layout & Spacing (Zero Overlap)
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700&family=Patrick+Hand&family=Poppins:wght@600;700;800;900&display=swap');
+
+:root {
+  --hero-bg-deep: #07152B;
+  --hero-blue-glow: #0091FF;
+  --hero-gold: #FFB800;
+  --hero-cyan: #00CFFF;
+  --hero-emerald: #10B981;
+}
+
+/* --------------------------------------------------------------------------
+   Header Nav (Compact, Desktop One-Line)
+   -------------------------------------------------------------------------- */
+.site-header {
+  height: 56px !important;
+  background-color: rgba(7, 21, 43, 0.95) !important;
+  border-bottom: 1px solid rgba(0, 145, 255, 0.2) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100 !important;
+}
+
+.brand {
+  font-size: 1.15rem !important;
+  font-weight: 800 !important;
+}
+
+.brand-title-gold {
+  color: var(--hero-gold) !important;
+  text-shadow: 0 0 14px rgba(255, 184, 0, 0.45);
+}
+
+.brand-logo-img {
+  height: 32px !important;
+  width: auto !important;
+}
+
+.nav-link {
+  font-size: 0.85rem !important;
+  padding: 0.35rem 0.75rem !important;
+  color: #94a3b8 !important;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+.nav-link.active-home-pill {
+  position: relative;
+  background: linear-gradient(135deg, #005ce6 0%, #0070f3 100%) !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 14px rgba(0, 112, 243, 0.4) !important;
+  border-radius: 9999px !important;
+  padding: 0.35rem 1.15rem !important;
+  font-weight: 600 !important;
+}
+
+.nav-link.active-home-pill::after {
+  content: '';
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 2px;
+  background-color: var(--hero-gold);
+  border-radius: 9999px;
+  box-shadow: 0 0 5px var(--hero-gold);
+}
+
+.icon-btn {
+  width: 34px !important;
+  height: 34px !important;
+  border-radius: 8px !important;
+  background: rgba(12, 33, 64, 0.9) !important;
+  border: 1px solid rgba(0, 207, 255, 0.3) !important;
+  color: #94a3b8 !important;
+}
+
+.icon-btn:hover {
+  color: #ffffff !important;
+  border-color: rgba(0, 207, 255, 0.7) !important;
+}
+
+/* --------------------------------------------------------------------------
+   Hero Classroom Stage (Full Desktop Viewport, Clear Safe Zones)
+   -------------------------------------------------------------------------- */
+.hero-stage {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 56px);
+  min-height: 540px;
+  max-height: 820px;
+  background: radial-gradient(circle at 50% 28%, #0d274f 0%, #061427 65%, #040d1a 100%);
+  color: #ffffff;
+  padding: 0.75rem 1rem 0;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+/* Central Blue Ambient Radial Glow */
+.hero-ambient-glow {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  max-width: 90vw;
+  height: 440px;
+  background: radial-gradient(circle, rgba(0, 112, 243, 0.28) 0%, rgba(3, 27, 58, 0) 70%);
+  pointer-events: none;
+  filter: blur(40px);
+  z-index: 1;
+}
+
+/* --------------------------------------------------------------------------
+   Decorative Background Elements (Upper-Left & Upper-Right Safe Zones)
+   -------------------------------------------------------------------------- */
+
+/* Upper-Left Chalkboard Doodle: Lightbulb & "Better Students Brighter Future" */
+.doodle-left {
+  position: absolute;
+  left: 3%;
+  top: 48px;
+  max-width: 170px;
+  pointer-events: none;
+  z-index: 4;
+  text-align: left;
+  transform: rotate(-3deg);
+}
+
+.chalk-script {
+  font-family: 'Patrick Hand', 'Caveat', cursive, sans-serif;
+  font-size: clamp(0.95rem, 1.35vw, 1.2rem);
+  font-weight: 700;
+  color: #38BDF8;
+  line-height: 1.18;
+  text-shadow: 0 0 8px rgba(56, 189, 248, 0.5);
+}
+
+/* Upper-Right Chalkboard Doodle: Laptop Code, Text & Mouse */
+.doodle-right {
+  position: absolute;
+  right: 5%;
+  top: 42px;
+  max-width: 170px;
+  pointer-events: none;
+  z-index: 4;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  transform: rotate(2deg);
+}
+
+/* Desk Lamp: Far Right Perimeter */
+.desk-lamp-wrap {
+  position: absolute;
+  right: 0.5%;
+  top: 25px;
+  z-index: 6;
+  pointer-events: none;
+}
+
+.lamp-light-cone {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+  width: 320px;
+  height: 270px;
+  background: radial-gradient(ellipse at 85% 0%, rgba(255, 190, 70, 0.4) 0%, rgba(255, 140, 20, 0.1) 45%, transparent 75%);
+  mix-blend-mode: screen;
+  pointer-events: none;
+  opacity: 0.65;
+}
+
+/* --------------------------------------------------------------------------
+   Center Hero Section (Dominant & Completely Unobstructed)
+   -------------------------------------------------------------------------- */
+.hero-content-wrap {
+  position: relative;
+  z-index: 10;
+  max-width: 640px;
+  margin: 0 auto;
+  padding-top: 0.4rem;
+}
+
+/* Live Status Badge */
+.hero-live-badge-new {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.25rem 0.95rem;
+  background: rgba(9, 32, 64, 0.85);
+  border: 1px solid rgba(0, 207, 255, 0.4);
+  border-radius: 9999px;
+  box-shadow: 0 0 14px rgba(0, 207, 255, 0.2);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #a5f3fc;
+  backdrop-filter: blur(8px);
+  margin-bottom: 0.55rem;
+}
+
+.live-green-dot {
+  position: relative;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--hero-emerald);
+  box-shadow: 0 0 6px var(--hero-emerald);
+}
+
+.live-green-dot::after {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  background-color: var(--hero-emerald);
+  opacity: 0.4;
+  animation: pulse-ring 1.8s infinite;
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 0.8; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+/* Main Heading */
+.hero-title-main {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: clamp(2.1rem, 3.6vw, 3.2rem);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-bottom: 0.2rem;
+}
+
+.hero-title-main .gold-name {
+  color: #ffffff;
+  text-shadow: 0 0 18px rgba(255, 255, 255, 0.4);
+}
+
+/* Tagline */
+.hero-motto-new {
+  font-family: 'Caveat', 'Patrick Hand', cursive, sans-serif;
+  font-size: clamp(1.2rem, 2.1vw, 1.55rem);
+  font-weight: 700;
+  color: var(--hero-gold);
+  letter-spacing: 0.02em;
+  margin-bottom: 0.4rem;
+  text-shadow: 0 0 10px rgba(255, 184, 0, 0.35);
+}
+
+/* Description */
+.hero-desc-new {
+  font-size: clamp(0.78rem, 1.1vw, 0.9rem);
+  color: #cbd5e1;
+  max-width: 580px;
+  margin: 0 auto 0.8rem;
+  line-height: 1.45;
+}
+
+/* Hero Action Buttons (Side by Side) */
+.hero-action-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+  margin-bottom: 0.35rem;
+}
+
+/* Primary Button: Class 8 Notes */
+.hero-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.5rem 1.3rem;
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  border: 1px solid rgba(96, 165, 250, 0.5);
+  border-radius: 9999px;
+  color: #ffffff;
+  font-size: 0.84rem;
+  font-weight: 700;
+  box-shadow: 0 4px 18px rgba(37, 99, 235, 0.45);
+  transition: all 0.2s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hero-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(37, 99, 235, 0.6);
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+}
+
+/* Secondary Button: Search Notes */
+.hero-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.5rem 1.25rem;
+  background: rgba(10, 31, 62, 0.88);
+  border: 1px solid rgba(0, 207, 255, 0.45);
+  border-radius: 9999px;
+  color: #e2e8f0;
+  font-size: 0.84rem;
+  font-weight: 600;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.hero-btn-secondary:hover {
+  background: rgba(14, 42, 84, 0.95);
+  border-color: rgba(0, 207, 255, 0.8);
+  transform: translateY(-2px);
+}
+
+.hero-btn-secondary svg {
+  color: var(--hero-cyan);
+}
+
+.hero-btn-secondary kbd {
+  background: #061730;
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  color: #94a3b8;
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+}
+
+/* --------------------------------------------------------------------------
+   Desk Scene (Lower Viewport: Clear Separation from Upper Doodles)
+   -------------------------------------------------------------------------- */
+.classroom-desk-scene {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  flex-shrink: 0;
+  z-index: 10;
+}
+
+/* Desk Items Row: Left Books, Center Notebook, Right Laptop */
+.desk-items-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 1.5rem 0.85rem;
+  position: relative;
+  z-index: 12;
+}
+
+/* --------------------------------------------------------------------------
+   Left-Side Book Stack (Exactly 5 Books: Class 6 to Class 10)
+   -------------------------------------------------------------------------- */
+.book-stack-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.6));
+  z-index: 12;
+}
+
+.book-item {
+  position: relative;
+  height: 21px;
+  border-radius: 3px;
+  margin-top: -3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.65rem;
+  font-family: 'SFMono-Regular', monospace;
+  font-weight: 900;
+  font-size: 0.62rem;
+  letter-spacing: 0.04em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Book 1: Class 6 (Teal) */
+.book-1 { width: 148px; background: linear-gradient(90deg, #0284c7, #0f766e); color: #e0f2fe; border-color: rgba(56, 189, 248, 0.35); transform: rotate(-0.8deg); }
+/* Book 2: Class 7 (Orange/Amber) */
+.book-2 { width: 154px; background: linear-gradient(90deg, #d97706, #b45309); color: #ffedd5; border-color: rgba(251, 146, 60, 0.35); transform: rotate(0.5deg); }
+/* Book 3: Class 8 (Purple) */
+.book-3 { width: 164px; background: linear-gradient(90deg, #7c3aed, #5b21b6); color: #ede9fe; border-color: rgba(167, 139, 250, 0.35); transform: rotate(-0.5deg); }
+/* Book 4: Class 9 (Crimson) */
+.book-4 { width: 158px; background: linear-gradient(90deg, #be185d, #9d174d); color: #fce7f3; border-color: rgba(244, 114, 182, 0.35); transform: rotate(0.6deg); }
+/* Book 5: Class 10 (Deep Navy / Gold) */
+.book-5 { width: 168px; background: linear-gradient(90deg, #1e3a8a, #0f172a); color: #93c5fd; border-color: rgba(96, 165, 250, 0.35); transform: rotate(-0.4deg); }
+
+.book-pages-edge {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  width: 7px;
+  background: linear-gradient(90deg, #fef3c7, #f1f5f9);
+  border-radius: 0 2px 2px 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* Shelf Plant above book stack */
+.book-shelf-plant {
+  position: absolute;
+  top: -48px;
+  left: -14px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* Pencil Cup beside book stack */
+.pencil-cup-wrap {
+  position: absolute;
+  right: -30px;
+  bottom: 0;
+  width: 30px;
+  height: 48px;
+  z-index: 10;
+}
+
+/* --------------------------------------------------------------------------
+   Center Notebook Area
+   -------------------------------------------------------------------------- */
+.spiral-notebook {
+  position: relative;
+  width: 165px;
+  height: 114px;
+  background-color: #FBF9F1;
+  border-radius: 3px 8px 8px 3px;
+  border-right: 2px solid #cbd5e1;
+  border-bottom: 2px solid #cbd5e1;
+  padding: 0.55rem 0.55rem 0.55rem 1.4rem;
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.55), inset 0 0 8px rgba(0, 0, 0, 0.05);
+  transform: rotate(-2.5deg);
+  overflow: hidden;
+  z-index: 12;
+}
+
+.notebook-rings {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 18px;
+  background: linear-gradient(90deg, #e2e8f0, transparent);
+  border-right: 1px solid #cbd5e1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4px 0;
+}
+
+.ring-coil {
+  position: relative;
+  width: 11px;
+  height: 4px;
+  background: linear-gradient(90deg, #94a3b8, #f8fafc, #64748b);
+  border-radius: 9999px;
+  border: 1px solid #475569;
+  margin-left: -2px;
+}
+
+.notebook-lines {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ruled-line {
+  width: 100%;
+  border-bottom: 1px solid rgba(191, 219, 254, 0.65);
+  height: 11px;
+}
+
+.notebook-red-margin {
+  position: absolute;
+  left: 28px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: rgba(244, 63, 94, 0.4);
+}
+
+.notebook-handwriting {
+  position: absolute;
+  inset: 0;
+  padding: 0.85rem 0.5rem 0.4rem 2.1rem;
+  font-family: 'Patrick Hand', 'Caveat', cursive;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  line-height: 1.18;
+  text-align: left;
+  user-select: none;
+  pointer-events: none;
+}
+
+.ballpoint-pen {
+  position: absolute;
+  right: -16px;
+  bottom: 10px;
+  width: 86px;
+  height: 7px;
+  background: linear-gradient(90deg, #1d4ed8, #0f172a);
+  border-radius: 9999px;
+  transform: rotate(-44deg);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  z-index: 13;
+}
+
+/* --------------------------------------------------------------------------
+   Right-Side Laptop Area (Isolated from Upper-Right Text)
+   -------------------------------------------------------------------------- */
+.laptop-wrap {
+  position: relative;
+  filter: drop-shadow(0 14px 20px rgba(0, 0, 0, 0.65));
+  z-index: 12;
+}
+
+.laptop-screen {
+  position: relative;
+  width: 170px;
+  height: 106px;
+  background: linear-gradient(180deg, #0b1329 0%, #050b17 100%);
+  border: 2px solid #334155;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.laptop-logo-badge {
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+  background: rgba(0, 112, 243, 0.2);
+  border: 1px solid rgba(0, 207, 255, 0.5);
+  box-shadow: 0 0 12px rgba(0, 207, 255, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+  color: #38bdf8;
+  text-shadow: 0 0 6px #00cfff;
+}
+
+.laptop-base {
+  position: relative;
+  width: 194px;
+  margin-left: -12px;
+  height: 13px;
+  background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+  border-radius: 0 0 10px 10px;
+  border-top: 1px solid #475569;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.laptop-trackpad {
+  width: 38px;
+  height: 3px;
+  background: #334155;
+  border-radius: 2px;
+}
+
+.laptop-succulent {
+  position: absolute;
+  right: -24px;
+  bottom: 0;
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* --------------------------------------------------------------------------
+   Bottom Information Panel (Completely Visible in Viewport)
+   -------------------------------------------------------------------------- */
+.stats-floating-panel {
+  position: relative;
+  z-index: 25;
+  max-width: 960px;
+  margin: 0 auto 10px;
+  padding: 0.6rem 1.35rem;
+  background: rgba(8, 26, 52, 0.94);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(0, 207, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.65), 0 0 20px rgba(0, 145, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+
+/* --------------------------------------------------------------------------
+   Thin Brown/Gold Horizontal Desk Surface Strip (Separated Below Navbar)
+   -------------------------------------------------------------------------- */
+.wooden-desk-surface {
+  position: relative;
+  width: 100%;
+  height: 16px;
+  border-radius: 6px 6px 0 0;
+  background: linear-gradient(180deg, #24140c 0%, #120905 100%);
+  border-top: 2px solid rgba(217, 119, 6, 0.4);
+  box-shadow: inset 0 2px 6px rgba(251, 191, 36, 0.25), 0 8px 16px rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  z-index: 15;
+}
+
+.desk-reflection-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(0, 207, 255, 0.08) 0%, rgba(0, 112, 243, 0.12) 50%, rgba(255, 184, 0, 0.18) 100%);
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+
+.stats-author-block {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  flex-shrink: 0;
+}
+
+.author-avatar-img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--hero-cyan);
+  box-shadow: 0 0 12px rgba(0, 207, 255, 0.4);
+}
+
+.author-meta-block {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.author-label-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 0.84rem;
+  color: #ffffff;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
+.author-sublabel-text {
+  font-size: 0.68rem;
+  color: #94a3b8;
+  font-weight: 500;
+  margin-top: 1px;
+}
+
+.stats-v-divider {
+  width: 1px;
+  height: 34px;
+  background: linear-gradient(180deg, transparent, rgba(56, 189, 248, 0.4), transparent);
+}
+
+.stats-items-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+  gap: 1rem;
+}
+
+.stat-box-unit {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-align: left;
+}
+
+.stat-icon-wrapper {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(0, 112, 243, 0.15);
+  border: 1px solid rgba(0, 207, 255, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+}
+
+.stat-text-meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-huge-number {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 0.95rem;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.stat-micro-subtext {
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #94a3b8;
+  margin-top: 2px;
+}
+
+/* --------------------------------------------------------------------------
+   Responsive Rules
+   -------------------------------------------------------------------------- */
+@media (max-width: 1100px) {
+  .doodle-left {
+    left: 1%;
+    transform: scale(0.85) rotate(-3deg);
+  }
+  .doodle-right {
+    right: 2%;
+    transform: scale(0.85) rotate(2deg);
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-stage {
+    height: auto;
+    max-height: none;
+    padding-bottom: 2rem;
+  }
+  .doodle-left, .doodle-right {
+    display: none;
+  }
+  .stats-floating-panel {
+    flex-direction: column;
+    margin: 10px auto;
+    padding: 1rem;
+  }
+  .stats-v-divider {
+    width: 100%;
+    height: 1px;
+  }
+  .stats-items-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 0.85rem;
+  }
+  .desk-items-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+  }
+}
+
+/* ==========================================================================
+   Page Background for All Pages EXCEPT Home Page
+   Asset: assets/images/backgroundimg.jpg
+   ========================================================================== */
+body.has-page-bg {
+  background-image: url('../assets/images/backgroundimg.jpg') !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+  background-color: #0b1528 !important;
+}
+
+body.has-page-bg .main-content {
+  background: transparent !important;
+}
+
+body.has-page-bg .spa-view {
+  background: transparent !important;
+}
+
+body.has-page-bg .breadcrumb {
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-sm);
+  padding: 0.45rem 0.95rem;
+  display: inline-flex;
+}

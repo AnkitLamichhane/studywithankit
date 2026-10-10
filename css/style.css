@@ -781,37 +781,71 @@ a:hover {
 }
 
 .step-badge {
-  width: 28px;
-  height: 28px;
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
-  color: #ffffff;
-  border-radius: 50%;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+  padding: 0.25rem 0.65rem;
+  min-width: 32px;
+  height: 28px;
+  background-color: var(--primary-light);
+  color: var(--primary);
+  border: 1px solid var(--primary-border);
+  border-radius: var(--radius-sm);
   font-weight: 800;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   flex-shrink: 0;
-  box-shadow: 0 2px 5px rgba(30, 58, 138, 0.25);
+  box-shadow: none;
+}
+
+[data-theme="dark"] .step-badge {
+  color: #93c5fd;
+  background-color: rgba(59, 130, 246, 0.18);
+  border-color: rgba(59, 130, 246, 0.35);
 }
 
 .step-card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1rem;
-  margin: 1.35rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 1.4rem 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background-color: var(--surface);
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
 }
 
 .step-card {
   background-color: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.15rem 1.25rem;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  padding: 1rem 1.25rem;
   display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  box-shadow: var(--card-shadow);
+  align-items: flex-start;
+  gap: 1.15rem;
+  box-shadow: none;
   font-size: 0.95rem;
+  line-height: 1.6;
+  transition: background-color 0.15s ease;
+}
+
+.step-card:last-child {
+  border-bottom: none;
+}
+
+.step-card:nth-child(even) {
+  background-color: var(--surface-secondary);
+}
+
+.step-card:hover {
+  background-color: var(--primary-light);
+}
+
+[data-theme="dark"] .step-card:hover {
+  background-color: rgba(59, 130, 246, 0.08);
 }
 
 /* --------------------------------------------------------------------------
@@ -1286,39 +1320,106 @@ pre code {
 }
 .callout-tryit .callout-title { color: #7e22ce; }
 
-/* Tables */
-.table-responsive {
+/* Tables & Educational Structured Presentation */
+.table-responsive,
+.educational-table-wrapper {
   overflow-x: auto;
   margin: 1.6rem 0;
-  border-radius: var(--radius);
+  border-radius: var(--radius-sm);
   border: 1px solid var(--border);
   box-shadow: var(--card-shadow);
+  background-color: var(--surface);
+  -webkit-overflow-scrolling: touch;
 }
 
-.notes-table {
+.notes-table,
+.educational-structured-table {
   width: 100%;
   border-collapse: collapse;
   font-family: var(--font-main);
   font-size: 0.93rem;
   text-align: left;
+  line-height: 1.6;
   background-color: var(--surface);
 }
 
 .notes-table th,
-.notes-table td {
-  padding: 0.85rem 1.15rem;
+.notes-table td,
+.educational-structured-table th,
+.educational-structured-table td {
+  padding: 0.95rem 1.25rem;
   border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  vertical-align: top;
+  color: var(--text);
 }
 
-.notes-table th {
-  background-color: var(--background);
+.notes-table th:last-child,
+.notes-table td:last-child,
+.educational-structured-table th:last-child,
+.educational-structured-table td:last-child {
+  border-right: none;
+}
+
+.notes-table th,
+.educational-structured-table th {
+  background-color: var(--primary-light);
   font-weight: 800;
-  color: var(--text);
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--primary);
+  border-bottom: 2px solid var(--primary-border);
+  white-space: nowrap;
+}
+
+.notes-table tbody tr:nth-child(even),
+.educational-structured-table tbody tr:nth-child(even) {
+  background-color: var(--surface-secondary);
+}
+
+.notes-table tbody tr:hover,
+.educational-structured-table tbody tr:hover {
+  background-color: rgba(30, 58, 138, 0.04);
+}
+
+[data-theme="dark"] .notes-table th,
+[data-theme="dark"] .educational-structured-table th {
+  background-color: rgba(59, 130, 246, 0.14);
+  color: #93c5fd;
   border-bottom: 2px solid var(--border);
 }
 
-.notes-table tbody tr:hover {
+[data-theme="dark"] .notes-table tbody tr:hover,
+[data-theme="dark"] .educational-structured-table tbody tr:hover {
+  background-color: rgba(59, 130, 246, 0.08);
+}
+
+.educational-structured-table .col-step {
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.table-step-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.28rem 0.65rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: var(--primary);
   background-color: var(--primary-light);
+  border: 1px solid var(--primary-border);
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+[data-theme="dark"] .table-step-badge {
+  color: #93c5fd;
+  background-color: rgba(59, 130, 246, 0.18);
+  border-color: rgba(59, 130, 246, 0.35);
 }
 
 .qa-card {
@@ -1519,4 +1620,35 @@ pre code {
   .back-to-top-btn, .search-modal, .notes-header-actions, .copy-code-btn, .hero-live-badge { display: none !important; }
   body { background: #fff !important; color: #000 !important; }
   .reading-container { max-width: 100% !important; padding: 0 !important; }
+}
+
+/* ==========================================================================
+   Page Background for All Pages EXCEPT Home Page
+   Asset: assets/images/backgroundimg.jpg
+   ========================================================================== */
+body.has-page-bg {
+  background-image: url('../assets/images/backgroundimg.jpg') !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+  background-color: #0b1528 !important;
+}
+
+body.has-page-bg .main-content {
+  background: transparent !important;
+}
+
+body.has-page-bg .spa-view {
+  background: transparent !important;
+}
+
+body.has-page-bg .breadcrumb {
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-sm);
+  padding: 0.45rem 0.95rem;
+  display: inline-flex;
 }
